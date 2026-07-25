@@ -12,10 +12,11 @@ Convergence (combining worlds to make something new).
 historically, not investment advice and not predictions about any single stock. The patterns
 are exploratory and small-sample. Every quarter I report back, including the misses.
 
-_Last updated 2026-07-24. 30 deals on the ledger._
+_Last updated 2026-07-25. 31 deals on the ledger._
 
 | Ticker | Deal date | Scored | Posture | Structure | 30d | 90d | 1yr | Status |
 |---|---|---|---|---|---|---|---|---|
+| KDP | 2026-04-13 | 2026-07-25 | Empire-building | Scale | +10.2% |  |  | 30d in |
 | D | 2026-06-09 | 2026-07-24 | Target | Scale | +5.4% |  |  | 30d in |
 | AVB | 2026-06-08 | 2026-07-24 | Target | Scale | +1.7% |  |  | 30d in |
 | CSGP | 2026-05-29 | 2026-07-24 | Empire-building | Complementary | +5.3% |  |  | 30d in |

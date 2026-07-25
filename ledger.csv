@@ -1,4 +1,5 @@
 ticker,company,event_date,scored_date,posture,structure,prediction,car_30,car_90,car_252,status
+KDP,Keurig Dr Pepper,2026-04-13,2026-07-25,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,+10.2%,,,30d in
 D,Dominion Energy,2026-06-09,2026-07-24,Target,Scale,Deal target; tracking.,+5.4%,,,30d in
 AVB,AvalonBay Communities,2026-06-08,2026-07-24,Target,Scale,Deal target; tracking.,+1.7%,,,30d in
 CSGP,CoStar Group,2026-05-29,2026-07-24,Empire-building,Complementary,Acquisition. No strong directional prior; tracking.,+5.3%,,,30d in
