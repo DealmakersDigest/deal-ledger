@@ -12,7 +12,7 @@ Convergence (combining worlds to make something new).
 historically, not investment advice and not predictions about any single stock. The patterns
 are exploratory and small-sample. Every quarter I report back, including the misses.
 
-_Last updated 2026-07-25. 31 deals on the ledger._
+_Last updated 2026-07-26. 31 deals on the ledger._
 
 | Ticker | Deal date | Scored | Posture | Structure | 30d | 90d | 1yr | Status |
 |---|---|---|---|---|---|---|---|---|
