@@ -1,4 +1,5 @@
 ticker,company,event_date,scored_date,posture,structure,prediction,car_30,car_90,car_252,status
+ETN,Eaton Corporation,2026-06-11,2026-07-28,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,+0.0%,,,30d in
 KDP,Keurig Dr Pepper,2026-04-13,2026-07-25,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,+10.2%,,,30d in
 D,Dominion Energy,2026-06-09,2026-07-24,Target,Scale,Deal target; tracking.,+5.4%,,,30d in
 AVB,AvalonBay Communities,2026-06-08,2026-07-24,Target,Scale,Deal target; tracking.,+1.7%,,,30d in
