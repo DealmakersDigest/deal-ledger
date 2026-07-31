@@ -1,4 +1,6 @@
 ticker,company,event_date,scored_date,posture,structure,prediction,car_30,car_90,car_252,status
+BIIB,Biogen,2026-06-17,2026-08-01,Empire-building,Complementary,Acquisition. No strong directional prior; tracking.,+2.5%,,,30d in
+QCOM,Qualcomm,2026-06-17,2026-08-01,Partnership,Convergence,"Convergence partnership. Strong 90-day reaction historically, tends to fade by 1yr (exploratory).",-43.2%,,,30d in
 VRT,Vertiv,2026-06-12,2026-07-29,Empire-building,Complementary,Acquisition. No strong directional prior; tracking.,-18.3%,,,30d in
 CTAS,Cintas,2026-06-12,2026-07-29,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,+23.2%,,,30d in
 KHC,Kraft Heinz,2026-06-12,2026-07-29,Partnership,Convergence,"Convergence partnership. Strong 90-day reaction historically, tends to fade by 1yr (exploratory).",+12.1%,,,30d in

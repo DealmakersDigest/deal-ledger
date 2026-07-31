@@ -12,10 +12,12 @@ Convergence (combining worlds to make something new).
 historically, not investment advice and not predictions about any single stock. The patterns
 are exploratory and small-sample. Every quarter I report back, including the misses.
 
-_Last updated 2026-07-31. 35 deals on the ledger._
+_Last updated 2026-08-01. 37 deals on the ledger._
 
 | Ticker | Deal date | Scored | Posture | Structure | 30d | 90d | 1yr | Status |
 |---|---|---|---|---|---|---|---|---|
+| BIIB | 2026-06-17 | 2026-08-01 | Empire-building | Complementary | +2.5% |  |  | 30d in |
+| QCOM | 2026-06-17 | 2026-08-01 | Partnership | Convergence | -43.2% |  |  | 30d in |
 | VRT | 2026-06-12 | 2026-07-29 | Empire-building | Complementary | -18.3% |  |  | 30d in |
 | CTAS | 2026-06-12 | 2026-07-29 | Empire-building | Scale | +23.2% |  |  | 30d in |
 | KHC | 2026-06-12 | 2026-07-29 | Partnership | Convergence | +12.1% |  |  | 30d in |
