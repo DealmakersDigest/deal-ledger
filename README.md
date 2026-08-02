@@ -4,15 +4,18 @@ Every corporate deal, scored the moment it is announced, on the record, before a
 knows how it turns out. The date in **Scored** is stamped by this repo's commit history,
 which cannot be backdated. This is the receipt.
 
-**What the scores mean.** *Posture* = is the company focusing (divesting) or empire-building
-(acquiring)? *Structure* = Scale (more of the same), Complementary (buying a capability), or
+**What the scores mean.** *Posture* is this company's role in the deal: **Empire-building**
+(acquiring something), **Focus** (divesting — selling off a piece of itself), **Partnership**
+(a joint venture, not a full acquisition), or **Target** (being acquired — **Target
+(take-private)** when the buyer is a private equity firm rather than another operating
+company). *Structure* = Scale (more of the same), Complementary (buying a capability), or
 Convergence (combining worlds to make something new).
 
 **Read this honestly.** These are research observations about how the market has *reacted*
 historically, not investment advice and not predictions about any single stock. The patterns
 are exploratory and small-sample. Every quarter I report back, including the misses.
 
-_Last updated 2026-08-02. 37 deals on the ledger._
+_Last updated 2026-08-02. 36 deals on the ledger._
 
 | Ticker | Deal date | Scored | Posture | Structure | 30d | 90d | 1yr | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -29,7 +32,6 @@ _Last updated 2026-08-02. 37 deals on the ledger._
 | ECL | 2026-05-29 | 2026-07-24 | Empire-building | Complementary | +8.5% |  |  | 30d in |
 | TSCO | 2026-05-28 | 2026-07-24 | Empire-building | Convergence | +12.1% |  |  | 30d in |
 | CVS | 2026-05-28 | 2026-07-24 | Partnership | Complementary | +8.6% |  |  | 30d in |
-| UNP | 2026-05-28 | 2026-07-24 | Empire-building | Scale | +4.8% |  |  | 30d in |
 | UNP | 2026-05-28 | 2026-07-24 | Empire-building | Scale | +4.8% |  |  | 30d in |
 | F | 2026-05-21 | 2026-07-24 | Focus | Complementary | +3.6% |  |  | 30d in |
 | AMD | 2026-05-21 | 2026-07-24 | Partnership | Complementary | +5.7% |  |  | 30d in |
