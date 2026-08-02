@@ -6,7 +6,7 @@ which cannot be backdated. This is the receipt.
 
 **What the scores mean.** *Posture* is this company's role in the deal: **Empire-building**
 (acquiring something), **Focus** (divesting — selling off a piece of itself), **Partnership**
-(a joint venture, not a full acquisition), or **Target** (being acquired — **Target
+(a JV, alliance, or strategic partnership — no change of control), or **Target** (being acquired — **Target
 (take-private)** when the buyer is a private equity firm rather than another operating
 company). *Structure* = Scale (more of the same), Complementary (buying a capability), or
 Convergence (combining worlds to make something new).
