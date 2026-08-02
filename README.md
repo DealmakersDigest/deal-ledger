@@ -21,7 +21,7 @@ the commit, and the full history has been public since this repo went live. Anyo
 historically, not investment advice and not predictions about any single stock. The patterns
 are exploratory and small-sample. Every quarter I report back, including the misses.
 
-_Last updated 2026-08-02. 41 prospective, 33 calibration, 74 tracked total._
+_Last updated 2026-08-03. 41 prospective, 33 calibration, 74 tracked total._
 
 ## Prospective — scored before the outcome was known
 
