@@ -1,11 +1,11 @@
-# Deal Makers Digest: The Ledger
+# Dealmakers Digest: The Ledger
 
 Every deal on this page gets scored the same way, on the record, in public. Two tables below.
 The first holds the live calls... deals scored within days of being announced, before anyone
 could know how they turn out. The second is the calibration set: the deals the scoring system
 was built and checked against, scored after the fact and labelled that way. **This is the receipt.**
 
-**Subscribe:** [Deal Makers Digest on Substack](https://substack.com/@shavaye)
+**Subscribe:** [Dealmakers Digest on Substack](https://substack.com/@shavaye)
 
 **What the scores mean.** *Posture* is the company's role in the deal: **Empire-building**
 (buying something), **Focus** (selling off a piece of itself), or **Partnership** (a joint
@@ -125,7 +125,7 @@ so nobody has to take that on faith.
 | Norwegian Cruise Line Holdings (NCLH) | 2026-03-27 | 2026-07-24 | 119 | Partnership | Scale | -32.0% |  |  | 30d in |
 
 _The scoreboard is free and stays free. The written breakdowns (the players, the deal, the
-principle behind it) go out on [Deal Makers Digest](https://substack.com/@shavaye)._
+principle behind it) go out on [Dealmakers Digest](https://substack.com/@shavaye)._
 
 _Full machine-readable history in `ledger.csv`, with a `prospective` Y/N column. The vocabulary
 and the receipts are public; the exact rubric is proprietary and stays private._

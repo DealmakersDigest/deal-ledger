@@ -1,6 +1,6 @@
 # About this ledger
 
-This repository is the public, timestamped scoreboard for Deal Makers Digest.
+This repository is the public, timestamped scoreboard for Dealmakers Digest.
 
 - Each row is a corporate deal, scored and committed to this public repo. `Scored` is the date
   of that commit. GitHub records the push time on its own servers, independent of anything set
