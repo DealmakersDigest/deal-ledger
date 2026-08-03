@@ -1,75 +1,75 @@
-ticker,company,event_date,scored_date,posture,structure,prediction,car_30,car_90,car_252,status,prospective
-NVDA,Nvidia,2026-07-31,2026-08-02,Partnership,Convergence,"Convergence partnership. Strong 90-day reaction historically, tends to fade by 1yr (exploratory).",,,,pending,Y
-QCOM,Qualcomm,2026-07-31,2026-08-02,Empire-building,Complementary,Acquisition. No strong directional prior; tracking.,,,,pending,Y
-ICE,Intercontinental Exchange,2026-07-30,2026-08-02,Empire-building,Complementary,Acquisition. No strong directional prior; tracking.,,,,pending,Y
-LLY,Lilly (Eli),2026-07-29,2026-08-02,Empire-building,Convergence,Acquisition. No strong directional prior; tracking.,,,,pending,Y
-META,Meta Platforms,2026-07-29,2026-08-02,Partnership,Scale,Partnership. Weak directional prior; tracking.,,,,pending,Y
-ON,ON Semiconductor,2026-07-29,2026-08-02,Empire-building,Complementary,Acquisition. No strong directional prior; tracking.,,,,pending,Y
-PSKY,Paramount Skydance Corporation,2026-07-29,2026-08-02,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,,,,pending,Y
-WBD,Warner Bros. Discovery,2026-07-29,2026-08-02,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,,,,pending,Y
-JNJ,Johnson & Johnson,2026-07-29,2026-08-02,Empire-building,Complementary,Acquisition. No strong directional prior; tracking.,,,,pending,Y
-SWKS,Skyworks Solutions,2026-07-28,2026-08-02,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,,,,pending,Y
-T,AT&T,2026-07-28,2026-08-02,Partnership,Cross-industry Complementary,Partnership. Weak directional prior; tracking.,,,,pending,Y
-NEE,NextEra Energy,2026-07-28,2026-08-02,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,,,,pending,Y
-NVDA,Nvidia,2026-07-28,2026-08-02,Partnership,Complementary,Partnership. Weak directional prior; tracking.,,,,pending,Y
-WBD,Warner Bros. Discovery,2026-07-28,2026-08-02,Partnership,Cross-industry Convergence,"Convergence partnership. Strong 90-day reaction historically, tends to fade by 1yr (exploratory).",,,,pending,Y
-SATS,EchoStar,2026-07-28,2026-08-02,Focus,Scale,Focus move. Historically drifts UP over the next quarter (exploratory).,,,,pending,Y
-NVDA,Nvidia,2026-07-27,2026-08-02,Partnership,Complementary,Partnership. Weak directional prior; tracking.,,,,pending,Y
-BKR,Baker Hughes,2026-07-26,2026-08-02,Empire-building,Complementary,Acquisition. No strong directional prior; tracking.,,,,pending,Y
-CMCSA,Comcast,2026-07-26,2026-08-02,Focus,Complementary,Focus move. Historically drifts UP over the next quarter (exploratory).,,,,pending,Y
-ABBV,AbbVie,2026-07-25,2026-08-02,Empire-building,Complementary,Acquisition. No strong directional prior; tracking.,,,,pending,Y
-COF,Capital One,2026-07-25,2026-08-02,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,,,,pending,Y
-NVDA,Nvidia,2026-07-25,2026-08-02,Partnership,Complementary,Partnership. Weak directional prior; tracking.,,,,pending,Y
-DHR,Danaher Corporation,2026-07-24,2026-08-02,Empire-building,Complementary,Acquisition. No strong directional prior; tracking.,,,,pending,Y
-NEE,NextEra Energy,2026-07-24,2026-08-02,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,,,,pending,Y
-AMD,Advanced Micro Devices,2026-07-24,2026-08-02,Partnership,Convergence,"Convergence partnership. Strong 90-day reaction historically, tends to fade by 1yr (exploratory).",,,,pending,Y
-NOW,ServiceNow,2026-07-24,2026-08-02,Partnership,Complementary,Partnership. Weak directional prior; tracking.,,,,pending,Y
-IT,Gartner,2026-07-23,2026-08-02,Focus,Scale,Focus move. Historically drifts UP over the next quarter (exploratory).,,,,pending,Y
-UNP,Union Pacific Corporation,2026-07-23,2026-08-02,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,,,,pending,Y
-PSA,Public Storage,2026-07-22,2026-08-02,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,,,,pending,Y
-AMD,Advanced Micro Devices,2026-07-22,2026-08-02,Partnership,Convergence,"Convergence partnership. Strong 90-day reaction historically, tends to fade by 1yr (exploratory).",,,,pending,Y
-CVNA,Carvana,2026-07-22,2026-08-02,Empire-building,Convergence,Acquisition. No strong directional prior; tracking.,,,,pending,Y
-MSFT,Microsoft,2026-07-22,2026-08-02,Partnership,Complementary,Partnership. Weak directional prior; tracking.,,,,pending,Y
-UNP,Union Pacific Corporation,2026-07-22,2026-08-02,Partnership,Complementary,Partnership. Weak directional prior; tracking.,,,,pending,Y
-UNP,Union Pacific Corporation,2026-07-22,2026-08-02,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,,,,pending,Y
-BRK.B,Berkshire Hathaway,2026-07-21,2026-08-02,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,,,,pending,Y
-NDAQ,"Nasdaq, Inc.",2026-07-21,2026-08-02,Focus,Scale,Focus move. Historically drifts UP over the next quarter (exploratory).,,,,pending,Y
-NVDA,Nvidia,2026-07-21,2026-08-02,Partnership,Convergence,"Convergence partnership. Strong 90-day reaction historically, tends to fade by 1yr (exploratory).",,,,pending,Y
-PGR,Progressive Corporation,2026-07-21,2026-08-02,Partnership,Cross-industry Convergence,"Convergence partnership. Strong 90-day reaction historically, tends to fade by 1yr (exploratory).",,,,pending,Y
-NVDA,Nvidia,2026-07-20,2026-08-02,Partnership,Complementary,Partnership. Weak directional prior; tracking.,,,,pending,Y
-PLTR,Palantir Technologies,2026-07-20,2026-08-02,Partnership,Cross-industry Complementary,Partnership. Weak directional prior; tracking.,,,,pending,Y
-PFE,Pfizer,2026-07-20,2026-08-02,Empire-building,Complementary,Acquisition. No strong directional prior; tracking.,,,,pending,Y
-REGN,Regeneron Pharmaceuticals,2026-07-20,2026-08-02,Partnership,Complementary,Partnership. Weak directional prior; tracking.,,,,pending,Y
-BIIB,Biogen,2026-06-17,2026-08-01,Empire-building,Complementary,Acquisition. No strong directional prior; tracking.,+2.5%,,,30d in,N
-QCOM,Qualcomm,2026-06-17,2026-08-01,Partnership,Cross-industry Convergence,"Convergence partnership. Strong 90-day reaction historically, tends to fade by 1yr (exploratory).",-43.2%,,,30d in,N
-VRT,Vertiv,2026-06-12,2026-07-29,Empire-building,Complementary,Acquisition. No strong directional prior; tracking.,-18.3%,,,30d in,N
-CTAS,Cintas,2026-06-12,2026-07-29,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,+23.2%,,,30d in,N
-KHC,Kraft Heinz,2026-06-12,2026-07-29,Partnership,Cross-industry Convergence,"Convergence partnership. Strong 90-day reaction historically, tends to fade by 1yr (exploratory).",+12.1%,,,30d in,N
-ETN,Eaton Corporation,2026-06-11,2026-07-28,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,+0.0%,,,30d in,N
-KDP,Keurig Dr Pepper,2026-04-13,2026-07-25,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,+10.2%,,,30d in,N
-CSGP,CoStar Group,2026-05-29,2026-07-24,Empire-building,Complementary,Acquisition. No strong directional prior; tracking.,+5.3%,,,30d in,N
-ECL,Ecolab,2026-05-29,2026-07-24,Empire-building,Complementary,Acquisition. No strong directional prior; tracking.,+8.5%,,,30d in,N
-TSCO,Tractor Supply,2026-05-28,2026-07-24,Empire-building,Convergence,Acquisition. No strong directional prior; tracking.,+12.1%,,,30d in,N
-CVS,CVS Health,2026-05-28,2026-07-24,Partnership,Complementary,Partnership. Weak directional prior; tracking.,+8.6%,,,30d in,N
-UNP,Union Pacific Corporation,2026-05-28,2026-07-24,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,+4.8%,,,30d in,N
-F,Ford Motor Company,2026-05-21,2026-07-24,Focus,Complementary,Focus move. Historically drifts UP over the next quarter (exploratory).,+3.6%,,,30d in,N
-AMD,Advanced Micro Devices,2026-05-21,2026-07-24,Partnership,Complementary,Partnership. Weak directional prior; tracking.,+5.7%,,,30d in,N
-KEYS,Keysight Technologies,2026-05-21,2026-07-24,Partnership,Complementary,Partnership. Weak directional prior; tracking.,-23.7%,,,30d in,N
-BSX,Boston Scientific,2026-05-18,2026-07-24,Empire-building,Complementary,Acquisition. No strong directional prior; tracking.,-11.7%,,,30d in,N
-NDAQ,"Nasdaq, Inc.",2026-05-08,2026-07-24,Partnership,Convergence,"Convergence partnership. Strong 90-day reaction historically, tends to fade by 1yr (exploratory).",-6.9%,,,30d in,N
-CCL,Carnival Corporation,2026-05-07,2026-07-24,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,+9.9%,,,30d in,N
-DLR,Digital Realty,2026-05-06,2026-07-24,Partnership,Complementary,Partnership. Weak directional prior; tracking.,-9.8%,,,30d in,N
-MA,Mastercard,2026-05-06,2026-07-24,Partnership,Cross-industry Convergence,"Convergence partnership. Strong 90-day reaction historically, tends to fade by 1yr (exploratory).",+1.8%,,,30d in,N
-AXP,American Express,2026-05-04,2026-07-24,Focus,Scale,Focus move. Historically drifts UP over the next quarter (exploratory).,+5.5%,,,30d in,N
-CCI,Crown Castle,2026-05-01,2026-07-24,Focus,Scale,Focus move. Historically drifts UP over the next quarter (exploratory).,+0.5%,,,30d in,N
-VRT,Vertiv,2026-04-27,2026-07-24,Empire-building,Complementary,Acquisition. No strong directional prior; tracking.,-30.3%,,,30d in,N
-PEP,PepsiCo,2026-04-21,2026-07-24,Partnership,Scale,Partnership. Weak directional prior; tracking.,-8.1%,,,30d in,N
-TDG,TransDigm Group,2026-04-17,2026-07-24,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,-3.7%,,,30d in,N
-ECL,Ecolab,2026-04-15,2026-07-24,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,-7.4%,,,30d in,N
-LDOS,Leidos,2026-04-15,2026-07-24,Partnership,Cross-industry Complementary,Partnership. Weak directional prior; tracking.,-17.2%,,,30d in,N
-ARES,Ares Management,2026-04-09,2026-07-24,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,+10.0%,,,30d in,N
-HWM,Howmet Aerospace,2026-04-06,2026-07-24,Empire-building,Scale,Empire/Scale. Historically LAGS over the next quarter (exploratory).,-8.4%,,,30d in,N
-KEYS,Keysight Technologies,2026-04-06,2026-07-24,Partnership,Complementary,Partnership. Weak directional prior; tracking.,-20.7%,,,30d in,N
-SBUX,Starbucks,2026-04-02,2026-07-24,Partnership,Scale,Partnership. Weak directional prior; tracking.,+5.9%,,,30d in,N
-CLX,Clorox,2026-04-01,2026-07-24,Empire-building,Complementary,Acquisition. No strong directional prior; tracking.,-11.4%,,,30d in,N
-NCLH,Norwegian Cruise Line Holdings,2026-03-27,2026-07-24,Partnership,Scale,Partnership. Weak directional prior; tracking.,-32.0%,,,30d in,N
+ticker,company,event_date,scored_date,posture,structure,car_30,car_90,car_252,status,prospective
+NVDA,Nvidia,2026-07-31,2026-08-02,Partnership,Convergence,,,,pending,Y
+QCOM,Qualcomm,2026-07-31,2026-08-02,Empire-building,Complementary,,,,pending,Y
+ICE,Intercontinental Exchange,2026-07-30,2026-08-02,Empire-building,Complementary,,,,pending,Y
+LLY,Lilly (Eli),2026-07-29,2026-08-02,Empire-building,Convergence,,,,pending,Y
+META,Meta Platforms,2026-07-29,2026-08-02,Partnership,Scale,,,,pending,Y
+ON,ON Semiconductor,2026-07-29,2026-08-02,Empire-building,Complementary,,,,pending,Y
+PSKY,Paramount Skydance Corporation,2026-07-29,2026-08-02,Empire-building,Scale,,,,pending,Y
+WBD,Warner Bros. Discovery,2026-07-29,2026-08-02,Empire-building,Scale,,,,pending,Y
+JNJ,Johnson & Johnson,2026-07-29,2026-08-02,Empire-building,Complementary,,,,pending,Y
+SWKS,Skyworks Solutions,2026-07-28,2026-08-02,Empire-building,Scale,,,,pending,Y
+T,AT&T,2026-07-28,2026-08-02,Partnership,Cross-industry Complementary,,,,pending,Y
+NEE,NextEra Energy,2026-07-28,2026-08-02,Empire-building,Scale,,,,pending,Y
+NVDA,Nvidia,2026-07-28,2026-08-02,Partnership,Complementary,,,,pending,Y
+WBD,Warner Bros. Discovery,2026-07-28,2026-08-02,Partnership,Cross-industry Convergence,,,,pending,Y
+SATS,EchoStar,2026-07-28,2026-08-02,Focus,Scale,,,,pending,Y
+NVDA,Nvidia,2026-07-27,2026-08-02,Partnership,Complementary,,,,pending,Y
+BKR,Baker Hughes,2026-07-26,2026-08-02,Empire-building,Complementary,,,,pending,Y
+CMCSA,Comcast,2026-07-26,2026-08-02,Focus,Complementary,,,,pending,Y
+ABBV,AbbVie,2026-07-25,2026-08-02,Empire-building,Complementary,,,,pending,Y
+COF,Capital One,2026-07-25,2026-08-02,Empire-building,Scale,,,,pending,Y
+NVDA,Nvidia,2026-07-25,2026-08-02,Partnership,Complementary,,,,pending,Y
+DHR,Danaher Corporation,2026-07-24,2026-08-02,Empire-building,Complementary,,,,pending,Y
+NEE,NextEra Energy,2026-07-24,2026-08-02,Empire-building,Scale,,,,pending,Y
+AMD,Advanced Micro Devices,2026-07-24,2026-08-02,Partnership,Convergence,,,,pending,Y
+NOW,ServiceNow,2026-07-24,2026-08-02,Partnership,Complementary,,,,pending,Y
+IT,Gartner,2026-07-23,2026-08-02,Focus,Scale,,,,pending,Y
+UNP,Union Pacific Corporation,2026-07-23,2026-08-02,Empire-building,Scale,,,,pending,Y
+PSA,Public Storage,2026-07-22,2026-08-02,Empire-building,Scale,,,,pending,Y
+AMD,Advanced Micro Devices,2026-07-22,2026-08-02,Partnership,Convergence,,,,pending,Y
+CVNA,Carvana,2026-07-22,2026-08-02,Empire-building,Convergence,,,,pending,Y
+MSFT,Microsoft,2026-07-22,2026-08-02,Partnership,Complementary,,,,pending,Y
+UNP,Union Pacific Corporation,2026-07-22,2026-08-02,Partnership,Complementary,,,,pending,Y
+UNP,Union Pacific Corporation,2026-07-22,2026-08-02,Empire-building,Scale,,,,pending,Y
+BRK.B,Berkshire Hathaway,2026-07-21,2026-08-02,Empire-building,Scale,,,,pending,Y
+NDAQ,"Nasdaq, Inc.",2026-07-21,2026-08-02,Focus,Scale,,,,pending,Y
+NVDA,Nvidia,2026-07-21,2026-08-02,Partnership,Convergence,,,,pending,Y
+PGR,Progressive Corporation,2026-07-21,2026-08-02,Partnership,Cross-industry Convergence,,,,pending,Y
+NVDA,Nvidia,2026-07-20,2026-08-02,Partnership,Complementary,,,,pending,Y
+PLTR,Palantir Technologies,2026-07-20,2026-08-02,Partnership,Cross-industry Complementary,,,,pending,Y
+PFE,Pfizer,2026-07-20,2026-08-02,Empire-building,Complementary,,,,pending,Y
+REGN,Regeneron Pharmaceuticals,2026-07-20,2026-08-02,Partnership,Complementary,,,,pending,Y
+BIIB,Biogen,2026-06-17,2026-08-01,Empire-building,Complementary,+2.5%,,,30d in,N
+QCOM,Qualcomm,2026-06-17,2026-08-01,Partnership,Cross-industry Convergence,-43.2%,,,30d in,N
+VRT,Vertiv,2026-06-12,2026-07-29,Empire-building,Complementary,-18.3%,,,30d in,N
+CTAS,Cintas,2026-06-12,2026-07-29,Empire-building,Scale,+23.2%,,,30d in,N
+KHC,Kraft Heinz,2026-06-12,2026-07-29,Partnership,Cross-industry Convergence,+12.1%,,,30d in,N
+ETN,Eaton Corporation,2026-06-11,2026-07-28,Empire-building,Scale,+0.0%,,,30d in,N
+KDP,Keurig Dr Pepper,2026-04-13,2026-07-25,Empire-building,Scale,+10.2%,,,30d in,N
+CSGP,CoStar Group,2026-05-29,2026-07-24,Empire-building,Complementary,+5.3%,,,30d in,N
+ECL,Ecolab,2026-05-29,2026-07-24,Empire-building,Complementary,+8.5%,,,30d in,N
+TSCO,Tractor Supply,2026-05-28,2026-07-24,Empire-building,Convergence,+12.1%,,,30d in,N
+CVS,CVS Health,2026-05-28,2026-07-24,Partnership,Complementary,+8.6%,,,30d in,N
+UNP,Union Pacific Corporation,2026-05-28,2026-07-24,Empire-building,Scale,+4.8%,,,30d in,N
+F,Ford Motor Company,2026-05-21,2026-07-24,Focus,Complementary,+3.6%,,,30d in,N
+AMD,Advanced Micro Devices,2026-05-21,2026-07-24,Partnership,Complementary,+5.7%,,,30d in,N
+KEYS,Keysight Technologies,2026-05-21,2026-07-24,Partnership,Complementary,-23.7%,,,30d in,N
+BSX,Boston Scientific,2026-05-18,2026-07-24,Empire-building,Complementary,-11.7%,,,30d in,N
+NDAQ,"Nasdaq, Inc.",2026-05-08,2026-07-24,Partnership,Convergence,-6.9%,,,30d in,N
+CCL,Carnival Corporation,2026-05-07,2026-07-24,Empire-building,Scale,+9.9%,,,30d in,N
+DLR,Digital Realty,2026-05-06,2026-07-24,Partnership,Complementary,-9.8%,,,30d in,N
+MA,Mastercard,2026-05-06,2026-07-24,Partnership,Cross-industry Convergence,+1.8%,,,30d in,N
+AXP,American Express,2026-05-04,2026-07-24,Focus,Scale,+5.5%,,,30d in,N
+CCI,Crown Castle,2026-05-01,2026-07-24,Focus,Scale,+0.5%,,,30d in,N
+VRT,Vertiv,2026-04-27,2026-07-24,Empire-building,Complementary,-30.3%,,,30d in,N
+PEP,PepsiCo,2026-04-21,2026-07-24,Partnership,Scale,-8.1%,,,30d in,N
+TDG,TransDigm Group,2026-04-17,2026-07-24,Empire-building,Scale,-3.7%,,,30d in,N
+ECL,Ecolab,2026-04-15,2026-07-24,Empire-building,Scale,-7.4%,,,30d in,N
+LDOS,Leidos,2026-04-15,2026-07-24,Partnership,Cross-industry Complementary,-17.2%,,,30d in,N
+ARES,Ares Management,2026-04-09,2026-07-24,Empire-building,Scale,+10.0%,,,30d in,N
+HWM,Howmet Aerospace,2026-04-06,2026-07-24,Empire-building,Scale,-8.4%,,,30d in,N
+KEYS,Keysight Technologies,2026-04-06,2026-07-24,Partnership,Complementary,-20.7%,,,30d in,N
+SBUX,Starbucks,2026-04-02,2026-07-24,Partnership,Scale,+5.9%,,,30d in,N
+CLX,Clorox,2026-04-01,2026-07-24,Empire-building,Complementary,-11.4%,,,30d in,N
+NCLH,Norwegian Cruise Line Holdings,2026-03-27,2026-07-24,Partnership,Scale,-32.0%,,,30d in,N
