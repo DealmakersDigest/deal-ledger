@@ -27,18 +27,22 @@ the commit, and the full history has been public since this repo went live. Anyo
 historically, not investment advice and not predictions about any single stock. The patterns
 are exploratory and small-sample. Every quarter I report back, including the misses.
 
-_Last updated 2026-08-03. 41 live, 33 calibration, 74 tracked total._
+_Last updated 2026-08-04. 45 live, 33 calibration, 78 tracked total._
 
 ## The live table: scored before the outcome was known
 
 Every row here was scored within 14 days of the deal being announced... before any of the
 outcome numbers existed.
 
-All 41 live calls are still waiting on the market. The first 30-day
+All 45 live calls are still waiting on the market. The first 30-day
 numbers land around 2026-09-02.
 
 | Company | Deal date | Scored | Posture | Structure | 30d | 90d | 1yr | Status |
 |---|---|---|---|---|---|---|---|---|
+| Autodesk (ADSK) | 2026-08-03 | 2026-08-04 | Empire-building | Complementary |  |  |  | pending |
+| Skyworks Solutions (SWKS) | 2026-08-03 | 2026-08-04 | Empire-building | Scale |  |  |  | pending |
+| Berkshire Hathaway (BRK.B) | 2026-08-03 | 2026-08-04 | Empire-building | Scale |  |  |  | pending |
+| Microsoft (MSFT) | 2026-08-03 | 2026-08-04 | Partnership | Complementary |  |  |  | pending |
 | Nvidia (NVDA) | 2026-07-31 | 2026-08-02 | Partnership | Convergence |  |  |  | pending |
 | Qualcomm (QCOM) | 2026-07-31 | 2026-08-02 | Empire-building | Complementary |  |  |  | pending |
 | Intercontinental Exchange (ICE) | 2026-07-30 | 2026-08-02 | Empire-building | Complementary |  |  |  | pending |
