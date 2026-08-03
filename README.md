@@ -34,6 +34,9 @@ _Last updated 2026-08-03. 41 live, 33 calibration, 74 tracked total._
 Every row here was scored within 14 days of the deal being announced... before any of the
 outcome numbers existed.
 
+All 41 live calls are still waiting on the market. The first 30-day
+numbers land around 2026-09-02.
+
 | Company | Deal date | Scored | Posture | Structure | 30d | 90d | 1yr | Status |
 |---|---|---|---|---|---|---|---|---|
 | Nvidia (NVDA) | 2026-07-31 | 2026-08-02 | Partnership | Convergence |  |  |  | pending |
