@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dealmakers Digest: The Ledger</title>
+<meta name="description" content="Every deal scored the same way, on the record, in public. Live calls timestamped before the outcome was known.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400..600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --field:#04331F; --ink:#F7F4EC; --body:#A8BCAE; --muted:#8CA396; --faint:#6F8578;
+  --brass:#C8A657; --brass-lt:#E0C583; --hair:rgba(247,244,236,0.14);
+  --pos:#63C9A0; --neg:#E08A63;
+  color-scheme: dark;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{
+  background-color:#3A1E15;
+  background-image:
+    repeating-linear-gradient(88deg,rgba(255,255,255,0.045) 0 1px,transparent 1px 4px),
+    repeating-linear-gradient(92deg,rgba(0,0,0,0.22) 0 2px,transparent 2px 11px),
+    linear-gradient(103deg,rgba(214,158,104,0.22),transparent 46%),
+    radial-gradient(130% 110% at 12% 0%,rgba(120,62,38,0.5),rgba(28,13,9,0.55) 70%);
+  background-attachment:fixed;
+  font-family:'Space Grotesk',Helvetica,Arial,sans-serif;
+  color:var(--body); font-size:16px; line-height:1.6;
+  padding:28px 20px 44px; -webkit-font-smoothing:antialiased;
+}
+/* the mahogany is a frame only: every word sits on the green field */
+.field{
+  max-width:1120px; margin:0 auto; background:var(--field);
+  box-shadow:inset 0 0 0 2px rgba(200,166,87,0.35), 0 18px 50px rgba(0,0,0,0.4);
+  padding:52px 46px 40px;
+}
+::selection{ background:var(--brass); color:var(--field); }
+a{ color:var(--brass-lt); text-decoration:none; border-bottom:1px solid rgba(200,166,87,0.4); }
+a:hover{ color:var(--brass); border-bottom-color:var(--brass); }
+
+/* ── wordmark ── */
+.wordmark{ text-align:center; margin-bottom:34px; }
+.wordmark .dm{ font-family:'Instrument Serif',Georgia,serif; font-style:italic;
+  font-size:40px; line-height:1; color:var(--ink); }
+.wordmark .dg{ font-family:'Archivo',Helvetica,sans-serif; font-weight:600;
+  font-size:13px; letter-spacing:0.36em; color:var(--brass); margin-top:5px; }
+
+/* ── kicker + double brass rule ── */
+.kicker{ font-family:'Archivo',Helvetica,sans-serif; font-weight:600; font-size:12px;
+  letter-spacing:0.3em; text-transform:uppercase; color:var(--brass); }
+.rule2{ border-top:2px solid var(--brass); border-bottom:1px solid rgba(200,166,87,0.45);
+  height:4px; margin:10px 0 22px; }
+h1{ font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-style:italic;
+  font-size:clamp(34px,5.4vw,54px); line-height:1.05; color:var(--ink);
+  margin:0 0 20px; text-wrap:balance; }
+h2{ font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-style:italic;
+  font-size:clamp(24px,3.4vw,34px); line-height:1.1; color:var(--ink); margin:0 0 6px; }
+h3{ font-family:'Archivo',Helvetica,sans-serif; font-weight:600; font-size:12px;
+  letter-spacing:0.24em; text-transform:uppercase; color:var(--brass); margin:0 0 14px; }
+em.hl{ font-family:'Instrument Serif',Georgia,serif; font-style:italic; color:var(--brass-lt); }
+p{ margin:0 0 16px; max-width:74ch; text-wrap:pretty; }
+.lede{ font-size:18px; color:var(--ink); max-width:70ch; }
+strong{ color:var(--ink); font-weight:600; }
+
+/* ── three brass stat tiles ── */
+.stats{ display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
+  background:var(--hair); border:1px solid var(--hair); margin:30px 0 40px; }
+.stat{ background:var(--field); padding:20px 18px; }
+.stat .n{ font-family:'Instrument Serif',Georgia,serif; font-size:38px; line-height:1;
+  color:var(--brass); display:block; }
+.stat .l{ font-family:'Archivo',Helvetica,sans-serif; font-weight:600; font-size:11px;
+  letter-spacing:0.18em; text-transform:uppercase; color:var(--muted); margin-top:8px; display:block; }
+
+/* ── legend block ── */
+.legend{ border-left:2px solid rgba(200,166,87,0.5); padding:2px 0 2px 20px; margin:0 0 22px; }
+.legend .t{ font-family:'Archivo',Helvetica,sans-serif; font-weight:600; font-size:11px;
+  letter-spacing:0.2em; text-transform:uppercase; color:var(--brass); margin-bottom:7px; }
+.legend p{ margin:0; font-size:15px; }
+
+section{ margin-top:52px; }
+.sec-intro{ margin:14px 0 22px; }
+
+/* ── tables ── */
+.scroll{ overflow-x:auto; margin:0 -6px; padding:0 6px; }
+table{ border-collapse:collapse; width:100%; font-size:14px; min-width:760px; }
+th{ font-family:'Archivo',Helvetica,sans-serif; font-weight:600; font-size:10.5px;
+  letter-spacing:0.16em; text-transform:uppercase; color:var(--muted); text-align:left;
+  padding:11px 12px; border-bottom:2px solid var(--brass); white-space:nowrap; }
+td{ padding:11px 12px; border-bottom:1px solid var(--hair); vertical-align:middle; }
+tbody tr:hover{ background:rgba(247,244,236,0.045); }
+td.co{ color:var(--ink); font-weight:500; }
+td.co .tk{ font-family:'JetBrains Mono',monospace; font-size:11.5px; color:var(--faint); }
+td.dt{ font-family:'JetBrains Mono',monospace; font-size:12.5px; color:var(--body); white-space:nowrap; }
+td.num{ font-family:'JetBrains Mono',monospace; font-variant-numeric:tabular-nums;
+  text-align:right; white-space:nowrap; }
+.pos{ color:var(--pos); } .neg{ color:var(--neg); }
+.waiting{ color:var(--faint); }
+.pill{ display:inline-block; font-family:'Archivo',Helvetica,sans-serif; font-weight:600;
+  font-size:9.5px; letter-spacing:0.14em; text-transform:uppercase; padding:4px 9px;
+  border:1px solid rgba(247,244,236,0.28); color:var(--muted); white-space:nowrap; }
+.pill.live{ border-color:rgba(200,166,87,0.75); color:var(--brass); }
+.tag{ font-family:'Archivo',Helvetica,sans-serif; font-weight:600; font-size:10.5px;
+  letter-spacing:0.1em; text-transform:uppercase; color:var(--body); white-space:nowrap; }
+.tag .x{ color:var(--brass); }
+
+.note{ font-size:14.5px; color:var(--muted); border-top:1px solid var(--hair);
+  padding-top:16px; margin-top:26px; }
+.empty{ color:var(--muted); font-style:italic; }
+/* base state must precede the media query or the later rule wins the cascade */
+.hint{ display:none; font-family:'Archivo',Helvetica,sans-serif; font-weight:600;
+  font-size:10px; letter-spacing:0.16em; text-transform:uppercase; color:var(--faint);
+  margin:0 0 8px; }
+
+/* ── subscribe ── */
+.cta{ margin-top:54px; border-top:2px solid var(--brass);
+  border-bottom:1px solid rgba(200,166,87,0.45); padding:30px 0 32px; text-align:center; }
+.cta .h{ font-family:'Instrument Serif',Georgia,serif; font-style:italic; font-size:27px;
+  color:var(--ink); margin-bottom:8px; }
+.cta p{ margin:0 auto 20px; max-width:56ch; font-size:15px; }
+.btn{ display:inline-block; font-family:'Archivo',Helvetica,sans-serif; font-weight:600;
+  font-size:12px; letter-spacing:0.2em; text-transform:uppercase; color:var(--field);
+  background:var(--brass); padding:13px 30px; border:0; }
+.btn:hover{ background:var(--brass-lt); color:var(--field); border:0; }
+footer{ margin-top:34px; font-size:13px; color:var(--faint); text-align:center; }
+footer a{ color:var(--muted); border-bottom-color:rgba(247,244,236,0.2); }
+
+@media (max-width:760px){
+  body{ padding:14px 10px 30px; }
+  .field{ padding:34px 20px 30px; }
+  .stats{ grid-template-columns:1fr; }
+  .stat{ display:flex; align-items:baseline; gap:12px; padding:15px 16px; }
+  .stat .n{ font-size:29px; } .stat .l{ margin-top:0; }
+  .scroll{ margin:0 -20px; padding:0 20px; }
+  .hint{ display:block; }
+}
+</style>
+</head>
+<body>
+<div class="field">
+
+  <div class="wordmark">
+    <div class="dm">Dealmakers</div>
+    <div class="dg">DIGEST</div>
+  </div>
+
+  <div class="kicker">The Ledger</div>
+  <div class="rule2"></div>
+  <h1>Every deal, scored <em class="hl">in public</em>.</h1>
+
+  <p class="lede">Two tables below. The first holds the live calls... deals scored within days of
+  being announced, before anyone could know how they turn out. The second is the calibration set:
+  the deals the scoring system was built and checked against, scored after the fact and labelled
+  that way. <strong>This is the receipt.</strong></p>
+
+  <div class="stats">
+    <div class="stat"><span class="n">45</span><span class="l">Live calls</span></div>
+    <div class="stat"><span class="n">33</span><span class="l">Calibration</span></div>
+    <div class="stat"><span class="n">78</span><span class="l">Tracked total</span></div>
+  </div>
+
+  <div class="legend">
+    <div class="t">What the scores mean</div>
+    <p><strong>Posture</strong> is the company's role in the deal: <strong>Empire-building</strong>
+    (buying something), <strong>Focus</strong> (selling off a piece of itself), or
+    <strong>Partnership</strong> (a joint venture, alliance or strategic partnership... working
+    together, nobody buys anybody). <strong>Structure</strong> is what kind of deal it is:
+    <strong>Scale</strong> (more of the same), <strong>Complementary</strong> (buying a capability
+    they lack), or <strong>Convergence</strong> (combining two worlds to make something new).
+    <strong>Cross-industry</strong> in front means the two sides come from clearly different
+    industries.</p>
+  </div>
+
+  <div class="legend">
+    <div class="t">What the numbers mean</div>
+    <p>The 30d, 90d and 1yr columns track how the stock moved against the overall market for 30, 90
+    and 252 trading days after the deal (roughly six weeks, four months and a year). A dot means not
+    enough time has passed yet... that is the point of scoring in public, the number arrives when it
+    arrives. Status shows how much of the outcome is in so far.</p>
+  </div>
+
+  <div class="legend">
+    <div class="t">On the timestamps</div>
+    <p><strong>Scored</strong> is the date this row was committed and pushed to a public repo.
+    GitHub records the push time on its own servers, independent of anything set locally in the
+    commit, and the full history has been public since this page went live. Anyone can audit it.</p>
+  </div>
+
+  <div class="legend">
+    <div class="t">Read this honestly</div>
+    <p>These are research observations about how the market has reacted historically, not investment
+    advice and not predictions about any single stock. The patterns are exploratory and small-sample.
+    Every quarter I report back, including the misses.</p>
+  </div>
+
+  <section>
+    <h2>The live table</h2>
+    <div class="kicker">Scored before the outcome was known</div>
+    <p class="sec-intro">Every row here was scored within 14 days of the deal being announced, before any of the outcome numbers existed. All 45 of them are still waiting on the market. The first 30-day numbers land around 2026-09-02.</p>
+    <p class="hint">Swipe the table sideways &rarr;</p><div class="scroll"><table><thead><tr><th>Company</th><th>Deal date</th><th>Scored</th><th>Posture</th><th>Structure</th><th class="num">30d</th><th class="num">90d</th><th class="num">1yr</th><th>Status</th></tr></thead><tbody><tr><td class="co">Autodesk<br><span class="tk">ADSK</span></td><td class="dt">2026-08-03</td><td class="dt">2026-08-04</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Skyworks Solutions<br><span class="tk">SWKS</span></td><td class="dt">2026-08-03</td><td class="dt">2026-08-04</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Berkshire Hathaway<br><span class="tk">BRK.B</span></td><td class="dt">2026-08-03</td><td class="dt">2026-08-04</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Microsoft<br><span class="tk">MSFT</span></td><td class="dt">2026-08-03</td><td class="dt">2026-08-04</td><td><span class="tag">Partnership</span></td><td><span class="tag">Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Nvidia<br><span class="tk">NVDA</span></td><td class="dt">2026-07-31</td><td class="dt">2026-08-02</td><td><span class="tag">Partnership</span></td><td><span class="tag">Convergence</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Qualcomm<br><span class="tk">QCOM</span></td><td class="dt">2026-07-31</td><td class="dt">2026-08-02</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Intercontinental Exchange<br><span class="tk">ICE</span></td><td class="dt">2026-07-30</td><td class="dt">2026-08-02</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Eli Lilly<br><span class="tk">LLY</span></td><td class="dt">2026-07-29</td><td class="dt">2026-08-02</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Convergence</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Meta Platforms<br><span class="tk">META</span></td><td class="dt">2026-07-29</td><td class="dt">2026-08-02</td><td><span class="tag">Partnership</span></td><td><span class="tag">Scale</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">ON Semiconductor<br><span class="tk">ON</span></td><td class="dt">2026-07-29</td><td class="dt">2026-08-02</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Paramount Skydance<br><span class="tk">PSKY</span></td><td class="dt">2026-07-29</td><td class="dt">2026-08-02</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Warner Bros. Discovery<br><span class="tk">WBD</span></td><td class="dt">2026-07-29</td><td class="dt">2026-08-02</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Johnson &amp; Johnson<br><span class="tk">JNJ</span></td><td class="dt">2026-07-29</td><td class="dt">2026-08-02</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Skyworks Solutions<br><span class="tk">SWKS</span></td><td class="dt">2026-07-28</td><td class="dt">2026-08-02</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">AT&amp;T<br><span class="tk">T</span></td><td class="dt">2026-07-28</td><td class="dt">2026-08-02</td><td><span class="tag">Partnership</span></td><td><span class="tag"><span class="x">Cross-industry</span> Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">NextEra Energy<br><span class="tk">NEE</span></td><td class="dt">2026-07-28</td><td class="dt">2026-08-02</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Nvidia<br><span class="tk">NVDA</span></td><td class="dt">2026-07-28</td><td class="dt">2026-08-02</td><td><span class="tag">Partnership</span></td><td><span class="tag">Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Warner Bros. Discovery<br><span class="tk">WBD</span></td><td class="dt">2026-07-28</td><td class="dt">2026-08-02</td><td><span class="tag">Partnership</span></td><td><span class="tag"><span class="x">Cross-industry</span> Convergence</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">EchoStar<br><span class="tk">SATS</span></td><td class="dt">2026-07-28</td><td class="dt">2026-08-02</td><td><span class="tag">Focus</span></td><td><span class="tag">Scale</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Nvidia<br><span class="tk">NVDA</span></td><td class="dt">2026-07-27</td><td class="dt">2026-08-02</td><td><span class="tag">Partnership</span></td><td><span class="tag">Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Baker Hughes<br><span class="tk">BKR</span></td><td class="dt">2026-07-26</td><td class="dt">2026-08-02</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Comcast<br><span class="tk">CMCSA</span></td><td class="dt">2026-07-26</td><td class="dt">2026-08-02</td><td><span class="tag">Focus</span></td><td><span class="tag">Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">AbbVie<br><span class="tk">ABBV</span></td><td class="dt">2026-07-25</td><td class="dt">2026-08-02</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Capital One<br><span class="tk">COF</span></td><td class="dt">2026-07-25</td><td class="dt">2026-08-02</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Nvidia<br><span class="tk">NVDA</span></td><td class="dt">2026-07-25</td><td class="dt">2026-08-02</td><td><span class="tag">Partnership</span></td><td><span class="tag">Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Danaher<br><span class="tk">DHR</span></td><td class="dt">2026-07-24</td><td class="dt">2026-08-02</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">NextEra Energy<br><span class="tk">NEE</span></td><td class="dt">2026-07-24</td><td class="dt">2026-08-02</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Advanced Micro Devices<br><span class="tk">AMD</span></td><td class="dt">2026-07-24</td><td class="dt">2026-08-02</td><td><span class="tag">Partnership</span></td><td><span class="tag">Convergence</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">ServiceNow<br><span class="tk">NOW</span></td><td class="dt">2026-07-24</td><td class="dt">2026-08-02</td><td><span class="tag">Partnership</span></td><td><span class="tag">Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Gartner<br><span class="tk">IT</span></td><td class="dt">2026-07-23</td><td class="dt">2026-08-02</td><td><span class="tag">Focus</span></td><td><span class="tag">Scale</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Union Pacific<br><span class="tk">UNP</span></td><td class="dt">2026-07-23</td><td class="dt">2026-08-02</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Public Storage<br><span class="tk">PSA</span></td><td class="dt">2026-07-22</td><td class="dt">2026-08-02</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Advanced Micro Devices<br><span class="tk">AMD</span></td><td class="dt">2026-07-22</td><td class="dt">2026-08-02</td><td><span class="tag">Partnership</span></td><td><span class="tag">Convergence</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Carvana<br><span class="tk">CVNA</span></td><td class="dt">2026-07-22</td><td class="dt">2026-08-02</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Convergence</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Microsoft<br><span class="tk">MSFT</span></td><td class="dt">2026-07-22</td><td class="dt">2026-08-02</td><td><span class="tag">Partnership</span></td><td><span class="tag">Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Union Pacific<br><span class="tk">UNP</span></td><td class="dt">2026-07-22</td><td class="dt">2026-08-02</td><td><span class="tag">Partnership</span></td><td><span class="tag">Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Union Pacific<br><span class="tk">UNP</span></td><td class="dt">2026-07-22</td><td class="dt">2026-08-02</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Berkshire Hathaway<br><span class="tk">BRK.B</span></td><td class="dt">2026-07-21</td><td class="dt">2026-08-02</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Nasdaq<br><span class="tk">NDAQ</span></td><td class="dt">2026-07-21</td><td class="dt">2026-08-02</td><td><span class="tag">Focus</span></td><td><span class="tag">Scale</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Nvidia<br><span class="tk">NVDA</span></td><td class="dt">2026-07-21</td><td class="dt">2026-08-02</td><td><span class="tag">Partnership</span></td><td><span class="tag">Convergence</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Progressive<br><span class="tk">PGR</span></td><td class="dt">2026-07-21</td><td class="dt">2026-08-02</td><td><span class="tag">Partnership</span></td><td><span class="tag"><span class="x">Cross-industry</span> Convergence</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Nvidia<br><span class="tk">NVDA</span></td><td class="dt">2026-07-20</td><td class="dt">2026-08-02</td><td><span class="tag">Partnership</span></td><td><span class="tag">Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Palantir Technologies<br><span class="tk">PLTR</span></td><td class="dt">2026-07-20</td><td class="dt">2026-08-02</td><td><span class="tag">Partnership</span></td><td><span class="tag"><span class="x">Cross-industry</span> Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Pfizer<br><span class="tk">PFE</span></td><td class="dt">2026-07-20</td><td class="dt">2026-08-02</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr>
+<tr><td class="co">Regeneron Pharmaceuticals<br><span class="tk">REGN</span></td><td class="dt">2026-07-20</td><td class="dt">2026-08-02</td><td><span class="tag">Partnership</span></td><td><span class="tag">Complementary</span></td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill live">pending</span></td></tr></tbody></table></div>
+  </section>
+
+  <section>
+    <h2>The calibration table</h2>
+    <div class="kicker">Scored after the fact</div>
+    <p class="sec-intro">These 33 rows were scored well after their event, with a scoring lag from 45 to 119 days (median 78). This is the set the scoring system was built and checked against, not a record of live calls. The lag is stated on every row so nobody has to take that on faith.</p>
+    <p class="hint">Swipe the table sideways &rarr;</p><div class="scroll"><table><thead><tr><th>Company</th><th>Deal date</th><th>Scored</th><th>Lag</th><th>Posture</th><th>Structure</th><th class="num">30d</th><th class="num">90d</th><th class="num">1yr</th><th>Status</th></tr></thead><tbody><tr><td class="co">Biogen<br><span class="tk">BIIB</span></td><td class="dt">2026-06-17</td><td class="dt">2026-08-01</td><td class="dt">45</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Complementary</span></td><td class="num pos">+2.5%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Qualcomm<br><span class="tk">QCOM</span></td><td class="dt">2026-06-17</td><td class="dt">2026-08-01</td><td class="dt">45</td><td><span class="tag">Partnership</span></td><td><span class="tag"><span class="x">Cross-industry</span> Convergence</span></td><td class="num neg">-43.2%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Vertiv<br><span class="tk">VRT</span></td><td class="dt">2026-06-12</td><td class="dt">2026-07-29</td><td class="dt">47</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Complementary</span></td><td class="num neg">-18.3%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Cintas<br><span class="tk">CTAS</span></td><td class="dt">2026-06-12</td><td class="dt">2026-07-29</td><td class="dt">47</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num pos">+23.2%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Kraft Heinz<br><span class="tk">KHC</span></td><td class="dt">2026-06-12</td><td class="dt">2026-07-29</td><td class="dt">47</td><td><span class="tag">Partnership</span></td><td><span class="tag"><span class="x">Cross-industry</span> Convergence</span></td><td class="num pos">+12.1%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Eaton<br><span class="tk">ETN</span></td><td class="dt">2026-06-11</td><td class="dt">2026-07-28</td><td class="dt">47</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num pos">+0.0%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Keurig Dr Pepper<br><span class="tk">KDP</span></td><td class="dt">2026-04-13</td><td class="dt">2026-07-25</td><td class="dt">103</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num pos">+10.2%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">CoStar Group<br><span class="tk">CSGP</span></td><td class="dt">2026-05-29</td><td class="dt">2026-07-24</td><td class="dt">56</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Complementary</span></td><td class="num pos">+5.3%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Ecolab<br><span class="tk">ECL</span></td><td class="dt">2026-05-29</td><td class="dt">2026-07-24</td><td class="dt">56</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Complementary</span></td><td class="num pos">+8.5%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Tractor Supply<br><span class="tk">TSCO</span></td><td class="dt">2026-05-28</td><td class="dt">2026-07-24</td><td class="dt">57</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Convergence</span></td><td class="num pos">+12.1%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">CVS Health<br><span class="tk">CVS</span></td><td class="dt">2026-05-28</td><td class="dt">2026-07-24</td><td class="dt">57</td><td><span class="tag">Partnership</span></td><td><span class="tag">Complementary</span></td><td class="num pos">+8.6%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Union Pacific<br><span class="tk">UNP</span></td><td class="dt">2026-05-28</td><td class="dt">2026-07-24</td><td class="dt">57</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num pos">+4.8%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Ford Motor<br><span class="tk">F</span></td><td class="dt">2026-05-21</td><td class="dt">2026-07-24</td><td class="dt">64</td><td><span class="tag">Focus</span></td><td><span class="tag">Complementary</span></td><td class="num pos">+3.6%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Advanced Micro Devices<br><span class="tk">AMD</span></td><td class="dt">2026-05-21</td><td class="dt">2026-07-24</td><td class="dt">64</td><td><span class="tag">Partnership</span></td><td><span class="tag">Complementary</span></td><td class="num pos">+5.7%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Keysight Technologies<br><span class="tk">KEYS</span></td><td class="dt">2026-05-21</td><td class="dt">2026-07-24</td><td class="dt">64</td><td><span class="tag">Partnership</span></td><td><span class="tag">Complementary</span></td><td class="num neg">-23.7%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Boston Scientific<br><span class="tk">BSX</span></td><td class="dt">2026-05-18</td><td class="dt">2026-07-24</td><td class="dt">67</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Complementary</span></td><td class="num neg">-11.7%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Nasdaq<br><span class="tk">NDAQ</span></td><td class="dt">2026-05-08</td><td class="dt">2026-07-24</td><td class="dt">77</td><td><span class="tag">Partnership</span></td><td><span class="tag">Convergence</span></td><td class="num neg">-6.9%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Carnival<br><span class="tk">CCL</span></td><td class="dt">2026-05-07</td><td class="dt">2026-07-24</td><td class="dt">78</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num pos">+9.9%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Digital Realty<br><span class="tk">DLR</span></td><td class="dt">2026-05-06</td><td class="dt">2026-07-24</td><td class="dt">79</td><td><span class="tag">Partnership</span></td><td><span class="tag">Complementary</span></td><td class="num neg">-9.8%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Mastercard<br><span class="tk">MA</span></td><td class="dt">2026-05-06</td><td class="dt">2026-07-24</td><td class="dt">79</td><td><span class="tag">Partnership</span></td><td><span class="tag"><span class="x">Cross-industry</span> Convergence</span></td><td class="num pos">+1.8%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">American Express<br><span class="tk">AXP</span></td><td class="dt">2026-05-04</td><td class="dt">2026-07-24</td><td class="dt">81</td><td><span class="tag">Focus</span></td><td><span class="tag">Scale</span></td><td class="num pos">+5.5%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Crown Castle<br><span class="tk">CCI</span></td><td class="dt">2026-05-01</td><td class="dt">2026-07-24</td><td class="dt">84</td><td><span class="tag">Focus</span></td><td><span class="tag">Scale</span></td><td class="num pos">+0.5%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Vertiv<br><span class="tk">VRT</span></td><td class="dt">2026-04-27</td><td class="dt">2026-07-24</td><td class="dt">88</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Complementary</span></td><td class="num neg">-30.3%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">PepsiCo<br><span class="tk">PEP</span></td><td class="dt">2026-04-21</td><td class="dt">2026-07-24</td><td class="dt">94</td><td><span class="tag">Partnership</span></td><td><span class="tag">Scale</span></td><td class="num neg">-8.1%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">TransDigm Group<br><span class="tk">TDG</span></td><td class="dt">2026-04-17</td><td class="dt">2026-07-24</td><td class="dt">98</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num neg">-3.7%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Ecolab<br><span class="tk">ECL</span></td><td class="dt">2026-04-15</td><td class="dt">2026-07-24</td><td class="dt">100</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num neg">-7.4%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Leidos<br><span class="tk">LDOS</span></td><td class="dt">2026-04-15</td><td class="dt">2026-07-24</td><td class="dt">100</td><td><span class="tag">Partnership</span></td><td><span class="tag"><span class="x">Cross-industry</span> Complementary</span></td><td class="num neg">-17.2%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Ares Management<br><span class="tk">ARES</span></td><td class="dt">2026-04-09</td><td class="dt">2026-07-24</td><td class="dt">106</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num pos">+10.0%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Howmet Aerospace<br><span class="tk">HWM</span></td><td class="dt">2026-04-06</td><td class="dt">2026-07-24</td><td class="dt">109</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Scale</span></td><td class="num neg">-8.4%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Keysight Technologies<br><span class="tk">KEYS</span></td><td class="dt">2026-04-06</td><td class="dt">2026-07-24</td><td class="dt">109</td><td><span class="tag">Partnership</span></td><td><span class="tag">Complementary</span></td><td class="num neg">-20.7%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Starbucks<br><span class="tk">SBUX</span></td><td class="dt">2026-04-02</td><td class="dt">2026-07-24</td><td class="dt">113</td><td><span class="tag">Partnership</span></td><td><span class="tag">Scale</span></td><td class="num pos">+5.9%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Clorox<br><span class="tk">CLX</span></td><td class="dt">2026-04-01</td><td class="dt">2026-07-24</td><td class="dt">114</td><td><span class="tag">Empire-building</span></td><td><span class="tag">Complementary</span></td><td class="num neg">-11.4%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr>
+<tr><td class="co">Norwegian Cruise Line Holdings<br><span class="tk">NCLH</span></td><td class="dt">2026-03-27</td><td class="dt">2026-07-24</td><td class="dt">119</td><td><span class="tag">Partnership</span></td><td><span class="tag">Scale</span></td><td class="num neg">-32.0%</td><td class="num waiting">&middot;</td><td class="num waiting">&middot;</td><td><span class="pill">30d in</span></td></tr></tbody></table></div>
+  </section>
+
+  <div class="cta">
+    <div class="h">The scoreboard is free and stays free.</div>
+    <p>The written breakdowns... the players, the deal, the principle behind it... go out on
+    Dealmakers Digest.</p>
+    <a class="btn" href="https://substack.com/@shavaye">Subscribe</a>
+  </div>
+
+  <footer>
+    Last updated 2026-08-04 &nbsp;&middot;&nbsp;
+    <a href="ledger.csv">Machine-readable CSV</a> &nbsp;&middot;&nbsp;
+    <a href="LICENSE_NOTE.md">About this ledger</a><br>
+    The vocabulary and the receipts are public; the exact rubric is proprietary and stays private.
+  </footer>
+
+</div>
+</body>
+</html>
