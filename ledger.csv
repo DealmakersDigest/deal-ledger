@@ -1,4 +1,6 @@
 ticker,company,event_date,scored_date,posture,structure,car_30,car_90,car_252,status,prospective
+PLD,Prologis,2026-08-04,2026-08-05,Empire-building,Scale,,,,pending,Y
+GOOG,Alphabet Inc. (Class C),2026-08-03,2026-08-05,Partnership,Complementary,,,,pending,Y
 ADSK,Autodesk,2026-08-03,2026-08-04,Empire-building,Complementary,,,,pending,Y
 SWKS,Skyworks Solutions,2026-08-03,2026-08-04,Empire-building,Scale,,,,pending,Y
 BRK.B,Berkshire Hathaway,2026-08-03,2026-08-04,Empire-building,Scale,,,,pending,Y
