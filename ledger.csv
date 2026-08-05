@@ -1,5 +1,9 @@
 ticker,company,event_date,scored_date,posture,structure,car_30,car_90,car_252,status,prospective
+CLX,Clorox,2026-08-05,2026-08-05,Empire-building,Scale,,,,pending,Y
 PLD,Prologis,2026-08-04,2026-08-05,Empire-building,Scale,,,,pending,Y
+IFF,International Flavors & Fragrances,2026-08-04,2026-08-05,Focus,Scale,,,,pending,Y
+MAR,Marriott International,2026-08-04,2026-08-05,Partnership,Cross-industry Convergence,,,,pending,Y
+MGM,MGM Resorts,2026-08-04,2026-08-05,Partnership,Cross-industry Convergence,,,,pending,Y
 GOOG,Alphabet Inc. (Class C),2026-08-03,2026-08-05,Partnership,Complementary,,,,pending,Y
 ADSK,Autodesk,2026-08-03,2026-08-04,Empire-building,Complementary,,,,pending,Y
 SWKS,Skyworks Solutions,2026-08-03,2026-08-04,Empire-building,Scale,,,,pending,Y

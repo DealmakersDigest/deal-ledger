@@ -27,19 +27,23 @@ the commit, and the full history has been public since this repo went live. Anyo
 historically, not investment advice and not predictions about any single stock. The patterns
 are exploratory and small-sample. Every quarter I report back, including the misses.
 
-_Last updated 2026-08-05. 47 live, 33 calibration, 80 tracked total._
+_Last updated 2026-08-05. 51 live, 33 calibration, 84 tracked total._
 
 ## The live table: scored before the outcome was known
 
 Every row here was scored within 14 days of the deal being announced... before any of the
 outcome numbers existed.
 
-All 47 live calls are still waiting on the market. The first 30-day
+All 51 live calls are still waiting on the market. The first 30-day
 numbers land around 2026-09-02.
 
 | Company | Deal date | Scored | Posture | Structure | 30d | 90d | 1yr | Status |
 |---|---|---|---|---|---|---|---|---|
+| Clorox (CLX) | 2026-08-05 | 2026-08-05 | Empire-building | Scale |  |  |  | pending |
 | Prologis (PLD) | 2026-08-04 | 2026-08-05 | Empire-building | Scale |  |  |  | pending |
+| International Flavors & Fragrances (IFF) | 2026-08-04 | 2026-08-05 | Focus | Scale |  |  |  | pending |
+| Marriott International (MAR) | 2026-08-04 | 2026-08-05 | Partnership | Cross-industry Convergence |  |  |  | pending |
+| MGM Resorts (MGM) | 2026-08-04 | 2026-08-05 | Partnership | Cross-industry Convergence |  |  |  | pending |
 | Alphabet Inc. (Class C) (GOOG) | 2026-08-03 | 2026-08-05 | Partnership | Complementary |  |  |  | pending |
 | Autodesk (ADSK) | 2026-08-03 | 2026-08-04 | Empire-building | Complementary |  |  |  | pending |
 | Skyworks Solutions (SWKS) | 2026-08-03 | 2026-08-04 | Empire-building | Scale |  |  |  | pending |
