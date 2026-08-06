@@ -27,18 +27,20 @@ the commit, and the full history has been public since this repo went live. Anyo
 historically, not investment advice and not predictions about any single stock. The patterns
 are exploratory and small-sample. Every quarter I report back, including the misses.
 
-_Last updated 2026-08-05. 51 live, 33 calibration, 84 tracked total._
+_Last updated 2026-08-07. 53 live, 33 calibration, 86 tracked total._
 
 ## The live table: scored before the outcome was known
 
 Every row here was scored within 14 days of the deal being announced... before any of the
 outcome numbers existed.
 
-All 51 live calls are still waiting on the market. The first 30-day
+All 53 live calls are still waiting on the market. The first 30-day
 numbers land around 2026-09-02.
 
 | Company | Deal date | Scored | Posture | Structure | 30d | 90d | 1yr | Status |
 |---|---|---|---|---|---|---|---|---|
+| Realty Income (O) | 2026-08-06 | 2026-08-07 | Partnership | Cross-industry Convergence |  |  |  | pending |
+| Martin Marietta Materials (MLM) | 2026-08-05 | 2026-08-07 | Empire-building | Scale |  |  |  | pending |
 | Clorox (CLX) | 2026-08-05 | 2026-08-05 | Empire-building | Scale |  |  |  | pending |
 | Prologis (PLD) | 2026-08-04 | 2026-08-05 | Empire-building | Scale |  |  |  | pending |
 | International Flavors & Fragrances (IFF) | 2026-08-04 | 2026-08-05 | Focus | Scale |  |  |  | pending |
@@ -132,7 +134,7 @@ so nobody has to take that on faith.
 | Keysight Technologies (KEYS) | 2026-04-06 | 2026-07-24 | 109 | Partnership | Complementary | -20.7% |  |  | 30d in |
 | Starbucks (SBUX) | 2026-04-02 | 2026-07-24 | 113 | Partnership | Scale | +5.9% |  |  | 30d in |
 | Clorox (CLX) | 2026-04-01 | 2026-07-24 | 114 | Empire-building | Complementary | -11.4% |  |  | 30d in |
-| Norwegian Cruise Line Holdings (NCLH) | 2026-03-27 | 2026-07-24 | 119 | Partnership | Scale | -32.0% |  |  | 30d in |
+| Norwegian Cruise Line Holdings (NCLH) | 2026-03-27 | 2026-07-24 | 119 | Partnership | Scale | -32.0% | -10.1% |  | 90d in |
 
 _The scoreboard is free and stays free. The written breakdowns (the players, the deal, the
 principle behind it) go out on [Dealmakers Digest](https://substack.com/@shavaye)._
