@@ -27,18 +27,21 @@ the commit, and the full history has been public since this repo went live. Anyo
 historically, not investment advice and not predictions about any single stock. The patterns
 are exploratory and small-sample. Every quarter I report back, including the misses.
 
-_Last updated 2026-08-08. 57 live, 33 calibration, 90 tracked total._
+_Last updated 2026-08-09. 60 live, 33 calibration, 93 tracked total._
 
 ## The live table: scored before the outcome was known
 
 Every row here was scored within 14 days of the deal being announced... before any of the
 outcome numbers existed.
 
-All 57 live calls are still waiting on the market. The first 30-day
+All 60 live calls are still waiting on the market. The first 30-day
 numbers land around 2026-09-02.
 
 | Company | Deal date | Scored | Posture | Structure | 30d | 90d | 1yr | Status | Sources |
 |---|---|---|---|---|---|---|---|---|---|
+| Berkshire Hathaway (BRK.B) | 2026-08-08 | 2026-08-09 | Empire-building | Scale |  |  |  | pending | [SEC filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1067983&type=8-K&dateb=&owner=include&count=40) · [Press](https://www.fool.com/investing/2026/08/08/warren-buffett-has-recommended-the-same-investment/?source=iedfolrf0000001) |
+| Nvidia (NVDA) | 2026-08-08 | 2026-08-09 | Partnership | Complementary |  |  |  | pending | [SEC filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1045810&type=8-K&dateb=&owner=include&count=40) · [Press](https://www.fool.com/investing/2026/08/08/the-ai-trade-rotation-money-is-moving-out-of-chips/?source=iedfolrf0000001) |
+| Palantir Technologies (PLTR) | 2026-08-08 | 2026-08-09 | Partnership | Cross-industry Convergence |  |  |  | pending | [SEC filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1321655&type=8-K&dateb=&owner=include&count=40) · [Press](https://www.fool.com/investing/2026/08/08/the-ai-trade-rotation-money-is-moving-out-of-chips/?source=iedfolrf0000001) |
 | Uber (UBER) | 2026-08-07 | 2026-08-08 | Empire-building | Scale |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1543151/000155278126000414/e26328_uber-8k.htm) · [Press](https://www.fool.com/investing/2026/08/07/meet-the-quiet-monopoly-hiding-in-the-industrial-s/?source=iedfolrf0000001) |
 | Yum! Brands (YUM) | 2026-08-07 | 2026-08-08 | Partnership | Scale |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1041061/000110465926092305/tm2622152d1_8k.htm) |
 | Oracle (ORCL) | 2026-08-07 | 2026-08-08 | Partnership | Convergence |  |  |  | pending | [SEC filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1341439&type=8-K&dateb=&owner=include&count=40) · [Press](https://www.fool.com/investing/2026/08/07/oracle-surges-whats-driving-the-sudden-rally/?source=iedfolrf0000001) |
