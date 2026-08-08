@@ -1,87 +1,91 @@
-ticker,company,event_date,scored_date,posture,structure,car_30,car_90,car_252,status,prospective
-O,Realty Income,2026-08-06,2026-08-07,Partnership,Cross-industry Convergence,,,,pending,Y
-MLM,Martin Marietta Materials,2026-08-05,2026-08-07,Empire-building,Scale,,,,pending,Y
-CLX,Clorox,2026-08-05,2026-08-05,Empire-building,Scale,,,,pending,Y
-PLD,Prologis,2026-08-04,2026-08-05,Empire-building,Scale,,,,pending,Y
-IFF,International Flavors & Fragrances,2026-08-04,2026-08-05,Focus,Scale,,,,pending,Y
-MAR,Marriott International,2026-08-04,2026-08-05,Partnership,Cross-industry Convergence,,,,pending,Y
-MGM,MGM Resorts,2026-08-04,2026-08-05,Partnership,Cross-industry Convergence,,,,pending,Y
-GOOG,Alphabet Inc. (Class C),2026-08-03,2026-08-05,Partnership,Complementary,,,,pending,Y
-ADSK,Autodesk,2026-08-03,2026-08-04,Empire-building,Complementary,,,,pending,Y
-SWKS,Skyworks Solutions,2026-08-03,2026-08-04,Empire-building,Scale,,,,pending,Y
-BRK.B,Berkshire Hathaway,2026-08-03,2026-08-04,Empire-building,Scale,,,,pending,Y
-MSFT,Microsoft,2026-08-03,2026-08-04,Partnership,Complementary,,,,pending,Y
-NVDA,Nvidia,2026-07-31,2026-08-02,Partnership,Convergence,,,,pending,Y
-QCOM,Qualcomm,2026-07-31,2026-08-02,Empire-building,Complementary,,,,pending,Y
-ICE,Intercontinental Exchange,2026-07-30,2026-08-02,Empire-building,Complementary,,,,pending,Y
-LLY,Lilly (Eli),2026-07-29,2026-08-02,Empire-building,Convergence,,,,pending,Y
-META,Meta Platforms,2026-07-29,2026-08-02,Partnership,Scale,,,,pending,Y
-ON,ON Semiconductor,2026-07-29,2026-08-02,Empire-building,Complementary,,,,pending,Y
-PSKY,Paramount Skydance Corporation,2026-07-29,2026-08-02,Empire-building,Scale,,,,pending,Y
-WBD,Warner Bros. Discovery,2026-07-29,2026-08-02,Empire-building,Scale,,,,pending,Y
-JNJ,Johnson & Johnson,2026-07-29,2026-08-02,Empire-building,Complementary,,,,pending,Y
-SWKS,Skyworks Solutions,2026-07-28,2026-08-02,Empire-building,Scale,,,,pending,Y
-T,AT&T,2026-07-28,2026-08-02,Partnership,Cross-industry Complementary,,,,pending,Y
-NEE,NextEra Energy,2026-07-28,2026-08-02,Empire-building,Scale,,,,pending,Y
-NVDA,Nvidia,2026-07-28,2026-08-02,Partnership,Complementary,,,,pending,Y
-WBD,Warner Bros. Discovery,2026-07-28,2026-08-02,Partnership,Cross-industry Convergence,,,,pending,Y
-SATS,EchoStar,2026-07-28,2026-08-02,Focus,Scale,,,,pending,Y
-NVDA,Nvidia,2026-07-27,2026-08-02,Partnership,Complementary,,,,pending,Y
-BKR,Baker Hughes,2026-07-26,2026-08-02,Empire-building,Complementary,,,,pending,Y
-CMCSA,Comcast,2026-07-26,2026-08-02,Focus,Complementary,,,,pending,Y
-ABBV,AbbVie,2026-07-25,2026-08-02,Empire-building,Complementary,,,,pending,Y
-COF,Capital One,2026-07-25,2026-08-02,Empire-building,Scale,,,,pending,Y
-NVDA,Nvidia,2026-07-25,2026-08-02,Partnership,Complementary,,,,pending,Y
-DHR,Danaher Corporation,2026-07-24,2026-08-02,Empire-building,Complementary,,,,pending,Y
-NEE,NextEra Energy,2026-07-24,2026-08-02,Empire-building,Scale,,,,pending,Y
-AMD,Advanced Micro Devices,2026-07-24,2026-08-02,Partnership,Convergence,,,,pending,Y
-NOW,ServiceNow,2026-07-24,2026-08-02,Partnership,Complementary,,,,pending,Y
-IT,Gartner,2026-07-23,2026-08-02,Focus,Scale,,,,pending,Y
-UNP,Union Pacific Corporation,2026-07-23,2026-08-02,Empire-building,Scale,,,,pending,Y
-PSA,Public Storage,2026-07-22,2026-08-02,Empire-building,Scale,,,,pending,Y
-AMD,Advanced Micro Devices,2026-07-22,2026-08-02,Partnership,Convergence,,,,pending,Y
-CVNA,Carvana,2026-07-22,2026-08-02,Empire-building,Convergence,,,,pending,Y
-MSFT,Microsoft,2026-07-22,2026-08-02,Partnership,Complementary,,,,pending,Y
-UNP,Union Pacific Corporation,2026-07-22,2026-08-02,Partnership,Complementary,,,,pending,Y
-UNP,Union Pacific Corporation,2026-07-22,2026-08-02,Empire-building,Scale,,,,pending,Y
-BRK.B,Berkshire Hathaway,2026-07-21,2026-08-02,Empire-building,Scale,,,,pending,Y
-NDAQ,"Nasdaq, Inc.",2026-07-21,2026-08-02,Focus,Scale,,,,pending,Y
-NVDA,Nvidia,2026-07-21,2026-08-02,Partnership,Convergence,,,,pending,Y
-PGR,Progressive Corporation,2026-07-21,2026-08-02,Partnership,Cross-industry Convergence,,,,pending,Y
-NVDA,Nvidia,2026-07-20,2026-08-02,Partnership,Complementary,,,,pending,Y
-PLTR,Palantir Technologies,2026-07-20,2026-08-02,Partnership,Cross-industry Complementary,,,,pending,Y
-PFE,Pfizer,2026-07-20,2026-08-02,Empire-building,Complementary,,,,pending,Y
-REGN,Regeneron Pharmaceuticals,2026-07-20,2026-08-02,Partnership,Complementary,,,,pending,Y
-BIIB,Biogen,2026-06-17,2026-08-01,Empire-building,Complementary,+2.5%,,,30d in,N
-QCOM,Qualcomm,2026-06-17,2026-08-01,Partnership,Cross-industry Convergence,-43.2%,,,30d in,N
-VRT,Vertiv,2026-06-12,2026-07-29,Empire-building,Complementary,-18.3%,,,30d in,N
-CTAS,Cintas,2026-06-12,2026-07-29,Empire-building,Scale,+23.2%,,,30d in,N
-KHC,Kraft Heinz,2026-06-12,2026-07-29,Partnership,Cross-industry Convergence,+12.1%,,,30d in,N
-ETN,Eaton Corporation,2026-06-11,2026-07-28,Empire-building,Scale,+0.0%,,,30d in,N
-KDP,Keurig Dr Pepper,2026-04-13,2026-07-25,Empire-building,Scale,+10.2%,,,30d in,N
-CSGP,CoStar Group,2026-05-29,2026-07-24,Empire-building,Complementary,+5.3%,,,30d in,N
-ECL,Ecolab,2026-05-29,2026-07-24,Empire-building,Complementary,+8.5%,,,30d in,N
-TSCO,Tractor Supply,2026-05-28,2026-07-24,Empire-building,Convergence,+12.1%,,,30d in,N
-CVS,CVS Health,2026-05-28,2026-07-24,Partnership,Complementary,+8.6%,,,30d in,N
-UNP,Union Pacific Corporation,2026-05-28,2026-07-24,Empire-building,Scale,+4.8%,,,30d in,N
-F,Ford Motor Company,2026-05-21,2026-07-24,Focus,Complementary,+3.6%,,,30d in,N
-AMD,Advanced Micro Devices,2026-05-21,2026-07-24,Partnership,Complementary,+5.7%,,,30d in,N
-KEYS,Keysight Technologies,2026-05-21,2026-07-24,Partnership,Complementary,-23.7%,,,30d in,N
-BSX,Boston Scientific,2026-05-18,2026-07-24,Empire-building,Complementary,-11.7%,,,30d in,N
-NDAQ,"Nasdaq, Inc.",2026-05-08,2026-07-24,Partnership,Convergence,-6.9%,,,30d in,N
-CCL,Carnival Corporation,2026-05-07,2026-07-24,Empire-building,Scale,+9.9%,,,30d in,N
-DLR,Digital Realty,2026-05-06,2026-07-24,Partnership,Complementary,-9.8%,,,30d in,N
-MA,Mastercard,2026-05-06,2026-07-24,Partnership,Cross-industry Convergence,+1.8%,,,30d in,N
-AXP,American Express,2026-05-04,2026-07-24,Focus,Scale,+5.5%,,,30d in,N
-CCI,Crown Castle,2026-05-01,2026-07-24,Focus,Scale,+0.5%,,,30d in,N
-VRT,Vertiv,2026-04-27,2026-07-24,Empire-building,Complementary,-30.3%,,,30d in,N
-PEP,PepsiCo,2026-04-21,2026-07-24,Partnership,Scale,-8.1%,,,30d in,N
-TDG,TransDigm Group,2026-04-17,2026-07-24,Empire-building,Scale,-3.7%,,,30d in,N
-ECL,Ecolab,2026-04-15,2026-07-24,Empire-building,Scale,-7.4%,,,30d in,N
-LDOS,Leidos,2026-04-15,2026-07-24,Partnership,Cross-industry Complementary,-17.2%,,,30d in,N
-ARES,Ares Management,2026-04-09,2026-07-24,Empire-building,Scale,+10.0%,,,30d in,N
-HWM,Howmet Aerospace,2026-04-06,2026-07-24,Empire-building,Scale,-8.4%,,,30d in,N
-KEYS,Keysight Technologies,2026-04-06,2026-07-24,Partnership,Complementary,-20.7%,,,30d in,N
-SBUX,Starbucks,2026-04-02,2026-07-24,Partnership,Scale,+5.9%,,,30d in,N
-CLX,Clorox,2026-04-01,2026-07-24,Empire-building,Complementary,-11.4%,,,30d in,N
-NCLH,Norwegian Cruise Line Holdings,2026-03-27,2026-07-24,Partnership,Scale,-32.0%,-10.1%,,90d in,N
+ticker,company,event_date,scored_date,posture,structure,car_30,car_90,car_252,status,prospective,sec_url,press_url
+UBER,Uber,2026-08-07,2026-08-08,Empire-building,Scale,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/1543151/000155278126000414/e26328_uber-8k.htm,https://www.fool.com/investing/2026/08/07/meet-the-quiet-monopoly-hiding-in-the-industrial-s/?source=iedfolrf0000001
+YUM,Yum! Brands,2026-08-07,2026-08-08,Partnership,Scale,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/1041061/000110465926092305/tm2622152d1_8k.htm,
+ORCL,Oracle Corporation,2026-08-07,2026-08-08,Partnership,Convergence,,,,pending,Y,,https://www.fool.com/investing/2026/08/07/oracle-surges-whats-driving-the-sudden-rally/?source=iedfolrf0000001
+BIIB,Biogen,2026-08-06,2026-08-08,Empire-building,Complementary,,,,pending,Y,,https://www.globenewswire.com/news-release/2026/08/06/3340877/0/en/Biogen-Completes-Acquisition-of-RayThera-Inc.html
+O,Realty Income,2026-08-06,2026-08-07,Partnership,Cross-industry Convergence,,,,pending,Y,,https://www.fool.com/investing/2026/08/06/realty-income-raised-its-2026-affo-guidance-heres-what-that-means-for-its-52-dividend/?source=iedfolrf0000001
+MLM,Martin Marietta Materials,2026-08-05,2026-08-07,Empire-building,Scale,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/916076/000095015726000850/form8-k.htm,
+CLX,Clorox,2026-08-05,2026-08-05,Empire-building,Scale,,,,pending,Y,,https://www.fool.com/investing/2026/08/05/meet-the-51-yielding-stock-that-just-increased-its/?source=iedfolrf0000001
+PLD,Prologis,2026-08-04,2026-08-05,Empire-building,Scale,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/1045609/000110465926089980/tm2621154d2_8k.htm,
+IFF,International Flavors & Fragrances,2026-08-04,2026-08-05,Focus,Scale,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/51253/000005125326000032/iff-20260804.htm,
+MAR,Marriott International,2026-08-04,2026-08-05,Partnership,Cross-industry Convergence,,,,pending,Y,,https://www.globenewswire.com/news-release/2026/08/04/3338964/0/en/Marriott-Bonvoy-and-BetMGM-Bring-Rewards-Collaboration-to-Canada.html
+MGM,MGM Resorts,2026-08-04,2026-08-05,Partnership,Cross-industry Convergence,,,,pending,Y,,https://www.globenewswire.com/news-release/2026/08/04/3338964/0/en/Marriott-Bonvoy-and-BetMGM-Bring-Rewards-Collaboration-to-Canada.html
+GOOG,Alphabet Inc. (Class C),2026-08-03,2026-08-05,Partnership,Complementary,,,,pending,Y,,https://www.fool.com/investing/2026/08/02/the-fed-held-interest-rates-steady-for-a-2nd-strai/?source=iedfolrf0000001
+ADSK,Autodesk,2026-08-03,2026-08-04,Empire-building,Complementary,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/769397/000121390026084276/ea0300009-8k_autodesk.htm,
+SWKS,Skyworks Solutions,2026-08-03,2026-08-04,Empire-building,Scale,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/4127/000110465926089397/tm2621905d1_8k.htm,
+BRK.B,Berkshire Hathaway,2026-08-03,2026-08-04,Empire-building,Scale,,,,pending,Y,,https://www.fool.com/investing/2026/08/02/greg-abels-berkshire-hathaway-what-the-next-decade/?source=iedfolrf0000001
+MSFT,Microsoft,2026-08-03,2026-08-04,Partnership,Complementary,,,,pending,Y,,https://www.fool.com/investing/2026/08/02/the-fed-held-interest-rates-steady-for-a-2nd-strai/?source=iedfolrf0000001
+NVDA,Nvidia,2026-07-31,2026-08-02,Partnership,Convergence,,,,pending,Y,,https://www.globenewswire.com/news-release/2026/07/31/3336617/0/en/STARTRADER-expands-AI-offering-with-31-New-US-Share-ETF-CFDs-in-Semiconductors-Optical-Networking-Nuclear.html
+QCOM,Qualcomm,2026-07-31,2026-08-02,Empire-building,Complementary,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/804328/000110465926089234/tm2621612d2_8k.htm,
+ICE,Intercontinental Exchange,2026-07-30,2026-08-02,Empire-building,Complementary,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/1571949/000119312526324909/d116245d8k.htm,
+LLY,Lilly (Eli),2026-07-29,2026-08-02,Empire-building,Convergence,,,,pending,Y,,https://www.fool.com/investing/2026/07/28/4-stocks-that-can-4x-your-money-in-4-years/?source=iedfolrf0000001
+META,Meta Platforms,2026-07-29,2026-08-02,Partnership,Scale,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-20260729.htm,https://www.fool.com/investing/2026/07/28/satya-nadellas-microsoft-needs-power-joe-creeds-ca/?source=iedfolrf0000001
+ON,ON Semiconductor,2026-07-29,2026-08-02,Empire-building,Complementary,,,,pending,Y,,https://www.fool.com/investing/2026/07/29/should-you-ignore-vertiv-why-on-semiconductor-may/?source=iedfolrf0000001
+PSKY,Paramount Skydance Corporation,2026-07-29,2026-08-02,Empire-building,Scale,,,,pending,Y,,https://www.fool.com/coverage/filings/2026/07/29/paramount-skydance-s-cfo-sold-over-95-000-shares-amid-delays-with-its-warner-bros-discovery-merger/?source=iedfolrf0000001
+WBD,Warner Bros. Discovery,2026-07-29,2026-08-02,Empire-building,Scale,,,,pending,Y,,https://www.fool.com/coverage/filings/2026/07/29/paramount-skydance-s-cfo-sold-over-95-000-shares-amid-delays-with-its-warner-bros-discovery-merger/?source=iedfolrf0000001
+JNJ,Johnson & Johnson,2026-07-29,2026-08-02,Empire-building,Complementary,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/200406/000020040626000163/jnj-20260729.htm,https://www.fool.com/coverage/charts/2026/07/29/johnson-and-johnson-vs-eli-lilly-reliable-stability-vs-rapid-revenue-growth/?source=iedfolrf0000001
+SWKS,Skyworks Solutions,2026-07-28,2026-08-02,Empire-building,Scale,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/4127/000000412726000047/swks-20260727.htm,
+T,AT&T,2026-07-28,2026-08-02,Partnership,Cross-industry Complementary,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/732717/000119312526321053/d142142d8k.htm,https://www.fool.com/investing/2026/07/27/why-d-wave-quantum-stock-surged-today/?source=iedfolrf0000001
+NEE,NextEra Energy,2026-07-28,2026-08-02,Empire-building,Scale,,,,pending,Y,,https://www.fool.com/investing/2026/07/28/nextera-energy-is-becoming-the-utility-sectors-big/?source=iedfolrf0000001
+NVDA,Nvidia,2026-07-28,2026-08-02,Partnership,Complementary,,,,pending,Y,,https://www.fool.com/investing/2026/07/27/why-nvidia-stock-nvda-fell-today/?source=iedfolrf0000001
+WBD,Warner Bros. Discovery,2026-07-28,2026-08-02,Partnership,Cross-industry Convergence,,,,pending,Y,,https://www.globenewswire.com/news-release/2026/07/28/3333984/0/en/Adventure-of-Extremes-JETOUR-G700-and-Ed-Stafford-Conquer-the-World-s-Toughest-Terrains.html
+SATS,EchoStar,2026-07-28,2026-08-02,Focus,Scale,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/1415404/000141540426000035/sats-20260728x8k.htm,
+NVDA,Nvidia,2026-07-27,2026-08-02,Partnership,Complementary,,,,pending,Y,,https://www.fool.com/investing/2026/07/26/alphabets-ceo-sundar-pichai-just-made-a-major-deci/?source=iedfolrf0000001
+BKR,Baker Hughes,2026-07-26,2026-08-02,Empire-building,Complementary,,,,pending,Y,,https://www.globenewswire.com/news-release/2026/07/26/3333227/0/en/Baker-Hughes-Declares-Quarterly-Dividend.html
+CMCSA,Comcast,2026-07-26,2026-08-02,Focus,Complementary,,,,pending,Y,,https://www.fool.com/investing/2026/07/26/huge-news-for-netflix-stock-investors/?source=iedfolrf0000001
+ABBV,AbbVie,2026-07-25,2026-08-02,Empire-building,Complementary,,,,pending,Y,,https://www.fool.com/investing/2026/07/25/why-wall-street-cant-get-enough-of-this-dividend-k/?source=iedfolrf0000001
+COF,Capital One,2026-07-25,2026-08-02,Empire-building,Scale,,,,pending,Y,,https://www.fool.com/investing/2026/07/25/what-the-capital-one-discover-tie-up-means-for-the/?source=iedfolrf0000001
+NVDA,Nvidia,2026-07-25,2026-08-02,Partnership,Complementary,,,,pending,Y,,https://www.globenewswire.com/news-release/2026/07/25/3333161/0/en/SK-Group-and-NVIDIA-Expand-Strategic-Partnership-Across-AI-Factories-and-Next-Generation-Memory.html
+DHR,Danaher Corporation,2026-07-24,2026-08-02,Empire-building,Complementary,,,,pending,Y,,https://www.fool.com/investing/2026/07/24/heres-why-the-slump-in-danaher-stock-this-week-loo/?source=iedfolrf0000001
+NEE,NextEra Energy,2026-07-24,2026-08-02,Empire-building,Scale,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/753308/000075330826000058/nee-20260724.htm,https://www.fool.com/investing/2026/07/24/want-to-be-a-millionaire-buy-these-3-stocks-and-ho/?source=iedfolrf0000001
+AMD,Advanced Micro Devices,2026-07-24,2026-08-02,Partnership,Convergence,,,,pending,Y,,https://www.fool.com/investing/2026/07/23/2-hidden-businesses-to-watch-as-ai-keeps-heating-up/?source=iedfolrf0000001
+NOW,ServiceNow,2026-07-24,2026-08-02,Partnership,Complementary,,,,pending,Y,,https://www.globenewswire.com/news-release/2026/07/24/3332967/0/he/Learning-Tree-International-%D7%94%D7%95%D7%A4%D7%9B%D7%AA-%D7%9C%D7%A9%D7%95%D7%AA%D7%A4%D7%AA-%D7%94%D7%93%D7%A8%D7%9B%D7%94-%D7%9E%D7%95%D7%A8%D7%A9%D7%99%D7%AA-%D7%A9%D7%9C-ServiceNow-%D7%91%D7%9E%D7%98%D7%A8%D7%94-%D7%9C%D7%A7%D7%93%D7%9D-%D7%90%D7%AA-%D7%94%D7%90%D7%99%D7%9E%D7%95%D7%A5-%D7%A9%D7%9C-%D7%A4%D7%9C%D7%98%D7%A4%D7%95%D7%A8%D7%9E%D7%94-%D7%90%D7%A8%D7%92%D7%95%D7%A0%D7%99%D7%AA.html
+IT,Gartner,2026-07-23,2026-08-02,Focus,Scale,,,,pending,Y,,https://www.fool.com/investing/2026/07/23/why-gartner-stock-swooned-in-the-first-half-of-202/?source=iedfolrf0000001
+UNP,Union Pacific Corporation,2026-07-23,2026-08-02,Empire-building,Scale,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/100885/000010088526000249/unp-20260723.htm,https://www.globenewswire.com/news-release/2026/07/23/3331822/0/fr/Union-Pacific-et-le-CN-concluent-une-entente-visant-%C3%A0-%C3%A9largir-les-occasions-offertes-aux-clients-dans-le-cadre-de-la-fusion.html
+PSA,Public Storage,2026-07-22,2026-08-02,Empire-building,Scale,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/1393311/000119312526312563/d137665d8k.htm,
+AMD,Advanced Micro Devices,2026-07-22,2026-08-02,Partnership,Convergence,,,,pending,Y,,https://www.fool.com/investing/2026/07/21/why-amd-stock-jumped-today/?source=iedfolrf0000001
+CVNA,Carvana,2026-07-22,2026-08-02,Empire-building,Convergence,,,,pending,Y,,https://www.fool.com/investing/2026/07/22/strange-pairing-stellantis-carvana-/?source=iedfolrf0000001
+MSFT,Microsoft,2026-07-22,2026-08-02,Partnership,Complementary,,,,pending,Y,,https://www.fool.com/investing/2026/07/21/why-amd-stock-jumped-today/?source=iedfolrf0000001
+UNP,Union Pacific Corporation,2026-07-22,2026-08-02,Partnership,Complementary,,,,pending,Y,,https://www.globenewswire.com/news-release/2026/07/22/3331805/0/en/Union-Pacific-and-CN-Announce-Agreement-to-Improve-North-American-Rail-Connectivity.html
+UNP,Union Pacific Corporation,2026-07-22,2026-08-02,Empire-building,Scale,,,,pending,Y,,https://www.globenewswire.com/news-release/2026/07/22/3331805/0/en/Union-Pacific-and-CN-Announce-Agreement-to-Improve-North-American-Rail-Connectivity.html
+BRK.B,Berkshire Hathaway,2026-07-21,2026-08-02,Empire-building,Scale,,,,pending,Y,,https://www.fool.com/investing/2026/07/21/warren-buffetts-berkshire-hathaway-owns-zero-pure/?source=iedfolrf0000001
+NDAQ,"Nasdaq, Inc.",2026-07-21,2026-08-02,Focus,Scale,,,,pending,Y,,https://www.globenewswire.com/news-release/2026/07/21/3330468/0/en/NPM-Announces-Acquisition-of-Nasdaq-Fund-Secondaries-NFS.html
+NVDA,Nvidia,2026-07-21,2026-08-02,Partnership,Convergence,,,,pending,Y,,https://www.fool.com/investing/2026/07/21/2-discounted-stocks-cathie-wood-is-buying-aggressi/?source=iedfolrf0000001
+PGR,Progressive Corporation,2026-07-21,2026-08-02,Partnership,Cross-industry Convergence,,,,pending,Y,,https://www.globenewswire.com/news-release/2026/07/21/3330934/0/en/Winnebago-and-Progressive-Insurance-team-up-to-elevate-the-RV-ownership-experience.html
+NVDA,Nvidia,2026-07-20,2026-08-02,Partnership,Complementary,,,,pending,Y,,https://www.fool.com/investing/2026/07/20/should-buy-micron-technology-stock-1000-surprise/?source=iedfolrf0000001
+PLTR,Palantir Technologies,2026-07-20,2026-08-02,Partnership,Cross-industry Complementary,,,,pending,Y,,https://www.fool.com/investing/2026/07/20/what-happens-to-stocks-after-joining-the-nasdaq-10/?source=iedfolrf0000001
+PFE,Pfizer,2026-07-20,2026-08-02,Empire-building,Complementary,,,,pending,Y,,https://www.fool.com/investing/2026/07/20/could-pfizer-ultimately-be-the-biggest-winner-in-t/?source=iedfolrf0000001
+REGN,Regeneron Pharmaceuticals,2026-07-20,2026-08-02,Partnership,Complementary,,,,pending,Y,,https://www.globenewswire.com/news-release/2026/07/20/3330166/0/en/Telix-Q2-Revenue-US-247M-Strong-Momentum-and-Pipeline-Progress.html
+BIIB,Biogen,2026-06-17,2026-08-01,Empire-building,Complementary,+2.5%,,,30d in,N,,https://www.globenewswire.com/news-release/2026/06/17/3313870/0/en/Biogen-Expands-Immunology-Pipeline-with-Agreement-to-Acquire-RayThera-Inc.html
+QCOM,Qualcomm,2026-06-17,2026-08-01,Partnership,Cross-industry Convergence,-43.2%,,,30d in,N,,https://www.globenewswire.com/news-release/2026/06/17/3313572/0/en/Applied-Materials-Unveils-SENZ-a-Fully-Integrated-Visual-System-for-Next-Gen-Smart-Glasses.html
+VRT,Vertiv,2026-06-12,2026-07-29,Empire-building,Complementary,-18.3%,,,30d in,N,https://www.sec.gov/Archives/edgar/data/1674101/000162828026042641/vrt-20260612.htm,
+CTAS,Cintas,2026-06-12,2026-07-29,Empire-building,Scale,+23.2%,,,30d in,N,https://www.sec.gov/Archives/edgar/data/723254/000095010326008890/dp248355_8k.htm,https://www.benzinga.com/pressreleases/26/06/g53162726/unifirst-shareholders-approve-transaction-with-cintas?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel
+KHC,Kraft Heinz,2026-06-12,2026-07-29,Partnership,Cross-industry Convergence,+12.1%,,,30d in,N,,https://www.globenewswire.com/news-release/2026/06/12/3310934/0/en/THE-MATCH-WE-VE-ALL-BEEN-WAITING-FOR-Heinz-and-Heineken-finally-make-it-official.html
+ETN,Eaton Corporation,2026-06-11,2026-07-28,Empire-building,Scale,+0.0%,,,30d in,N,https://www.sec.gov/Archives/edgar/data/1551182/000095014226001733/eh260792115_8k.htm,https://www.benzinga.com/m-a/26/06/53142265/why-dana-and-eaton-investors-are-watching-this-10b-mobility-deal?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel
+KDP,Keurig Dr Pepper,2026-04-13,2026-07-25,Empire-building,Scale,+10.2%,,,30d in,N,,https://www.globenewswire.com/news-release/2026/04/13/3272923/0/en/Keurig-Dr-Pepper-Announces-Results-of-Post-Closing-Acceptance-Period-for-Offer-for-JDE-Peet-s-97-75-of-all-Shares-tendered.html
+CSGP,CoStar Group,2026-05-29,2026-07-24,Empire-building,Complementary,+5.3%,,,30d in,N,https://www.sec.gov/Archives/edgar/data/1057352/000119312526246361/d91732d8k.htm,
+ECL,Ecolab,2026-05-29,2026-07-24,Empire-building,Complementary,+8.5%,,,30d in,N,https://www.sec.gov/Archives/edgar/data/31462/000110465926068276/tm2615907d1_8k.htm,
+TSCO,Tractor Supply,2026-05-28,2026-07-24,Empire-building,Convergence,+12.1%,,,30d in,N,https://www.sec.gov/Archives/edgar/data/916365/000091636526000046/tsco-20260528.htm,
+CVS,CVS Health,2026-05-28,2026-07-24,Partnership,Complementary,+8.6%,,,30d in,N,,https://www.globenewswire.com/news-release/2026/05/28/3303059/0/en/H1-Receives-40M-Investment-in-Round-Led-by-CVS-Health-Ventures.html
+UNP,Union Pacific Corporation,2026-05-28,2026-07-24,Empire-building,Scale,+4.8%,,,30d in,N,,https://www.globenewswire.com/news-release/2026/05/28/3303337/0/en/CN-Says-STB-Was-Right-to-Freeze-the-UP-NS-Merger-and-Demand-More-Information.html
+F,Ford Motor Company,2026-05-21,2026-07-24,Focus,Complementary,+3.6%,,,30d in,N,https://www.sec.gov/Archives/edgar/data/37996/000003799626000093/f-20260520.htm,https://www.fool.com/coverage/stock-market-today/2026/05/21/stock-market-today-may-21-stellantis-shares-flat-on-investor-day-strategy-unveiling/?source=iedfolrf0000001
+AMD,Advanced Micro Devices,2026-05-21,2026-07-24,Partnership,Complementary,+5.7%,,,30d in,N,,https://www.globenewswire.com/news-release/2026/05/21/3299031/0/en/Nokia-launches-AI-networking-lab-to-drive-co-innovation-with-partners-and-accelerate-next-era-of-AI-native-data-center-networking.html
+KEYS,Keysight Technologies,2026-05-21,2026-07-24,Partnership,Complementary,-23.7%,,,30d in,N,,https://www.globenewswire.com/news-release/2026/05/21/3299031/0/en/Nokia-launches-AI-networking-lab-to-drive-co-innovation-with-partners-and-accelerate-next-era-of-AI-native-data-center-networking.html
+BSX,Boston Scientific,2026-05-18,2026-07-24,Empire-building,Complementary,-11.7%,,,30d in,N,https://www.sec.gov/Archives/edgar/data/885725/000088572526000042/bsx-20260518.htm,https://www.benzinga.com/m-a/26/05/52646294/boston-scientific-targets-growing-aortic-stenosis-market-with-1-5-billion-deal?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel
+NDAQ,"Nasdaq, Inc.",2026-05-08,2026-07-24,Partnership,Convergence,-6.9%,,,30d in,N,,https://www.globenewswire.com/news-release/2026/05/08/3291030/0/en/Moomoo-Canada-Partners-with-Nasdaq-to-Launch-Canada-s-First-Live-Real-Money-National-Trading-Competition.html
+CCL,Carnival Corporation,2026-05-07,2026-07-24,Empire-building,Scale,+9.9%,,,30d in,N,https://www.sec.gov/Archives/edgar/data/815097/000110465926057200/tm2613680d1_8k.htm,
+DLR,Digital Realty,2026-05-06,2026-07-24,Partnership,Complementary,-9.8%,,,30d in,N,,https://www.globenewswire.com/news-release/2026/05/06/3289231/0/en/Digital-Realty-Expands-Talent-Development-Opportunities-for-Operations-Workforce-Through-Partnership-with-DCD-Academy.html
+MA,Mastercard,2026-05-06,2026-07-24,Partnership,Cross-industry Convergence,+1.8%,,,30d in,N,,https://www.globenewswire.com/news-release/2026/05/06/3288855/0/en/Bitget-Wallet-Expands-Crypto-Card-Availability-Across-Africa.html
+AXP,American Express,2026-05-04,2026-07-24,Focus,Scale,+5.5%,,,30d in,N,https://www.sec.gov/Archives/edgar/data/4962/000000496226000207/axp-20260504.htm,
+CCI,Crown Castle,2026-05-01,2026-07-24,Focus,Scale,+0.5%,,,30d in,N,https://www.sec.gov/Archives/edgar/data/1051470/000105147026000055/cci-20260501.htm,https://www.benzinga.com/pressreleases/26/05/g52211392/arium-networks-launches-following-completion-of-eqts-acquisition-of-crown-castles-small-cell-solut?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel
+VRT,Vertiv,2026-04-27,2026-07-24,Empire-building,Complementary,-30.3%,,,30d in,N,https://www.sec.gov/Archives/edgar/data/1674101/000162828026027297/vrt-20260427.htm,
+PEP,PepsiCo,2026-04-21,2026-07-24,Partnership,Scale,-8.1%,,,30d in,N,,https://www.globenewswire.com/news-release/2026/04/21/3277597/0/en/Royal-Unibrew-and-PepsiCo-to-end-the-partnership-in-Northern-Europe-upon-expiry-of-current-license-agreements.html
+TDG,TransDigm Group,2026-04-17,2026-07-24,Empire-building,Scale,-3.7%,,,30d in,N,https://www.sec.gov/Archives/edgar/data/1260221/000119312526161564/d108525d8k.htm,
+ECL,Ecolab,2026-04-15,2026-07-24,Empire-building,Scale,-7.4%,,,30d in,N,https://www.sec.gov/Archives/edgar/data/31462/000110465926043821/ecl-20260410x8k.htm,
+LDOS,Leidos,2026-04-15,2026-07-24,Partnership,Cross-industry Complementary,-17.2%,,,30d in,N,https://www.sec.gov/Archives/edgar/data/1336920/000119312526155884/d148240d8k.htm,
+ARES,Ares Management,2026-04-09,2026-07-24,Empire-building,Scale,+10.0%,,,30d in,N,,https://www.globenewswire.com/news-release/2026/04/09/3270730/7647/en/Whitestone-REIT-to-Be-Acquired-by-Ares-for-1-7-Billion.html
+HWM,Howmet Aerospace,2026-04-06,2026-07-24,Empire-building,Scale,-8.4%,,,30d in,N,https://www.sec.gov/Archives/edgar/data/4281/000110465926039959/tm2611203d1_8k.htm,
+KEYS,Keysight Technologies,2026-04-06,2026-07-24,Partnership,Complementary,-20.7%,,,30d in,N,,https://www.globenewswire.com/news-release/2026/04/06/3268297/24691/en/At-6G-UT-Forum-InterDigital-to-Demonstrate-AI-enabled-Teleoperation-and-Energy-Efficient-Edge-Intelligence.html
+SBUX,Starbucks,2026-04-02,2026-07-24,Partnership,Scale,+5.9%,,,30d in,N,https://www.sec.gov/Archives/edgar/data/829224/000082922426000064/sbux-20260402.htm,https://www.fool.com/investing/2026/04/02/why-beyond-meat-stock-fell-24-in-march/?source=iedfolrf0000001
+CLX,Clorox,2026-04-01,2026-07-24,Empire-building,Complementary,-11.4%,,,30d in,N,https://www.sec.gov/Archives/edgar/data/21076/000120677426000173/clx4613021-8k.htm,
+NCLH,Norwegian Cruise Line Holdings,2026-03-27,2026-07-24,Partnership,Scale,-32.0%,-10.1%,,90d in,N,https://www.sec.gov/Archives/edgar/data/1513761/000110465926035746/tm2610052d1_8k.htm,
