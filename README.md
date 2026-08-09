@@ -27,18 +27,22 @@ the commit, and the full history has been public since this repo went live. Anyo
 historically, not investment advice and not predictions about any single stock. The patterns
 are exploratory and small-sample. Every quarter I report back, including the misses.
 
-_Last updated 2026-08-09. 60 live, 33 calibration, 93 tracked total._
+_Last updated 2026-08-10. 64 live, 33 calibration, 97 tracked total._
 
 ## The live table: scored before the outcome was known
 
 Every row here was scored within 14 days of the deal being announced... before any of the
 outcome numbers existed.
 
-All 60 live calls are still waiting on the market. The first 30-day
+All 64 live calls are still waiting on the market. The first 30-day
 numbers land around 2026-09-02.
 
 | Company | Deal date | Scored | Posture | Structure | 30d | 90d | 1yr | Status | Sources |
 |---|---|---|---|---|---|---|---|---|---|
+| Fox Corporation (Class A) (FOXA) | 2026-08-09 | 2026-08-10 | Empire-building | Complementary |  |  |  | pending | [SEC filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1754301&type=8-K&dateb=&owner=include&count=40) · [Press](https://www.fool.com/coverage/filings/2026/08/08/a-roku-insider-sells-nearly-11-000-shares-for-usd1-6-million-as-the-company-prepares-to-be-acquired-here-s-a-closer-look-at-the-transaction/?source=iedfolrf0000001) |
+| Fox Corporation (Class B) (FOX) | 2026-08-09 | 2026-08-10 | Empire-building | Complementary |  |  |  | pending | [Press](https://www.fool.com/coverage/filings/2026/08/08/a-roku-insider-sells-nearly-11-000-shares-for-usd1-6-million-as-the-company-prepares-to-be-acquired-here-s-a-closer-look-at-the-transaction/?source=iedfolrf0000001) |
+| Skyworks Solutions (SWKS) | 2026-08-08 | 2026-08-10 | Empire-building | Complementary |  |  |  | pending | [SEC filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=4127&type=8-K&dateb=&owner=include&count=40) · [Press](https://www.fool.com/coverage/filings/2026/08/08/a-qorvo-executive-s-shares-vested-amid-the-skyworks-deal-here-s-what-to-know/?source=iedfolrf0000001) |
+| Skyworks Solutions (SWKS) | 2026-08-08 | 2026-08-10 | Focus | Scale |  |  |  | pending | [SEC filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=4127&type=8-K&dateb=&owner=include&count=40) · [Press](https://www.fool.com/coverage/filings/2026/08/08/a-qorvo-executive-s-shares-vested-amid-the-skyworks-deal-here-s-what-to-know/?source=iedfolrf0000001) |
 | Berkshire Hathaway (BRK.B) | 2026-08-08 | 2026-08-09 | Empire-building | Scale |  |  |  | pending | [SEC filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1067983&type=8-K&dateb=&owner=include&count=40) · [Press](https://www.fool.com/investing/2026/08/08/warren-buffett-has-recommended-the-same-investment/?source=iedfolrf0000001) |
 | Nvidia (NVDA) | 2026-08-08 | 2026-08-09 | Partnership | Complementary |  |  |  | pending | [SEC filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1045810&type=8-K&dateb=&owner=include&count=40) · [Press](https://www.fool.com/investing/2026/08/08/the-ai-trade-rotation-money-is-moving-out-of-chips/?source=iedfolrf0000001) |
 | Palantir Technologies (PLTR) | 2026-08-08 | 2026-08-09 | Partnership | Cross-industry Convergence |  |  |  | pending | [SEC filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1321655&type=8-K&dateb=&owner=include&count=40) · [Press](https://www.fool.com/investing/2026/08/08/the-ai-trade-rotation-money-is-moving-out-of-chips/?source=iedfolrf0000001) |
