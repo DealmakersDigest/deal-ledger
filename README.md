@@ -27,18 +27,20 @@ the commit, and the full history has been public since this repo went live. Anyo
 historically, not investment advice and not predictions about any single stock. The patterns
 are exploratory and small-sample. Every quarter I report back, including the misses.
 
-_Last updated 2026-08-11. 68 live, 33 calibration, 101 tracked total._
+_Last updated 2026-08-12. 70 live, 33 calibration, 103 tracked total._
 
 ## The live table: scored before the outcome was known
 
 Every row here was scored within 14 days of the deal being announced... before any of the
 outcome numbers existed.
 
-All 68 live calls are still waiting on the market. The first 30-day
+All 70 live calls are still waiting on the market. The first 30-day
 numbers land around 2026-09-02.
 
 | Company | Deal date | Scored | Posture | Structure | 30d | 90d | 1yr | Status | Sources |
 |---|---|---|---|---|---|---|---|---|---|
+| NextEra Energy (NEE) | 2026-08-11 | 2026-08-12 | Empire-building | Scale |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/753308/000075330826000065/nee-20260810.htm) |
+| Berkshire Hathaway (BRK.B) | 2026-08-11 | 2026-08-12 | Empire-building | Cross-industry Scale |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1067983/000119312526344495/d159922d8k.htm) · [Press](https://www.fool.com/investing/2026/08/11/is-berkshire-hathaway-stock-a-buy-as-warren-buffet/?source=iedfolrf0000001) |
 | Martin Marietta Materials (MLM) | 2026-08-10 | 2026-08-11 | Empire-building | Scale |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/916076/000119312526341412/d129878d8k.htm) |
 | Skyworks Solutions (SWKS) | 2026-08-10 | 2026-08-11 | Empire-building | Complementary |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/4127/000110465926093355/tm2622643d1_8k.htm) |
 | Teledyne Technologies (TDY) | 2026-08-10 | 2026-08-11 | Empire-building | Complementary |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1094285/000109428526000047/tdy-20260810.htm) |
@@ -148,7 +150,7 @@ so nobody has to take that on faith.
 | Howmet Aerospace (HWM) | 2026-04-06 | 2026-07-24 | 109 | Empire-building | Scale | -8.4% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/4281/000110465926039959/tm2611203d1_8k.htm) |
 | Keysight Technologies (KEYS) | 2026-04-06 | 2026-07-24 | 109 | Partnership | Complementary | -20.7% |  |  | 30d in | [SEC filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1601046&type=8-K&dateb=&owner=include&count=40) · [Press](https://www.globenewswire.com/news-release/2026/04/06/3268297/24691/en/At-6G-UT-Forum-InterDigital-to-Demonstrate-AI-enabled-Teleoperation-and-Energy-Efficient-Edge-Intelligence.html) |
 | Starbucks (SBUX) | 2026-04-02 | 2026-07-24 | 113 | Partnership | Scale | +5.9% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/829224/000082922426000064/sbux-20260402.htm) · [Press](https://www.fool.com/investing/2026/04/02/why-beyond-meat-stock-fell-24-in-march/?source=iedfolrf0000001) |
-| Clorox (CLX) | 2026-04-01 | 2026-07-24 | 114 | Empire-building | Complementary | -11.4% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/21076/000120677426000173/clx4613021-8k.htm) |
+| Clorox (CLX) | 2026-04-01 | 2026-07-24 | 114 | Empire-building | Complementary | -11.4% | +10.3% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/21076/000120677426000173/clx4613021-8k.htm) |
 | Norwegian Cruise Line Holdings (NCLH) | 2026-03-27 | 2026-07-24 | 119 | Partnership | Scale | -32.0% | -10.1% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/1513761/000110465926035746/tm2610052d1_8k.htm) |
 
 _The scoreboard is free and stays free. The written breakdowns (the players, the deal, the
