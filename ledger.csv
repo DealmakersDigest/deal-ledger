@@ -1,4 +1,7 @@
 ticker,company,event_date,scored_date,posture,structure,car_30,car_90,car_252,status,prospective,sec_url,sec_is_deal_specific,press_url
+SYY,Sysco,2026-08-12,2026-08-13,Empire-building,Scale,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/96021/000095014226002314/eh260819217_8k.htm,Y,
+BA,Boeing,2026-08-12,2026-08-13,Focus,Complementary,,,,pending,Y,https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=12927&type=8-K&dateb=&owner=include&count=40,N,https://www.fool.com/investing/2026/08/12/archer-aviation-is-teaming-up-with-boeing-time-to/?source=iedfolrf0000001
+KMI,Kinder Morgan,2026-08-12,2026-08-13,Partnership,Scale,,,,pending,Y,https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1506307&type=8-K&dateb=&owner=include&count=40,N,https://www.fool.com/investing/2026/08/12/kinder-morgan-just-locked-in-a-5-billion-pipeline/?source=iedfolrf0000001
 NEE,NextEra Energy,2026-08-11,2026-08-12,Empire-building,Scale,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/753308/000075330826000065/nee-20260810.htm,Y,
 BRK.B,Berkshire Hathaway,2026-08-11,2026-08-12,Empire-building,Cross-industry Scale,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/1067983/000119312526344495/d159922d8k.htm,Y,https://www.fool.com/investing/2026/08/11/is-berkshire-hathaway-stock-a-buy-as-warren-buffet/?source=iedfolrf0000001
 MLM,Martin Marietta Materials,2026-08-10,2026-08-11,Empire-building,Scale,,,,pending,Y,https://www.sec.gov/Archives/edgar/data/916076/000119312526341412/d129878d8k.htm,Y,
