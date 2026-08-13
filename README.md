@@ -27,7 +27,7 @@ the commit, and the full history has been public since this repo went live. Anyo
 historically, not investment advice and not predictions about any single stock. The patterns
 are exploratory and small-sample. Every quarter I report back, including the misses.
 
-_Last updated 2026-08-13. 73 live, 33 calibration, 106 tracked total._
+_Last updated 2026-08-14. 73 live, 33 calibration, 106 tracked total._
 
 ## The live table: scored before the outcome was known
 
@@ -150,9 +150,9 @@ so nobody has to take that on faith.
 | Ecolab (ECL) | 2026-04-15 | 2026-07-24 | 100 | Empire-building | Scale | -7.4% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/31462/000110465926043821/ecl-20260410x8k.htm) |
 | Leidos (LDOS) | 2026-04-15 | 2026-07-24 | 100 | Partnership | Cross-industry Complementary | -17.2% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1336920/000119312526155884/d148240d8k.htm) |
 | Ares Management (ARES) | 2026-04-09 | 2026-07-24 | 106 | Empire-building | Scale | +10.0% |  |  | 30d in | [SEC filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1176948&type=8-K&dateb=&owner=include&count=40) · [Release](https://www.globenewswire.com/news-release/2026/04/09/3270730/7647/en/Whitestone-REIT-to-Be-Acquired-by-Ares-for-1-7-Billion.html) |
-| Howmet Aerospace (HWM) | 2026-04-06 | 2026-07-24 | 109 | Empire-building | Scale | -8.4% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/4281/000110465926039959/tm2611203d1_8k.htm) |
-| Keysight Technologies (KEYS) | 2026-04-06 | 2026-07-24 | 109 | Partnership | Complementary | -20.7% |  |  | 30d in | [SEC filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1601046&type=8-K&dateb=&owner=include&count=40) · [Release](https://www.globenewswire.com/news-release/2026/04/06/3268297/24691/en/At-6G-UT-Forum-InterDigital-to-Demonstrate-AI-enabled-Teleoperation-and-Energy-Efficient-Edge-Intelligence.html) |
-| Starbucks (SBUX) | 2026-04-02 | 2026-07-24 | 113 | Partnership | Scale | +5.9% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/829224/000082922426000064/sbux-20260402.htm) |
+| Howmet Aerospace (HWM) | 2026-04-06 | 2026-07-24 | 109 | Empire-building | Scale | -8.4% | -14.4% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/4281/000110465926039959/tm2611203d1_8k.htm) |
+| Keysight Technologies (KEYS) | 2026-04-06 | 2026-07-24 | 109 | Partnership | Complementary | -20.7% | -52.7% |  | 90d in | [SEC filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1601046&type=8-K&dateb=&owner=include&count=40) · [Release](https://www.globenewswire.com/news-release/2026/04/06/3268297/24691/en/At-6G-UT-Forum-InterDigital-to-Demonstrate-AI-enabled-Teleoperation-and-Energy-Efficient-Edge-Intelligence.html) |
+| Starbucks (SBUX) | 2026-04-02 | 2026-07-24 | 113 | Partnership | Scale | +5.9% | -0.2% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/829224/000082922426000064/sbux-20260402.htm) |
 | Clorox (CLX) | 2026-04-01 | 2026-07-24 | 114 | Empire-building | Complementary | -11.4% | +10.3% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/21076/000120677426000173/clx4613021-8k.htm) |
 | Norwegian Cruise Line Holdings (NCLH) | 2026-03-27 | 2026-07-24 | 119 | Partnership | Scale | -32.0% | -10.1% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/1513761/000110465926035746/tm2610052d1_8k.htm) |
 
