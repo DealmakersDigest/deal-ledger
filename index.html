@@ -144,9 +144,16 @@ a.src:hover{ color:var(--brass-lt); }
    with a brass button, so it sits on the field almost natively. Just rule it in brass so
    it reads as a deliberate inset rather than a stray box, and leave the background
    transparent so the two greens meet instead of stacking a panel on a panel. */
-.sub-embed{ max-width:480px; margin:0 auto 22px; border:1px solid rgba(200,166,87,0.55);
+.sub-embed{ position:relative; max-width:480px; margin:0 auto 22px;
+  border:1px solid rgba(200,166,87,0.55); background:transparent; }
+/* Sits behind the iframe. A loaded widget paints its own background over this; a
+   blocked or failed one stays transparent and the reader gets a working text link
+   instead of an empty bordered box. The iframe must therefore keep a transparent
+   background, or a failed load would paint over the fallback and hide it. */
+.sub-fallback{ position:absolute; inset:0; display:grid; place-items:center; padding:22px;
+  text-align:center; font-size:14.5px; color:var(--body); }
+.sub-embed iframe{ position:relative; display:block; width:100%; height:340px; border:0;
   background:transparent; }
-.sub-embed iframe{ display:block; width:100%; height:340px; border:0; background:transparent; }
 @media (max-width:760px){ .sub-embed iframe{ height:390px; } }
 .btn{ display:inline-block; font-family:'Archivo',Helvetica,sans-serif; font-weight:600;
   font-size:12px; letter-spacing:0.2em; text-transform:uppercase; color:var(--field);
@@ -362,6 +369,7 @@ footer a{ color:var(--muted); border-bottom-color:rgba(247,244,236,0.2); }
     <p class="hook">The first 90-day results land in September. Subscribe and you will hear
     when they do.</p>
     <div class="sub-embed">
+      <div class="sub-fallback">Subscribe at <a href="https://shavaye.substack.com/subscribe?utm_source=ledger&utm_medium=web&utm_campaign=the_ledger">shavaye.substack.com</a></div>
       <iframe src="https://shavaye.substack.com/embed" title="Subscribe to Dealmakers Digest"
               loading="lazy" scrolling="no"></iframe>
     </div>
