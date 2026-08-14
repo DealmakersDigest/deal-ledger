@@ -161,7 +161,7 @@ so nobody has to take that on faith.
 | Clorox (CLX) | 2026-04-01 | 2026-07-24 | 114 | Empire-building | Complementary | -16.5% (from $104.24) | -11.4% | +10.3% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/21076/000120677426000173/clx4613021-8k.htm) |
 | Norwegian Cruise Line Holdings (NCLH) | 2026-03-27 | 2026-07-24 | 119 | Partnership | Scale | -16.9% (from $18.49) | -32.0% | -10.1% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/1513761/000110465926035746/tm2610052d1_8k.htm) |
 
-_The scoreboard is free and stays free. The written breakdowns (the players, the deal, the
+_The scoreboard is free. The written breakdowns (the players, the deal, the
 principle behind it) go out on [Dealmakers Digest](https://shavaye.substack.com/subscribe?utm_source=ledger&utm_medium=web&utm_campaign=the_ledger)._
 
 _Full machine-readable history in `ledger.csv`, with a `prospective` Y/N column. The vocabulary
