@@ -158,6 +158,12 @@ a.src:hover{ color:var(--brass-lt); }
   border:0; padding:13px 24px; cursor:pointer; white-space:nowrap; }
 .sub-form button:hover{ background:var(--brass-lt); }
 .sub-alt{ font-size:13.5px; color:var(--muted); margin:0; }
+/* data dictionary: field name in mono, definition as readable prose */
+table.dict{ min-width:640px; }
+table.dict td.co{ vertical-align:top; width:190px; }
+.fld{ font-family:'JetBrains Mono',monospace; font-size:12.5px; color:var(--brass-lt); }
+table.dict td.def{ font-size:14px; color:var(--body); line-height:1.5; max-width:56ch; }
+table.dict td.dt{ vertical-align:top; color:var(--faint); }
 /* visually hidden but read by screen readers */
 .vh{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0);
   white-space:nowrap; }
@@ -389,7 +395,7 @@ footer a{ color:var(--muted); border-bottom-color:rgba(247,244,236,0.2); }
   <footer>
     Last updated 2026-08-14 &nbsp;&middot;&nbsp;
     <a href="ledger.csv">Machine-readable CSV</a> &nbsp;&middot;&nbsp;
-    <a href="LICENSE_NOTE.md">About this ledger</a><br>
+    <a href="about.html">About this ledger</a><br>
     The vocabulary and the receipts are public; the exact rubric is proprietary and stays private.
   </footer>
 

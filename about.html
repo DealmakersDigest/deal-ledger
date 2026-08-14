@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About the Ledger: Dealmakers Digest</title>
+<meta name="description" content="What every column in the public ledger means, and where the line sits between what is published and what is not.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400..600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --field:#04331F; --ink:#F7F4EC; --body:#A8BCAE; --muted:#8CA396; --faint:#6F8578;
+  --brass:#C8A657; --brass-lt:#E0C583; --hair:rgba(247,244,236,0.14);
+  --pos:#63C9A0; --neg:#E08A63;
+  color-scheme: dark;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{
+  background-color:#3A1E15;
+  background-image:
+    repeating-linear-gradient(88deg,rgba(255,255,255,0.045) 0 1px,transparent 1px 4px),
+    repeating-linear-gradient(92deg,rgba(0,0,0,0.22) 0 2px,transparent 2px 11px),
+    linear-gradient(103deg,rgba(214,158,104,0.22),transparent 46%),
+    radial-gradient(130% 110% at 12% 0%,rgba(120,62,38,0.5),rgba(28,13,9,0.55) 70%);
+  background-attachment:fixed;
+  font-family:'Space Grotesk',Helvetica,Arial,sans-serif;
+  color:var(--body); font-size:16px; line-height:1.6;
+  padding:28px 20px 44px; -webkit-font-smoothing:antialiased;
+}
+/* the mahogany is a frame only: every word sits on the green field */
+.field{
+  max-width:1280px; margin:0 auto; background:var(--field);
+  box-shadow:inset 0 0 0 2px rgba(200,166,87,0.35), 0 18px 50px rgba(0,0,0,0.4);
+  padding:52px 46px 40px;
+}
+::selection{ background:var(--brass); color:var(--field); }
+a{ color:var(--brass-lt); text-decoration:none; border-bottom:1px solid rgba(200,166,87,0.4); }
+a:hover{ color:var(--brass); border-bottom-color:var(--brass); }
+
+/* ── wordmark ── */
+.wordmark{ text-align:center; margin-bottom:34px; }
+.wordmark .dm{ font-family:'Instrument Serif',Georgia,serif; font-style:italic;
+  font-size:40px; line-height:1; color:var(--ink); }
+.wordmark .dg{ font-family:'Archivo',Helvetica,sans-serif; font-weight:600;
+  font-size:13px; letter-spacing:0.36em; color:var(--brass); margin-top:5px; }
+
+/* ── kicker + double brass rule ── */
+.kicker{ font-family:'Archivo',Helvetica,sans-serif; font-weight:600; font-size:12px;
+  letter-spacing:0.3em; text-transform:uppercase; color:var(--brass); }
+.rule2{ border-top:2px solid var(--brass); border-bottom:1px solid rgba(200,166,87,0.45);
+  height:4px; margin:10px 0 22px; }
+h1{ font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-style:italic;
+  font-size:clamp(34px,5.4vw,54px); line-height:1.05; color:var(--ink);
+  margin:0 0 20px; text-wrap:balance; }
+h2{ font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-style:italic;
+  font-size:clamp(24px,3.4vw,34px); line-height:1.1; color:var(--ink); margin:0 0 6px; }
+h3{ font-family:'Archivo',Helvetica,sans-serif; font-weight:600; font-size:12px;
+  letter-spacing:0.24em; text-transform:uppercase; color:var(--brass); margin:0 0 14px; }
+em.hl{ font-family:'Instrument Serif',Georgia,serif; font-style:italic; color:var(--brass-lt); }
+p{ margin:0 0 16px; max-width:74ch; text-wrap:pretty; }
+.lede{ font-size:18px; color:var(--ink); max-width:70ch; }
+strong{ color:var(--ink); font-weight:600; }
+
+/* ── three brass stat tiles ── */
+.stats{ display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
+  background:var(--hair); border:1px solid var(--hair); margin:30px 0 40px; }
+.stat{ background:var(--field); padding:20px 18px; }
+.stat .n{ font-family:'Instrument Serif',Georgia,serif; font-size:38px; line-height:1;
+  color:var(--brass); display:block; }
+.stat .l{ font-family:'Archivo',Helvetica,sans-serif; font-weight:600; font-size:11px;
+  letter-spacing:0.18em; text-transform:uppercase; color:var(--muted); margin-top:8px; display:block; }
+
+/* ── legend block ── */
+.legend{ border-left:2px solid rgba(200,166,87,0.5); padding:2px 0 2px 20px; margin:0 0 22px; }
+.legend .t{ font-family:'Archivo',Helvetica,sans-serif; font-weight:600; font-size:11px;
+  letter-spacing:0.2em; text-transform:uppercase; color:var(--brass); margin-bottom:7px; }
+.legend p{ margin:0; font-size:15px; }
+
+section{ margin-top:52px; }
+.sec-intro{ margin:14px 0 22px; }
+
+/* ── tables ── */
+.scroll{ overflow-x:auto; margin:0; padding:0; }
+table{ border-collapse:collapse; width:100%; font-size:14px; min-width:760px; }
+th{ font-family:'Archivo',Helvetica,sans-serif; font-weight:600; font-size:10px;
+  letter-spacing:0.12em; text-transform:uppercase; color:var(--muted); text-align:left;
+  padding:10px 9px; border-bottom:2px solid var(--brass); white-space:nowrap; }
+td{ padding:10px 9px; border-bottom:1px solid var(--hair); vertical-align:middle; }
+tbody tr:hover{ background:rgba(247,244,236,0.045); }
+td.co{ color:var(--ink); font-weight:500; }
+td.co .tk{ font-family:'JetBrains Mono',monospace; font-size:11.5px; color:var(--faint); }
+td.dt{ font-family:'JetBrains Mono',monospace; font-size:11.5px; color:var(--body); white-space:nowrap; }
+td.num{ font-family:'JetBrains Mono',monospace; font-variant-numeric:tabular-nums;
+  text-align:right; white-space:nowrap; }
+.pos{ color:var(--pos); } .neg{ color:var(--neg); }
+.waiting{ color:var(--faint); }
+/* Company stays pinned while the outcome columns scroll past it: on a phone the
+   whole point of a wide table is lost if you cannot see whose row you are reading.
+   Needs an opaque background or the scrolling cells show through, and its own hover
+   rule so the pinned cell does not stay dark while the rest of the row lifts. */
+th:first-child, td.co{ position:sticky; left:0; z-index:2; background:var(--field); }
+th:first-child{ z-index:3; }
+td.co{ box-shadow:1px 0 0 var(--hair); }
+tbody tr:hover td.co{ background:#0a3d27; }
+/* live "since announced" column: move on top, anchor price beneath it */
+td.live .mv{ display:block; font-family:'JetBrains Mono',monospace;
+  font-variant-numeric:tabular-nums; }
+td.live .anchor{ display:block; font-family:'JetBrains Mono',monospace; font-size:10px;
+  color:var(--faint); margin-top:2px; white-space:nowrap; }
+/* the divider separating the live figure from the frozen research horizons */
+th.sep, td.sep{ border-left:1px solid rgba(200,166,87,0.28); }
+.pill{ display:inline-block; font-family:'Archivo',Helvetica,sans-serif; font-weight:600;
+  font-size:9.5px; letter-spacing:0.14em; text-transform:uppercase; padding:4px 9px;
+  border:1px solid rgba(247,244,236,0.28); color:var(--muted); white-space:nowrap; }
+.pill.live{ border-color:rgba(200,166,87,0.75); color:var(--brass); }
+.tag{ font-family:'Archivo',Helvetica,sans-serif; font-weight:600; font-size:10.5px;
+  letter-spacing:0.1em; text-transform:uppercase; color:var(--body); white-space:nowrap; }
+.tag .x{ color:var(--brass); }
+/* source links: quieter than prose links, sized for a table cell, no underline until hover */
+a.src{ font-family:'Archivo',Helvetica,sans-serif; font-weight:600; font-size:10.5px;
+  letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); border-bottom:none; }
+a.src:hover{ color:var(--brass-lt); }
+
+.note{ font-size:14.5px; color:var(--muted); border-top:1px solid var(--hair);
+  padding-top:16px; margin-top:26px; }
+.empty{ color:var(--muted); font-style:italic; }
+/* base state must precede the media query or the later rule wins the cascade */
+.hint{ display:none; font-family:'Archivo',Helvetica,sans-serif; font-weight:600;
+  font-size:10px; letter-spacing:0.16em; text-transform:uppercase; color:var(--faint);
+  margin:0 0 8px; }
+
+/* ── subscribe ── */
+.top-sub{ margin:6px 0 34px; }
+.cta{ margin-top:54px; border-top:2px solid var(--brass);
+  border-bottom:1px solid rgba(200,166,87,0.45); padding:30px 0 32px; text-align:center; }
+.cta .h{ font-family:'Instrument Serif',Georgia,serif; font-style:italic; font-size:27px;
+  color:var(--ink); margin-bottom:8px; }
+.cta p{ margin:0 auto 20px; max-width:56ch; font-size:15px; }
+.cta .hook{ color:var(--brass-lt); font-size:14.5px; margin:0 auto 22px; max-width:52ch; }
+/* The Substack widget carries the publication's own theme, which is already dark green
+   with a brass button, so it sits on the field almost natively. Just rule it in brass so
+   it reads as a deliberate inset rather than a stray box, and leave the background
+   transparent so the two greens meet instead of stacking a panel on a panel. */
+/* Native subscribe form: posts to the same endpoint Substack's own widget uses, but in
+   our typography and with no fixed height to clip against. */
+.sub-form{ display:flex; gap:10px; max-width:440px; margin:0 auto 14px; }
+.sub-form input[type=email]{ flex:1; min-width:0; font-family:'Space Grotesk',Helvetica,sans-serif;
+  font-size:15px; padding:13px 14px; color:var(--ink); background:rgba(247,244,236,0.06);
+  border:1px solid rgba(200,166,87,0.45); border-radius:0; -webkit-appearance:none; }
+.sub-form input[type=email]::placeholder{ color:var(--faint); }
+.sub-form input[type=email]:focus{ outline:none; border-color:var(--brass);
+  background:rgba(247,244,236,0.1); }
+.sub-form button{ font-family:'Archivo',Helvetica,sans-serif; font-weight:600; font-size:12px;
+  letter-spacing:0.18em; text-transform:uppercase; color:var(--field); background:var(--brass);
+  border:0; padding:13px 24px; cursor:pointer; white-space:nowrap; }
+.sub-form button:hover{ background:var(--brass-lt); }
+.sub-alt{ font-size:13.5px; color:var(--muted); margin:0; }
+/* data dictionary: field name in mono, definition as readable prose */
+table.dict{ min-width:640px; }
+table.dict td.co{ vertical-align:top; width:190px; }
+.fld{ font-family:'JetBrains Mono',monospace; font-size:12.5px; color:var(--brass-lt); }
+table.dict td.def{ font-size:14px; color:var(--body); line-height:1.5; max-width:56ch; }
+table.dict td.dt{ vertical-align:top; color:var(--faint); }
+/* visually hidden but read by screen readers */
+.vh{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0);
+  white-space:nowrap; }
+@media (max-width:760px){ .sub-form{ flex-direction:column; gap:8px; } }
+.btn{ display:inline-block; font-family:'Archivo',Helvetica,sans-serif; font-weight:600;
+  font-size:12px; letter-spacing:0.2em; text-transform:uppercase; color:var(--field);
+  background:var(--brass); padding:13px 30px; border:0; }
+.btn:hover{ background:var(--brass-lt); color:var(--field); border:0; }
+footer{ margin-top:34px; font-size:13px; color:var(--faint); text-align:center; }
+footer a{ color:var(--muted); border-bottom-color:rgba(247,244,236,0.2); }
+
+@media (max-width:760px){
+  body{ padding:14px 10px 30px; }
+  .field{ padding:34px 20px 30px; }
+  .stats{ grid-template-columns:1fr; }
+  .stat{ display:flex; align-items:baseline; gap:12px; padding:15px 16px; }
+  .stat .n{ font-size:29px; } .stat .l{ margin-top:0; }
+  .scroll{ margin:0 -20px; padding:0; }
+  th:first-child, td.co{ padding-left:20px; width:118px; }
+  td.co{ font-size:13px; line-height:1.25; }
+  tr > *:last-child{ padding-right:20px; }
+  .hint{ display:block; }
+}
+</style>
+</head>
+<body>
+<div class="field">
+
+  <div class="wordmark">
+    <div class="dm">Dealmakers</div>
+    <div class="dg">DIGEST</div>
+  </div>
+
+  <div class="kicker">About the Ledger</div>
+  <div class="rule2"></div>
+  <h1>What the numbers <em class="hl">are</em>, and are not.</h1>
+
+  <p class="lede">The ledger publishes every deal scored on this instrument, with the date it was
+  scored stamped by a public commit. This page says what each column means, so nobody has to guess,
+  and marks plainly where the published data stops.</p>
+
+  <section>
+    <h2>The columns</h2>
+    <div class="kicker">Every field in ledger.csv</div>
+    <p class="sec-intro">The CSV carries the same figures as the page, one row per scored deal.</p>
+    <p class="hint">Swipe sideways for examples &rarr;</p>
+    <div class="scroll"><table class="dict"><thead><tr>
+      <th>Field</th><th>What it is</th><th>Example</th>
+    </tr></thead><tbody><tr><td class="co"><span class="fld">ticker</span></td><td class="def">Stock symbol of the company being scored.</td><td class="dt">SYY</td></tr><tr><td class="co"><span class="fld">company</span></td><td class="def">Company name.</td><td class="dt">Sysco</td></tr><tr><td class="co"><span class="fld">event_date</span></td><td class="def">The day the deal was announced, taken from the SEC filing or the wire release.</td><td class="dt">2026-08-12</td></tr><tr><td class="co"><span class="fld">scored_date</span></td><td class="def">The day this row was committed and pushed to the public repo. This is the proof-of-timing stamp: GitHub records the push on its own servers.</td><td class="dt">2026-08-13</td></tr><tr><td class="co"><span class="fld">posture</span></td><td class="def">The company&#x27;s role in the deal. Empire-building (buying), Focus (selling a piece of itself), or Partnership (a JV, alliance or strategic partnership, no change of control).</td><td class="dt">Empire-building</td></tr><tr><td class="co"><span class="fld">structure</span></td><td class="def">What kind of deal. Scale (more of the same), Complementary (buying a capability they lack), or Convergence (combining two worlds into something new). Prefixed Cross-industry when the two sides come from clearly different industries.</td><td class="dt">Scale</td></tr><tr><td class="co"><span class="fld">car_30</span></td><td class="def">Cumulative abnormal return over the 30 trading days after the deal: the stock against its benchmark, on a market model. Blank until the horizon matures.</td><td class="dt">+2.5%</td></tr><tr><td class="co"><span class="fld">car_90</span></td><td class="def">The same measure over 90 trading days, roughly four months.</td><td class="dt">&mdash;</td></tr><tr><td class="co"><span class="fld">car_252</span></td><td class="def">The same measure over 252 trading days, roughly a year.</td><td class="dt">&mdash;</td></tr><tr><td class="co"><span class="fld">status</span></td><td class="def">How much of the outcome has arrived: pending, 30d in, 90d in, or 1yr in.</td><td class="dt">pending</td></tr><tr><td class="co"><span class="fld">prospective</span></td><td class="def">Y if the row was scored within 14 days of the event, so the outcome could not have been known at scoring. N if scored later, which puts it in the calibration set.</td><td class="dt">Y</td></tr><tr><td class="co"><span class="fld">price_at_announcement</span></td><td class="def">Closing price on the first trading day on or after the announcement. The anchor everything after it is measured from.</td><td class="dt">84.69</td></tr><tr><td class="co"><span class="fld">since_announced_vs_market</span></td><td class="def">Live figure, recomputed nightly: the stock&#x27;s move since the announcement minus the benchmark&#x27;s move over the identical window. Not a CAR. No market-model regression, and the window grows every day.</td><td class="dt">-2.0%</td></tr><tr><td class="co"><span class="fld">price_as_of</span></td><td class="def">The date the live figure was last computed.</td><td class="dt">2026-08-13</td></tr><tr><td class="co"><span class="fld">sec_url</span></td><td class="def">Link to the SEC filing.</td><td class="dt">sec.gov/...</td></tr><tr><td class="co"><span class="fld">sec_is_deal_specific</span></td><td class="def">Y when sec_url is the deal&#x27;s own 8-K. N when no deal-specific filing exists and the link goes to the company&#x27;s general EDGAR filing history instead.</td><td class="dt">Y</td></tr><tr><td class="co"><span class="fld">release_url</span></td><td class="def">The company&#x27;s own announcement on a newswire, where one exists.</td><td class="dt">&mdash;</td></tr><tr><td class="co"><span class="fld">news_url</span></td><td class="def">A news article explaining the deal, where one was found.</td><td class="dt">cnbc.com/...</td></tr></tbody></table></div>
+  </section>
+
+  <section>
+    <h2>What is published, and what is not</h2>
+    <div class="kicker">Where the line sits</div>
+    <div class="legend">
+      <div class="t">Public</div>
+      <p>The vocabulary (the Posture and Structure labels and what they mean), every scored deal on
+      this board with its timestamp, the realised outcomes as they mature, and the source documents
+      behind each one. That is 106 rows today and it grows nightly. It is enough for anyone
+      to audit the record without asking permission.</p>
+    </div>
+    <div class="legend">
+      <div class="t">Not public</div>
+      <p>The scoring rubric itself, the prompts and pipeline that apply it, and the full research
+      corpus this board is drawn from: the wider set of scored deals with their underlying
+      dimensional scores, counterparties and reasoning. The published board is the output layer.
+      The method that produces it stays private.</p>
+    </div>
+    <div class="legend">
+      <div class="t">Why the split</div>
+      <p>Having the labels for these deals does not let anyone score the next one. That is
+      deliberate. The receipts are public so the record can be checked; the instrument is private
+      because it is the thing being built.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Reading it honestly</h2>
+    <div class="kicker">Limits worth stating</div>
+    <p>These are research observations about how the market has reacted, not investment advice and
+    not predictions about any single stock. The sample is small and the patterns are exploratory.
+    Two columns measure different things and should not be compared as if they were the same:
+    <strong>car_30 / car_90 / car_252</strong> are fixed research horizons on a market model, frozen
+    once matured, while <strong>since_announced_vs_market</strong> is a plain excess return over a
+    window that grows daily. Both are measured against the market rather than raw price, so a stock
+    that rose less than the index still reads as negative.</p>
+    <p>A blank outcome column is not a missing number. It means the horizon has not arrived yet.</p>
+  </section>
+
+  <div class="cta">
+    <div class="h">Every deal, scored in public.</div>
+    <p>The written breakdowns... the players, the deal, the principle underneath it... go out on
+    Dealmakers Digest.</p>
+    <form class="sub-form" action="https://shavaye.substack.com/api/v1/free?nojs=true" method="post">
+      <input type="hidden" name="source" value="ledger-about">
+      <input type="hidden" name="first_url" value="https://ledger.dealmakersdigest.com/about.html">
+      <label class="vh" for="sub-email">Email address</label>
+      <input id="sub-email" type="email" name="email" placeholder="you@company.com"
+             autocomplete="email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+    <p class="sub-alt">or <a href="https://shavaye.substack.com/subscribe?utm_source=ledger&utm_medium=web&utm_campaign=the_ledger">subscribe on Substack</a></p>
+  </div>
+
+  <footer>
+    <a href="./">Back to the ledger</a> &nbsp;&middot;&nbsp;
+    <a href="ledger.csv">Machine-readable CSV</a><br>
+    The vocabulary and the receipts are public; the exact rubric is proprietary and stays private.
+  </footer>
+
+</div>
+</body>
+</html>
