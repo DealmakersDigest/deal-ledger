@@ -32,10 +32,6 @@ the commit, and the full history has been public since this repo went live. Anyo
 historically, not investment advice and not predictions about any single stock. The patterns
 are exploratory and small-sample. Every quarter I report back, including the misses.
 
-**One standing exclusion, declared.** I work in this industry, and deals involving my
-employer are not scored in public... a stated conflict policy beats a quiet one. Those deals
-still run through the same instrument privately; they just never appear on this page.
-
 _Last updated 2026-08-16. 78 live, 33 calibration, 111 tracked total._
 
 ## The live table: scored before the outcome was known
@@ -175,3 +171,7 @@ principle behind it) go out on [Dealmakers Digest](https://shavaye.substack.com/
 
 _Full machine-readable history in `ledger.csv`, with a `prospective` Y/N column. The vocabulary
 and the receipts are public; the exact rubric is proprietary and stays private._
+
+_Disclosure: the author works in this industry. Deals involving the author's employer are
+excluded from public scoring as a matter of standing policy; they are scored privately on the
+same instrument and are not published on this page._
