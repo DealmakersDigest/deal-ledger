@@ -32,14 +32,18 @@ the commit, and the full history has been public since this repo went live. Anyo
 historically, not investment advice and not predictions about any single stock. The patterns
 are exploratory and small-sample. Every quarter I report back, including the misses.
 
-_Last updated 2026-08-16. 79 live, 33 calibration, 112 tracked total._
+**One standing exclusion, declared.** I work in this industry, and deals involving my
+employer are not scored in public... a stated conflict policy beats a quiet one. Those deals
+still run through the same instrument privately; they just never appear on this page.
+
+_Last updated 2026-08-16. 78 live, 33 calibration, 111 tracked total._
 
 ## The live table: scored before the outcome was known
 
 Every row here was scored within 14 days of the deal being announced... before any of the
 outcome numbers existed.
 
-All 79 live calls are still waiting on the market. The first 30-day
+All 78 live calls are still waiting on the market. The first 30-day
 numbers land around 2026-09-02.
 
 | Company | Deal date | Scored | Posture | Structure | Since announced | 30d | 90d | 1yr | Status | Sources |
@@ -66,7 +70,6 @@ numbers land around 2026-09-02.
 | Berkshire Hathaway (BRK.B) | 2026-08-08 | 2026-08-09 | Empire-building | Scale | -4.7% (from $529.42) |  |  |  | pending | [SEC filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1067983&type=8-K&dateb=&owner=include&count=40) · [News](https://www.cnbc.com/2026/06/01/berkshire-hathaway-taylor-morrison-home-acquisition-housing-market.html) |
 | Nvidia (NVDA) | 2026-08-08 | 2026-08-09 | Partnership | Complementary | +3.6% (from $217.55) |  |  |  | pending | [SEC filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1045810&type=8-K&dateb=&owner=include&count=40) · [News](https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-palantir-pltr-partner-133652471.html) |
 | Palantir Technologies (PLTR) | 2026-08-08 | 2026-08-09 | Partnership | Cross-industry Convergence | -0.6% (from $175.23) |  |  |  | pending | [SEC filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1321655&type=8-K&dateb=&owner=include&count=40) · [News](https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-palantir-pltr-partner-133652471.html) |
-| Uber (UBER) | 2026-08-07 | 2026-08-08 | Empire-building | Scale | +1.4% (from $75.02) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1543151/000155278126000414/e26328_uber-8k.htm) · [News](https://finance.yahoo.com/markets/stocks/articles/uber-acquire-delivery-hero-14-143103697.html) |
 | Yum! Brands (YUM) | 2026-08-07 | 2026-08-08 | Partnership | Scale | -2.2% (from $150.76) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1041061/000110465926092305/tm2622152d1_8k.htm) · [News](https://www.prnewswire.com/news-releases/yum-china-completes-the-acquisition-of-ownership-of-the-pizza-hut-brand-in-mainland-china-302845959.html) |
 | Oracle (ORCL) | 2026-08-07 | 2026-08-08 | Partnership | Convergence | +2.5% (from $147.02) |  |  |  | pending | [SEC filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1341439&type=8-K&dateb=&owner=include&count=40) · [News](https://finance.yahoo.com/technology/ai/articles/oracle-shares-climb-expanded-google-141833318.html) |
 | Biogen (BIIB) | 2026-08-06 | 2026-08-08 | Empire-building | Complementary | +0.7% (from $206.28) |  |  |  | pending | [SEC filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=875045&type=8-K&dateb=&owner=include&count=40) · [Release](https://www.globenewswire.com/news-release/2026/08/06/3340877/0/en/Biogen-Completes-Acquisition-of-RayThera-Inc.html) · [News](https://www.globenewswire.com/news-release/2026/08/06/3340877/0/en/biogen-completes-acquisition-of-raythera-inc.html) |
