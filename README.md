@@ -32,7 +32,7 @@ the commit, and the full history has been public since this repo went live. Anyo
 historically, not investment advice and not predictions about any single stock. The patterns
 are exploratory and small-sample. Every quarter I report back, including the misses.
 
-_Last updated 2026-08-16. 13 live, 14 calibration, 27 tracked total._
+_Last updated 2026-08-16. 13 live, 13 calibration, 26 tracked total._
 
 ## The live table: scored before the outcome was known
 
@@ -60,8 +60,8 @@ numbers land around 2026-09-10.
 
 ## The calibration table: scored after the fact
 
-These 14 rows were scored well after their event, with a scoring lag from
-47 to 119 days (median 82). This is the set the scoring system
+These 13 rows were scored well after their event, with a scoring lag from
+47 to 109 days (median 81). This is the set the scoring system
 was built and checked against, not a record of live calls. The lag is stated on every row
 so nobody has to take that on faith.
 
@@ -80,7 +80,6 @@ so nobody has to take that on faith.
 | Ecolab (ECL) | 2026-04-15 | 2026-07-24 | 100 | Empire-building | Scale | -8.8% (from $270.37) | -7.4% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/31462/000110465926043821/ecl-20260410x8k.htm) · [News](https://www.businesswire.com/news/home/20260319353197/en/Ecolab-to-Acquire-CoolIT-Systems-a-Global-Leader-in-Advanced-Liquid-Cooling-for-Next-Gen-AI-Data-Centers) |
 | Leidos (LDOS) | 2026-04-15 | 2026-07-24 | 100 | Partnership | Cross-industry Complementary | -20.5% (from $159.04) | -17.2% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1336920/000119312526155884/d148240d8k.htm) |
 | Howmet Aerospace (HWM) | 2026-04-06 | 2026-07-24 | 109 | Empire-building | Scale | +4.4% (from $236.57) | -8.4% | -14.4% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/4281/000110465926039959/tm2611203d1_8k.htm) · [News](https://www.prnewswire.com/news-releases/howmet-aerospace-to-acquire-consolidated-aerospace-manufacturing-from-stanley-black--decker-for-approximately-1-8-billion-302648005.html) |
-| Norwegian Cruise Line Holdings (NCLH) | 2026-03-27 | 2026-07-24 | 119 | Partnership | Scale | -19.6% (from $18.49) | -32.0% | -10.1% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/1513761/000110465926035746/tm2610052d1_8k.htm) · [News](https://www.cnbc.com/2026/02/17/elliott-builds-10percent-stake-in-norwegian-cruise-pushes-for-board-change.html) |
 
 _The scoreboard is free. The written breakdowns (the players, the deal, the
 principle behind it) go out on [Dealmakers Digest](https://shavaye.substack.com/subscribe?utm_source=ledger&utm_medium=web&utm_campaign=the_ledger)._
