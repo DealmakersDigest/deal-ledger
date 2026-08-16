@@ -32,14 +32,14 @@ the commit, and the full history has been public since this repo went live. Anyo
 historically, not investment advice and not predictions about any single stock. The patterns
 are exploratory and small-sample. Every quarter I report back, including the misses.
 
-_Last updated 2026-08-16. 15 live, 14 calibration, 29 tracked total._
+_Last updated 2026-08-16. 13 live, 14 calibration, 27 tracked total._
 
 ## The live table: scored before the outcome was known
 
 Every row here was scored within 14 days of the deal being announced... before any of the
 outcome numbers existed.
 
-All 15 live calls are still waiting on the market. The first 30-day
+All 13 live calls are still waiting on the market. The first 30-day
 numbers land around 2026-09-10.
 
 | Company | Deal date | Scored | Posture | Structure | Since announced | 30d | 90d | 1yr | Status | Sources |
@@ -50,8 +50,6 @@ numbers land around 2026-09-10.
 | Parker Hannifin (PH) | 2026-08-13 | 2026-08-16 | Empire-building | Scale | -0.1% (from $1,058.87) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/76334/000119312526349148/d105152d8k.htm) · [News](https://www.globenewswire.com/news-release/2026/08/13/3344575/0/en/parker-completes-acquisition-of-filtration-group-corporation.html) |
 | Sysco (SYY) | 2026-08-12 | 2026-08-13 | Empire-building | Scale | -2.5% (from $84.69) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/96021/000095014226002314/eh260819217_8k.htm) · [News](https://www.cnbc.com/2026/08/11/sysco-ceo-confident-restaurant-depot-takeover-approved.html) |
 | NextEra Energy (NEE) | 2026-08-11 | 2026-08-12 | Empire-building | Scale | +0.1% (from $85.74) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/753308/000075330826000065/nee-20260810.htm) · [News](https://finance.yahoo.com/sectors/energy/articles/dominion-energy-agrees-merge-nextera-164944763.html) |
-| Martin Marietta Materials (MLM) | 2026-08-10 | 2026-08-11 | Empire-building | Scale | -0.7% (from $549.54) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/916076/000119312526341412/d129878d8k.htm) · [News](https://www.cnbc.com/2026/06/29/martin-marietta-to-buy-lhoist-north-america.html) |
-| Skyworks Solutions (SWKS) | 2026-08-10 | 2026-08-11 | Empire-building | Complementary | +0.8% (from $68.79) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/4127/000110465926093355/tm2622643d1_8k.htm) · [News](https://www.cnbc.com/2025/10/28/skyworks-qorvo-to-merge.html) |
 | Teledyne Technologies (TDY) | 2026-08-10 | 2026-08-11 | Empire-building | Complementary | -2.0% (from $690.25) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1094285/000109428526000047/tdy-20260810.htm) · [News](https://finance.yahoo.com/healthcare/articles/teledyne-acquire-varex-imaging-1-111102684.html) |
 | International Flavors & Fragrances (IFF) | 2026-08-04 | 2026-08-05 | Focus | Scale | +3.4% (from $80.89) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/51253/000005125326000032/iff-20260804.htm) · [News](https://finance.yahoo.com/sectors/healthcare/articles/iff-sell-food-ingredients-business-110000071.html) |
 | Prologis (PLD) | 2026-08-04 | 2026-08-05 | Empire-building | Scale | +0.8% (from $139.05) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1045609/000110465926089980/tm2621154d2_8k.htm) · [News](https://finance.yahoo.com/real-estate/articles/prologis-strikes-deal-acquire-segro-101414069.html) |
