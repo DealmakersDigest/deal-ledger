@@ -45,9 +45,12 @@ numbers land around 2026-09-12.
 | Company | Deal date | Scored | Posture | Structure | Since announced | 30d | 90d | 1yr | Status | Filing |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Newmont (NEM) | 2026-08-13 | 2026-08-16 | Partnership | Scale | +3.3% (from $114.19) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1164727/000110465926095968/tm2623048d1_8k.htm) |
-| Teledyne Technologies (TDY) | 2026-08-10 | 2026-08-11 | Empire-building | Complementary | -2.0% (from $690.25) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1094285/000109428526000047/tdy-20260810.htm) |
-| Prologis (PLD) | 2026-08-04 | 2026-08-05 | Empire-building | Scale | +0.8% (from $139.05) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1045609/000110465926089980/tm2621154d2_8k.htm) |
+| Teledyne Technologies (TDY) | 2026-08-10 | 2026-08-11 &dagger; | Empire-building | Complementary | -2.0% (from $690.25) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1094285/000109428526000047/tdy-20260810.htm) |
+| Prologis (PLD) | 2026-08-04 | 2026-08-05 &dagger; | Empire-building | Scale | +0.8% (from $139.05) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1045609/000110465926089980/tm2621154d2_8k.htm) |
 | Intercontinental Exchange (ICE) | 2026-07-30 | 2026-08-02 | Empire-building | Complementary | -5.7% (from $156.27) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1571949/000119312526324909/d116245d8k.htm) |
+
+&dagger; 2 rows scored before this ledger fetched the underlying 8-K, so the rubric was applied to a filing index rather than to the document. Re-judged against the real filing. All were unchanged: the original call held. The original date stands, because the original call stands.
+
 
 ## The calibration table: scored after the fact
 
@@ -62,8 +65,11 @@ so nobody has to take that on faith.
 | CoStar Group (CSGP) | 2026-05-29 | 2026-07-24 | 56 | Empire-building | Complementary | -2.1% (from $32.20) | +5.3% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1057352/000119312526246361/d91732d8k.htm) |
 | Tractor Supply (TSCO) | 2026-05-28 | 2026-07-24 | 57 | Empire-building | Convergence | +11.3% (from $31.37) | +12.1% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/916365/000091636526000046/tsco-20260528.htm) |
 | Boston Scientific (BSX) | 2026-05-18 | 2026-07-24 | 67 | Empire-building | Complementary | -12.4% (from $55.92) | -11.7% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/885725/000088572526000042/bsx-20260518.htm) |
-| American Express (AXP) | 2026-05-04 | 2026-07-24 | 81 | Focus | Scale | -0.4% (from $319.21) | +5.5% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/4962/000000496226000207/axp-20260504.htm) |
+| American Express (AXP) | 2026-05-04 | 2026-07-24 &dagger; | 81 | Focus | Scale | -0.4% (from $319.21) | +5.5% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/4962/000000496226000207/axp-20260504.htm) |
 | Leidos (LDOS) | 2026-04-15 | 2026-07-24 | 100 | Partnership | Cross-industry Complementary | -20.5% (from $159.04) | -17.2% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1336920/000119312526155884/d148240d8k.htm) |
+
+&dagger; 1 row scored before this ledger fetched the underlying 8-K, so the rubric was applied to a filing index rather than to the document. Re-judged against the real filing. It was unchanged: the original call held. The original date stands, because the original call stands.
+
 
 _The scoreboard is free. The written breakdowns (the players, the deal, the
 principle behind it) go out on [Dealmakers Digest](https://shavaye.substack.com/subscribe?utm_source=ledger&utm_medium=web&utm_campaign=the_ledger)._
