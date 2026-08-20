@@ -1,7 +1,7 @@
 # Dealmakers Digest: The Ledger
 
 Every deal on this page gets scored the same way, on the record, in public. Two tables below.
-The first holds the live calls... deals scored within days of being announced, before anyone
+The first holds the rows scored live... deals logged within days of being announced, before anyone
 could know how they turn out. The second is the calibration set: the deals the scoring system
 was built and checked against, scored after the fact and labelled that way. **This is the receipt.**
 
@@ -39,7 +39,7 @@ _Last updated 2026-08-20. 5 live, 6 calibration, 11 tracked total._
 Every row here was scored within 14 days of the deal being announced... before any of the
 outcome numbers existed.
 
-All 5 live calls are still waiting on the market. The first 30-day
+All 5 live rows are still waiting on the market. The first 30-day
 numbers land around 2026-09-11.
 
 | Company | Deal date | Scored | Posture | Structure | Since announced | 30d | 90d | 1yr | Status | Filing |
@@ -50,14 +50,14 @@ numbers land around 2026-09-11.
 | Teledyne Technologies (TDY) | 2026-08-10 | 2026-08-11 &dagger; | Empire-building | Complementary | -5.5% (from $690.25) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1094285/000109428526000047/tdy-20260810.htm) |
 | Intercontinental Exchange (ICE) | 2026-07-29 | 2026-08-02 | Empire-building | Complementary | -3.5% (from $154.28) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1571949/000119312526324909/d116245d8k.htm) |
 
-&dagger; 1 row scored before this ledger fetched the underlying 8-K, so the rubric was applied to a filing index rather than to the document. Re-judged against the real filing. It was unchanged: the original call held. The original date stands, because the original call stands.
+&dagger; 1 row scored before this ledger fetched the underlying 8-K, so the rubric was applied to a filing index rather than to the document. Re-judged against the real filing. It was unchanged: the original score held. The original date stands, because the original score stands.
 
 
 ## The calibration table: scored after the fact
 
 These 6 rows were scored well after their event, with a scoring lag from
 48 to 101 days (median 62). This is the set the scoring system
-was built and checked against, not a record of live calls. The lag is stated on every row
+was built and checked against, not a record of live scoring. The lag is stated on every row
 so nobody has to take that on faith.
 
 | Company | Deal date | Scored | Lag (days) | Posture | Structure | Since announced | 30d | 90d | 1yr | Status | Filing |
@@ -69,7 +69,7 @@ so nobody has to take that on faith.
 | American Express (AXP) | 2026-05-04 | 2026-07-24 &dagger; | 81 | Focus | Scale | -0.5% (from $319.21) | +5.5% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/4962/000000496226000207/axp-20260504.htm) |
 | Leidos (LDOS) | 2026-04-14 | 2026-07-24 | 101 | Partnership | Cross-industry Complementary | -17.1% (from $156.17) | -16.7% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1336920/000119312526155884/d148240d8k.htm) |
 
-&dagger; 1 row scored before this ledger fetched the underlying 8-K, so the rubric was applied to a filing index rather than to the document. Re-judged against the real filing. It was unchanged: the original call held. The original date stands, because the original call stands.
+&dagger; 1 row scored before this ledger fetched the underlying 8-K, so the rubric was applied to a filing index rather than to the document. Re-judged against the real filing. It was unchanged: the original score held. The original date stands, because the original score stands.
 
 
 _The scoreboard is free. The written breakdowns (the players, the deal, the
