@@ -1,13 +1,13 @@
 ticker,company,event_date,scored_date,posture,structure,car_30,car_90,car_252,status,prospective,price_at_announcement,since_announced_vs_market,price_as_of,sec_url,sec_is_deal_specific,rescored
-WEC,WEC Energy Group,2026-08-14,2026-08-20,Empire-building,Scale,,,,pending,Y,110.52,-0.1%,2026-08-19,https://www.sec.gov/Archives/edgar/data/783325/000078332526000095/wec-20260814.htm,Y,
-NVDA,Nvidia,2026-08-17,2026-08-18,Partnership,Complementary,,,,pending,Y,225.01,-3.2%,2026-08-19,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm,Y,
-NEM,Newmont,2026-08-10,2026-08-16,Partnership,Scale,,,,pending,Y,117.26,+7.2%,2026-08-19,https://www.sec.gov/Archives/edgar/data/1164727/000110465926095968/tm2623048d1_8k.htm,Y,
-TDY,Teledyne Technologies,2026-08-10,2026-08-11,Empire-building,Complementary,,,,pending,Y,690.25,-5.5%,2026-08-19,https://www.sec.gov/Archives/edgar/data/1094285/000109428526000047/tdy-20260810.htm,Y,2026-08-18 unchanged
-PLD,Prologis,2026-08-04,2026-08-05,Empire-building,Scale,,,,pending,Y,139.05,+1.9%,2026-08-19,https://www.sec.gov/Archives/edgar/data/1045609/000110465926089980/tm2621154d2_8k.htm,Y,2026-08-18 unchanged
-ICE,Intercontinental Exchange,2026-07-29,2026-08-02,Empire-building,Complementary,,,,pending,Y,154.28,-3.5%,2026-08-19,https://www.sec.gov/Archives/edgar/data/1571949/000119312526324909/d116245d8k.htm,Y,
-ETN,Eaton Corporation,2026-06-10,2026-07-28,Empire-building,Scale,+4.5%,,,30d in,N,375.46,+7.1%,2026-08-19,https://www.sec.gov/Archives/edgar/data/1551182/000095014226001733/eh260792115_8k.htm,Y,
-CSGP,CoStar Group,2026-05-28,2026-07-24,Empire-building,Complementary,+7.9%,,,30d in,N,32.30,+2.5%,2026-08-19,https://www.sec.gov/Archives/edgar/data/1057352/000119312526246361/d91732d8k.htm,Y,
-TSCO,Tractor Supply,2026-05-28,2026-07-24,Empire-building,Convergence,+12.1%,,,30d in,N,31.37,+11.1%,2026-08-19,https://www.sec.gov/Archives/edgar/data/916365/000091636526000046/tsco-20260528.htm,Y,
-BSX,Boston Scientific,2026-05-18,2026-07-24,Empire-building,Complementary,-11.7%,,,30d in,N,55.92,-11.1%,2026-08-19,https://www.sec.gov/Archives/edgar/data/885725/000088572526000042/bsx-20260518.htm,Y,
-AXP,American Express,2026-05-04,2026-07-24,Focus,Scale,+5.5%,,,30d in,N,319.21,-0.5%,2026-08-19,https://www.sec.gov/Archives/edgar/data/4962/000000496226000207/axp-20260504.htm,Y,2026-08-18 unchanged
-LDOS,Leidos,2026-04-14,2026-07-24,Partnership,Cross-industry Complementary,-16.7%,,,30d in,N,156.17,-17.1%,2026-08-19,https://www.sec.gov/Archives/edgar/data/1336920/000119312526155884/d148240d8k.htm,Y,
+WEC,WEC Energy Group,2026-08-14,2026-08-20,Empire-building,Scale,,,,pending,Y,110.52,-2.7%,2026-08-21,https://www.sec.gov/Archives/edgar/data/783325/000078332526000095/wec-20260814.htm,Y,
+NVDA,Nvidia,2026-08-17,2026-08-18,Partnership,Complementary,,,,pending,Y,225.01,-3.8%,2026-08-21,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm,Y,
+NEM,Newmont,2026-08-10,2026-08-16,Partnership,Scale,,,,pending,Y,117.26,+13.2%,2026-08-21,https://www.sec.gov/Archives/edgar/data/1164727/000110465926095968/tm2623048d1_8k.htm,Y,
+TDY,Teledyne Technologies,2026-08-10,2026-08-11,Empire-building,Complementary,,,,pending,Y,690.25,-6.9%,2026-08-21,https://www.sec.gov/Archives/edgar/data/1094285/000109428526000047/tdy-20260810.htm,Y,2026-08-18 unchanged
+PLD,Prologis,2026-08-04,2026-08-05,Empire-building,Scale,,,,pending,Y,139.05,+2.7%,2026-08-21,https://www.sec.gov/Archives/edgar/data/1045609/000110465926089980/tm2621154d2_8k.htm,Y,2026-08-18 unchanged
+ICE,Intercontinental Exchange,2026-07-29,2026-08-02,Empire-building,Complementary,,,,pending,Y,154.28,-0.5%,2026-08-21,https://www.sec.gov/Archives/edgar/data/1571949/000119312526324909/d116245d8k.htm,Y,
+ETN,Eaton Corporation,2026-06-10,2026-07-28,Empire-building,Scale,+4.5%,,,30d in,N,375.46,+6.1%,2026-08-21,https://www.sec.gov/Archives/edgar/data/1551182/000095014226001733/eh260792115_8k.htm,Y,
+CSGP,CoStar Group,2026-05-28,2026-07-24,Empire-building,Complementary,+7.9%,,,30d in,N,32.30,-1.6%,2026-08-21,https://www.sec.gov/Archives/edgar/data/1057352/000119312526246361/d91732d8k.htm,Y,
+TSCO,Tractor Supply,2026-05-28,2026-07-24,Empire-building,Convergence,+12.1%,,,30d in,N,31.37,+10.0%,2026-08-21,https://www.sec.gov/Archives/edgar/data/916365/000091636526000046/tsco-20260528.htm,Y,
+BSX,Boston Scientific,2026-05-18,2026-07-24,Empire-building,Complementary,-11.7%,,,30d in,N,55.92,-13.6%,2026-08-21,https://www.sec.gov/Archives/edgar/data/885725/000088572526000042/bsx-20260518.htm,Y,
+AXP,American Express,2026-05-04,2026-07-24,Focus,Scale,+5.5%,,,30d in,N,319.21,-1.1%,2026-08-21,https://www.sec.gov/Archives/edgar/data/4962/000000496226000207/axp-20260504.htm,Y,2026-08-18 unchanged
+LDOS,Leidos,2026-04-14,2026-07-24,Partnership,Cross-industry Complementary,-16.7%,+0.9%,,90d in,N,156.17,-19.7%,2026-08-21,https://www.sec.gov/Archives/edgar/data/1336920/000119312526155884/d148240d8k.htm,Y,
