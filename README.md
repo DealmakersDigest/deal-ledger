@@ -54,6 +54,7 @@ numbers land around 2026-09-11.
 &dagger; 2 rows scored before this ledger fetched the underlying 8-K, so the rubric was applied to a filing index rather than to the document. Re-judged against the real filing. All were unchanged: the original score held. The original date stands, because the original score stands.
 
 
+
 ## The calibration table: scored after the fact
 
 These 6 rows were scored well after their event, with a scoring lag from
@@ -71,6 +72,9 @@ so nobody has to take that on faith.
 | Leidos (LDOS) | 2026-04-14 | 2026-07-24 | 101 | Partnership | Cross-industry Complementary | -21.5% (from $156.17) | -21.1% | -12.3% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/1336920/000119312526155884/d148240d8k.htm) |
 
 &dagger; 1 row scored before this ledger fetched the underlying 8-K, so the rubric was applied to a filing index rather than to the document. Re-judged against the real filing. It was unchanged: the original score held. The original date stands, because the original score stands.
+
+
+*The live "since announced" figure and the 30d/90d/1yr columns measure differently, and can legitimately disagree. Since announced is the plain gap to the market, regrown nightly. The outcome columns freeze at fixed horizons and judge each stock against what its own market sensitivity implied, giving no credit for the trend it was already on... a stock that was falling into its announcement does not score points for levelling off. When the two tell different stories, the outcome column is the stricter measure.*
 
 
 _The scoreboard is free. The written breakdowns (the players, the deal, the
