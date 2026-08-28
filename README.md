@@ -63,12 +63,12 @@ so nobody has to take that on faith.
 
 | Company | Deal date | Scored | Lag (days) | Posture | Structure | Since announced | 30d | 90d | 1yr | Status | Filing |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Eaton (ETN) | 2026-06-10 | 2026-07-28 | 48 | Empire-building | Scale | +4.5% (from $375.46) | +4.5% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1551182/000095014226001733/eh260792115_8k.htm) |
-| CoStar Group (CSGP) | 2026-05-28 | 2026-07-24 | 57 | Empire-building | Complementary | -5.2% (from $32.30) | +7.9% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1057352/000119312526246361/d91732d8k.htm) |
-| Tractor Supply (TSCO) | 2026-05-28 | 2026-07-24 | 57 | Empire-building | Convergence | +8.4% (from $31.37) | +12.1% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/916365/000091636526000046/tsco-20260528.htm) |
-| Boston Scientific (BSX) | 2026-05-18 | 2026-07-24 | 67 | Empire-building | Complementary | -20.9% (from $55.92) | -11.7% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/885725/000088572526000042/bsx-20260518.htm) |
-| American Express (AXP) | 2026-05-04 | 2026-07-24 &dagger; | 81 | Focus | Scale | -2.5% (from $319.21) | +5.5% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/4962/000000496226000207/axp-20260504.htm) |
-| Leidos (LDOS) | 2026-04-14 | 2026-07-24 | 101 | Partnership | Cross-industry Complementary | -21.5% (from $156.17) | -16.7% | +0.9% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/1336920/000119312526155884/d148240d8k.htm) |
+| Eaton (ETN) | 2026-06-10 | 2026-07-28 | 48 | Empire-building | Scale | +4.5% (from $375.46) | +5.8% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1551182/000095014226001733/eh260792115_8k.htm) |
+| CoStar Group (CSGP) | 2026-05-28 | 2026-07-24 | 57 | Empire-building | Complementary | -5.2% (from $32.30) | -10.0% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1057352/000119312526246361/d91732d8k.htm) |
+| Tractor Supply (TSCO) | 2026-05-28 | 2026-07-24 | 57 | Empire-building | Convergence | +8.4% (from $31.37) | -2.7% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/916365/000091636526000046/tsco-20260528.htm) |
+| Boston Scientific (BSX) | 2026-05-18 | 2026-07-24 | 67 | Empire-building | Complementary | -20.9% (from $55.92) | -25.3% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/885725/000088572526000042/bsx-20260518.htm) |
+| American Express (AXP) | 2026-05-04 | 2026-07-24 &dagger; | 81 | Focus | Scale | -2.5% (from $319.21) | +3.2% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/4962/000000496226000207/axp-20260504.htm) |
+| Leidos (LDOS) | 2026-04-14 | 2026-07-24 | 101 | Partnership | Cross-industry Complementary | -21.5% (from $156.17) | -21.1% | -12.3% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/1336920/000119312526155884/d148240d8k.htm) |
 
 &dagger; 1 row scored before this ledger fetched the underlying 8-K, so the rubric was applied to a filing index rather than to the document. Re-judged against the real filing. It was unchanged: the original score held. The original date stands, because the original score stands.
 
