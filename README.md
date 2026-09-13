@@ -32,7 +32,7 @@ the commit, and the full history has been public since this repo went live. Anyo
 historically, not investment advice and not predictions about any single stock. The patterns
 are exploratory and small-sample. Every quarter I report back, including the misses.
 
-_Last updated 2026-09-13. 16 live, 6 calibration, 22 tracked total._
+_Last updated 2026-09-14. 16 live, 6 calibration, 22 tracked total._
 
 ## The live table: scored before the outcome was known
 
