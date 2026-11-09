@@ -32,7 +32,7 @@ the commit, and the full history has been public since this repo went live. Anyo
 historically, not investment advice and not predictions about any single stock. The patterns
 are exploratory and small-sample. Every quarter I report back, including the misses.
 
-_Last updated 2026-11-05. 41 live, 6 calibration, 47 tracked total._
+_Last updated 2026-11-09. 41 live, 6 calibration, 47 tracked total._
 
 ## The live table: scored before the outcome was known
 
@@ -45,10 +45,10 @@ The most recent live rows with outcomes in. The full board, newest row first, is
 
 | Company | Deal date | Scored | Posture | Structure | Since announced | 30d | 90d | 1yr | Status | Filing |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Royal Caribbean Group (RCL) | 2026-09-23 | 2026-09-24 | Partnership | Complementary | +44.8% (from $230.30) | +38.3% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/884887/000110465926109755/tm2625963d1_8k.htm) |
+| Royal Caribbean Group (RCL) | 2026-09-23 | 2026-09-24 | Partnership | Complementary | +44.8% (from $230.30) | +38.3% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/884887/000110465926109755/tm2625963d1_8k.htm) |
 | Akamai Technologies (AKAM) | 2026-09-18 | 2026-09-25 | Partnership | Scale | -18.5% (from $104.52) | -8.3% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1086222/000119312526401048/d288154d8k.htm) |
-| Generac (GNRC) | 2026-09-16 | 2026-09-17 | Partnership | Scale | +6.4% (from $175.11) | +11.9% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1474735/000143774926030550/gnrc20260915_8k.htm) |
-| Copart (CPRT) | 2026-09-10 | 2026-09-11 | Empire-building | Complementary | +4.9% (from $30.75) | -4.6% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/900075/000119312526388064/d138322d8k.htm) |
+| Generac (GNRC) | 2026-09-16 | 2026-09-17 | Partnership | Scale | +6.4% (from $175.11) | +11.9% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1474735/000143774926030550/gnrc20260915_8k.htm) |
+| Copart (CPRT) | 2026-09-10 | 2026-09-11 | Empire-building | Complementary | +4.9% (from $30.75) | -4.6% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/900075/000119312526388064/d138322d8k.htm) |
 | Analog Devices (ADI) | 2026-09-09 | 2026-09-10 | Empire-building | Complementary | +10.7% (from $365.07) | +8.6% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/6281/000119312526385938/d924057d8k.htm) |
 
 ### The full board
@@ -77,27 +77,30 @@ The most recent live rows with outcomes in. The full board, newest row first, is
 | Cboe Global Markets (CBOE) | 2026-09-28 | 2026-09-30 | Partnership | Complementary | +36.1% (from $253.26) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1374310/000110465926111989/tm2626203d1_8k.htm) |
 | Vertiv (VRT) | 2026-09-24 | 2026-09-25 | Empire-building | Scale | -16.2% (from $245.30) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1674101/000162828026063311/vrt-20260924.htm) |
 | Akamai Technologies (AKAM) | 2026-09-18 | 2026-09-25 | Partnership | Scale | -18.5% (from $104.52) | -8.3% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1086222/000119312526401048/d288154d8k.htm) |
-| Royal Caribbean Group (RCL) | 2026-09-23 | 2026-09-24 | Partnership | Complementary | +44.8% (from $230.30) | +38.3% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/884887/000110465926109755/tm2625963d1_8k.htm) |
+| Royal Caribbean Group (RCL) | 2026-09-23 | 2026-09-24 | Partnership | Complementary | +44.8% (from $230.30) | +38.3% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/884887/000110465926109755/tm2625963d1_8k.htm) |
 | TransDigm Group (TDG) | 2026-09-21 | 2026-09-22 | Empire-building | Complementary | +10.5% (from $1,109.65) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1260221/000126022126000062/tdg-20260921.htm) |
-| Generac (GNRC) | 2026-09-16 | 2026-09-17 | Partnership | Scale | +6.4% (from $175.11) | +11.9% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1474735/000143774926030550/gnrc20260915_8k.htm) |
-| Copart (CPRT) | 2026-09-10 | 2026-09-11 | Empire-building | Complementary | +4.9% (from $30.75) | -4.6% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/900075/000119312526388064/d138322d8k.htm) |
+| Generac (GNRC) | 2026-09-16 | 2026-09-17 | Partnership | Scale | +6.4% (from $175.11) | +11.9% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1474735/000143774926030550/gnrc20260915_8k.htm) |
+| Copart (CPRT) | 2026-09-10 | 2026-09-11 | Empire-building | Complementary | +4.9% (from $30.75) | -4.6% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/900075/000119312526388064/d138322d8k.htm) |
 | Analog Devices (ADI) | 2026-09-09 | 2026-09-10 | Empire-building | Complementary | +10.7% (from $365.07) | +8.6% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/6281/000119312526385938/d924057d8k.htm) |
-| GE Aerospace (GE) | 2026-09-08 | 2026-09-09 | Empire-building | Complementary | -1.3% (from $334.91) | -11.5% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/40545/000095014226002501/eh260827362_8k.htm) |
+| GE Aerospace (GE) | 2026-09-08 | 2026-09-09 | Empire-building | Complementary | -1.3% (from $334.91) | -11.5% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/40545/000095014226002501/eh260827362_8k.htm) |
 | Stanley Black & Decker (SWK) | 2026-09-01 | 2026-09-05 | Focus | Scale | +24.5% (from $94.51) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/93556/000119312526383511/d493257d8k.htm) |
 | Nvidia (NVDA) | 2026-09-02 | 2026-09-04 | Empire-building | Complementary | -10.7% (from $224.41) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm) |
 | Vertiv (VRT) | 2026-09-01 | 2026-09-03 | Empire-building | Complementary | -20.4% (from $255.97) | -14.9% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1674101/000119312526379306/d472406d8k.htm) |
 | Keurig Dr Pepper (KDP) | 2026-08-28 | 2026-09-02 | Focus | Scale | +14.7% (from $32.18) | +2.1% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1418135/000141813526000055/kdp-20260828.htm) |
 | Schlumberger (SLB) | 2026-08-31 | 2026-09-01 | Empire-building | Complementary | -14.2% (from $60.10) | -21.2% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/87347/000119312526375358/d106278d8k.htm) |
-| Aon plc (AON) | 2026-08-30 | 2026-09-01 | Empire-building | Scale | +7.2% (from $321.52) | -14.8% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/315293/000119312526375328/d108801d8k.htm) |
+| Aon plc (AON) | 2026-08-30 | 2026-09-01 | Empire-building | Scale | +7.2% (from $321.52) | -14.8% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/315293/000119312526375328/d108801d8k.htm) |
 | Oneok (OKE) | 2026-08-28 | 2026-09-01 | Empire-building | Scale | -6.2% (from $94.76) | -1.6% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1039684/000119312526377023/d405989d8k.htm) |
 | WEC Energy Group (WEC) | 2026-08-14 | 2026-08-20 | Empire-building | Scale | +8.1% (from $110.52) | -8.6% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/783325/000078332526000095/wec-20260814.htm) |
-| Nvidia (NVDA) | 2026-08-17 | 2026-08-18 | Partnership | Complementary | -10.7% (from $225.01) | +1.2% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm) |
+| Nvidia (NVDA) | 2026-08-17 | 2026-08-18 | Partnership | Complementary | -10.7% (from $225.01) | +1.2% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm) |
 | Newmont (NEM) | 2026-08-10 | 2026-08-16 | Partnership | Scale | +1.5% (from $117.26) | +9.0% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1164727/000110465926095968/tm2623048d1_8k.htm) |
 | Teledyne Technologies (TDY) | 2026-08-10 | 2026-08-11 &dagger; | Empire-building | Complementary | -7.6% (from $690.25) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1094285/000109428526000047/tdy-20260810.htm) |
-| Prologis (PLD) | 2026-08-04 | 2026-08-05 &dagger; | Empire-building | Scale | -4.9% (from $139.05) | -2.6% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1045609/000110465926089980/tm2621154d2_8k.htm) |
-| Intercontinental Exchange (ICE) | 2026-07-29 | 2026-08-02 | Empire-building | Complementary | +8.3% (from $154.28) | +0.4% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1571949/000119312526324909/d116245d8k.htm) |
+| Prologis (PLD) | 2026-08-04 | 2026-08-05 &dagger; | Empire-building | Scale | -4.9% (from $139.05) | -2.6% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1045609/000110465926089980/tm2621154d2_8k.htm) |
+| Intercontinental Exchange (ICE) | 2026-07-29 | 2026-08-02 | Empire-building | Complementary | +8.3% (from $154.28) | +0.4% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1571949/000119312526324909/d116245d8k.htm) |
 
 &dagger; 2 rows scored before this ledger fetched the underlying 8-K, so the rubric was applied to a filing index rather than to the document. Re-judged against the real filing. All were unchanged: the original score held. The original date stands, because the original score stands.
+
+
+*E: A 30d figure marked E belongs to a company that reported its quarterly results inside those 30 days, so the number carries the market's reaction to the results as well as the deal. Read it as the deal plus a busy month, not the deal alone.*
 
 
 *The live "since announced" figure and the 30d/90d/1yr columns measure differently, and can legitimately disagree. Since announced is the plain gap to the market, regrown nightly. The outcome columns freeze at fixed horizons and judge each stock against what its own market sensitivity implied, giving no credit for the trend it was already on... a stock that was falling into its announcement does not score points for levelling off. When the two tell different stories, the outcome column is the stricter measure.*
@@ -117,9 +120,12 @@ so nobody has to take that on faith.
 | Tractor Supply (TSCO) | 2026-05-28 | 2026-07-24 | 57 | Empire-building | Convergence | +15.0% (from $31.37) | -2.7% | +2.6% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/916365/000091636526000046/tsco-20260528.htm) |
 | Boston Scientific (BSX) | 2026-05-18 | 2026-07-24 | 67 | Empire-building | Complementary | -21.9% (from $55.92) | -25.3% | -22.9% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/885725/000088572526000042/bsx-20260518.htm) |
 | American Express (AXP) | 2026-05-04 | 2026-07-24 &dagger; | 81 | Focus | Scale | -2.6% (from $319.21) | +3.2% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/4962/000000496226000207/axp-20260504.htm) |
-| Leidos (LDOS) | 2026-04-14 | 2026-07-24 | 101 | Partnership | Cross-industry Complementary | -23.5% (from $156.17) | -21.1% | -12.3% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/1336920/000119312526155884/d148240d8k.htm) |
+| Leidos (LDOS) | 2026-04-14 | 2026-07-24 | 101 | Partnership | Cross-industry Complementary | -23.5% (from $156.17) | -21.1% E | -12.3% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/1336920/000119312526155884/d148240d8k.htm) |
 
 &dagger; 1 row scored before this ledger fetched the underlying 8-K, so the rubric was applied to a filing index rather than to the document. Re-judged against the real filing. It was unchanged: the original score held. The original date stands, because the original score stands.
+
+
+*E: A 30d figure marked E belongs to a company that reported its quarterly results inside those 30 days, so the number carries the market's reaction to the results as well as the deal. Read it as the deal plus a busy month, not the deal alone.*
 
 
 *The live "since announced" figure and the 30d/90d/1yr columns measure differently, and can legitimately disagree. Since announced is the plain gap to the market, regrown nightly. The outcome columns freeze at fixed horizons and judge each stock against what its own market sensitivity implied, giving no credit for the trend it was already on... a stock that was falling into its announcement does not score points for levelling off. When the two tell different stories, the outcome column is the stricter measure.*
