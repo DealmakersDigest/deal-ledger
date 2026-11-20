@@ -32,7 +32,7 @@ the commit, and the full history has been public since this repo went live. Anyo
 historically, not investment advice and not predictions about any single stock. The patterns
 are exploratory and small-sample. Every quarter I report back, including the misses.
 
-_Last updated 2026-11-19. 47 live, 6 calibration, 53 tracked total._
+_Last updated 2026-11-20. 48 live, 6 calibration, 54 tracked total._
 
 ## The live table: scored before the outcome was known
 
@@ -45,63 +45,64 @@ The most recent live rows with outcomes in. The full board, newest row first, is
 
 | Company | Deal date | Scored | Posture | Structure | Since announced | 30d | 90d | 1yr | Status | Filing |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Chevron (CVX) | 2026-10-06 | 2026-10-07 | Focus | Scale | +6.8% (from $207.58) | -2.2% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/93410/000009341026000192/cvx-20261006.htm) |
-| McKesson (MCK) | 2026-10-06 | 2026-10-07 | Empire-building | Scale | +23.9% (from $921.67) | +13.8% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/927653/000092765326000253/mck-20261006.htm) |
-| C.H. Robinson (CHRW) | 2026-10-05 | 2026-10-06 | Empire-building | Scale | +3.5% (from $140.61) | -1.3% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1043277/000119312526413203/d115124d8k.htm) |
-| Regeneron Pharmaceuticals (REGN) | 2026-10-01 | 2026-10-07 | Partnership | Complementary | +33.1% (from $734.81) | +27.5% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/872589/000110465926113895/tm2627077d1_8k.htm) |
-| Hormel Foods (HRL) | 2026-09-29 | 2026-10-01 | Empire-building | Scale | +21.1% (from $19.85) | +11.4% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/48465/000110465926112101/tm2626547d1_8k.htm) |
+| Viatris (VTRS) | 2026-10-08 | 2026-10-09 | Empire-building | Complementary | +21.5% (from $17.44) | +16.6% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1792044/000114036126039024/ef20083514_8k.htm) |
+| Chevron (CVX) | 2026-10-06 | 2026-10-07 | Focus | Scale | +9.2% (from $207.58) | -2.2% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/93410/000009341026000192/cvx-20261006.htm) |
+| McKesson (MCK) | 2026-10-06 | 2026-10-07 | Empire-building | Scale | +23.4% (from $921.67) | +13.8% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/927653/000092765326000253/mck-20261006.htm) |
+| C.H. Robinson (CHRW) | 2026-10-05 | 2026-10-06 | Empire-building | Scale | +5.7% (from $140.61) | -1.3% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1043277/000119312526413203/d115124d8k.htm) |
+| Regeneron Pharmaceuticals (REGN) | 2026-10-01 | 2026-10-07 | Partnership | Complementary | +32.0% (from $734.81) | +27.5% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/872589/000110465926113895/tm2627077d1_8k.htm) |
 
 ### The full board
 
 | Company | Deal date | Scored | Posture | Structure | Since announced | 30d | 90d | 1yr | Status | Filing |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Textron (TXT) | 2026-11-18 | 2026-11-19 | Focus | Cross-industry Scale | from $82.79 |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/217346/000110465926129345/tm2629751d1_8k.htm) |
-| Pool (POOL) | 2026-11-16 | 2026-11-17 | Empire-building | Scale | +1.8% (from $212.38) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/945841/000119312526463495/pool-20261116.htm) |
-| NRG Energy (NRG) | 2026-11-09 | 2026-11-13 | Focus | Scale | -0.9% (from $97.40) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1013871/000110465926124147/tm2629302d1_8k.htm) |
-| Charles River Laboratories (CRL) | 2026-11-09 | 2026-11-09 | Empire-building | Complementary | -2.7% (from $353.34) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1100682/000095010326017127/dp256497_8k.htm) |
-| Axon Enterprise (AXON) | 2026-11-05 | 2026-11-09 | Partnership | Complementary | -21.0% (from $382.56) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1069183/000162828026071150/axon-20261105.htm) |
-| DTE Energy (DTE) | 2026-11-01 | 2026-11-09 | Focus | Cross-industry Scale | +3.7% (from $135.85) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/936340/000119312526448536/d143691d8k.htm) |
-| ON Semiconductor (ON) | 2026-11-02 | 2026-11-03 | Empire-building | Complementary | -1.2% (from $70.11) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1097864/000114036126041580/ef20084671_8k.htm) |
-| Arch Capital Group (ACGL) | 2026-10-30 | 2026-11-02 | Empire-building | Complementary | +5.5% (from $106.36) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/947484/000094748426000140/acgl-20261030.htm) |
-| Valero Energy (VLO) | 2026-10-29 | 2026-11-02 | Empire-building | Scale | -5.5% (from $384.57) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1035002/000162828026068387/vlo-20261029.htm) |
-| DoorDash (DASH) | 2026-10-28 | 2026-10-30 | Empire-building | Complementary | +3.9% (from $169.49) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1792789/000114036126041111/ef20084547_8k.htm) |
-| CoStar Group (CSGP) | 2026-10-27 | 2026-10-28 | Empire-building | Complementary | -1.5% (from $32.01) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1057352/000105735226000078/csgp-20261027.htm) |
-| Applied Materials (AMAT) | 2026-10-26 | 2026-10-27 | Partnership | Complementary | -3.7% (from $387.59) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/6951/000162828026067303/amat-20261026.htm) |
-| EQT Corporation (EQT) | 2026-10-25 | 2026-10-27 | Empire-building | Scale | -3.0% (from $54.85) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/33213/000121390026112242/ea0309601-8k425_eqtcorp.htm) |
-| CBRE Group (CBRE) | 2026-10-20 | 2026-10-21 | Empire-building | Scale | +2.3% (from $134.23) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1138118/000119312526426827/cbre-20261020.htm) |
-| Salesforce (CRM) | 2026-10-20 | 2026-10-21 | Empire-building | Complementary | -15.3% (from $242.43) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1108524/000119312526425881/d516983d8k.htm) |
-| Humana (HUM) | 2026-10-13 | 2026-10-14 | Partnership | Cross-industry Scale | -2.1% (from $420.38) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/49071/000004907126000060/hum-20261013.htm) |
-| Workday (WDAY) | 2026-10-12 | 2026-10-14 | Empire-building | Complementary | +0.4% (from $188.25) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1327811/000132781126000051/wday-20261012.htm) |
-| Steris (STE) | 2026-10-11 | 2026-10-14 | Empire-building | Complementary | +24.7% (from $218.98) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1757898/000119312526420487/d165776d8k.htm) |
-| Viatris (VTRS) | 2026-10-08 | 2026-10-09 | Empire-building | Complementary | +21.9% (from $17.44) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1792044/000114036126039024/ef20083514_8k.htm) |
-| Chevron (CVX) | 2026-10-06 | 2026-10-07 | Focus | Scale | +6.8% (from $207.58) | -2.2% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/93410/000009341026000192/cvx-20261006.htm) |
-| McKesson (MCK) | 2026-10-06 | 2026-10-07 | Empire-building | Scale | +23.9% (from $921.67) | +13.8% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/927653/000092765326000253/mck-20261006.htm) |
-| Regeneron Pharmaceuticals (REGN) | 2026-10-01 | 2026-10-07 | Partnership | Complementary | +33.1% (from $734.81) | +27.5% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/872589/000110465926113895/tm2627077d1_8k.htm) |
-| C.H. Robinson (CHRW) | 2026-10-05 | 2026-10-06 | Empire-building | Scale | +3.5% (from $140.61) | -1.3% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1043277/000119312526413203/d115124d8k.htm) |
-| Hormel Foods (HRL) | 2026-09-29 | 2026-10-01 | Empire-building | Scale | +21.1% (from $19.85) | +11.4% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/48465/000110465926112101/tm2626547d1_8k.htm) |
-| Take-Two Interactive (TTWO) | 2026-09-28 | 2026-10-01 | Partnership | Scale | +11.7% (from $202.35) | +3.9% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/946581/000162828026064001/ttwo-20260928.htm) |
-| Cboe Global Markets (CBOE) | 2026-09-28 | 2026-09-30 | Partnership | Complementary | +46.7% (from $253.26) | +33.6% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1374310/000110465926111989/tm2626203d1_8k.htm) |
-| Vertiv (VRT) | 2026-09-24 | 2026-09-25 | Empire-building | Scale | -15.9% (from $245.30) | -16.2% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1674101/000162828026063311/vrt-20260924.htm) |
-| Akamai Technologies (AKAM) | 2026-09-18 | 2026-09-25 | Partnership | Scale | -8.1% (from $104.52) | -8.3% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1086222/000119312526401048/d288154d8k.htm) |
-| Royal Caribbean Group (RCL) | 2026-09-23 | 2026-09-24 | Partnership | Complementary | +44.1% (from $230.30) | +38.3% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/884887/000110465926109755/tm2625963d1_8k.htm) |
-| TransDigm Group (TDG) | 2026-09-21 | 2026-09-22 | Empire-building | Complementary | +11.7% (from $1,109.65) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1260221/000126022126000062/tdg-20260921.htm) |
-| Generac (GNRC) | 2026-09-16 | 2026-09-17 | Partnership | Scale | +20.5% (from $175.11) | +11.9% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1474735/000143774926030550/gnrc20260915_8k.htm) |
-| Copart (CPRT) | 2026-09-10 | 2026-09-11 | Empire-building | Complementary | +6.0% (from $30.75) | -4.6% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/900075/000119312526388064/d138322d8k.htm) |
-| Analog Devices (ADI) | 2026-09-09 | 2026-09-10 | Empire-building | Complementary | +8.9% (from $365.07) | +8.6% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/6281/000119312526385938/d924057d8k.htm) |
-| GE Aerospace (GE) | 2026-09-08 | 2026-09-09 | Empire-building | Complementary | +3.5% (from $334.91) | -11.5% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/40545/000095014226002501/eh260827362_8k.htm) |
-| Stanley Black & Decker (SWK) | 2026-09-01 | 2026-09-05 | Focus | Scale | +21.4% (from $94.51) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/93556/000119312526383511/d493257d8k.htm) |
-| Nvidia (NVDA) | 2026-09-02 | 2026-09-04 | Empire-building | Complementary | -27.3% (from $224.41) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm) |
-| Vertiv (VRT) | 2026-09-01 | 2026-09-03 | Empire-building | Complementary | -19.9% (from $255.97) | -14.9% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1674101/000119312526379306/d472406d8k.htm) |
+| Intuit (INTU) | 2026-11-19 | 2026-11-20 | Focus | Complementary | from $310.02 |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/896878/000119312526468834/d182669d8k.htm) |
+| Textron (TXT) | 2026-11-18 | 2026-11-19 | Focus | Cross-industry Scale | -0.1% (from $82.79) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/217346/000110465926129345/tm2629751d1_8k.htm) |
+| Pool (POOL) | 2026-11-16 | 2026-11-17 | Empire-building | Scale | +2.0% (from $212.38) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/945841/000119312526463495/pool-20261116.htm) |
+| NRG Energy (NRG) | 2026-11-09 | 2026-11-13 | Focus | Scale | +1.2% (from $97.40) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1013871/000110465926124147/tm2629302d1_8k.htm) |
+| Charles River Laboratories (CRL) | 2026-11-09 | 2026-11-09 | Empire-building | Complementary | -2.3% (from $353.34) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1100682/000095010326017127/dp256497_8k.htm) |
+| Axon Enterprise (AXON) | 2026-11-05 | 2026-11-09 | Partnership | Complementary | -17.4% (from $382.56) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1069183/000162828026071150/axon-20261105.htm) |
+| DTE Energy (DTE) | 2026-11-01 | 2026-11-09 | Focus | Cross-industry Scale | +5.0% (from $135.85) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/936340/000119312526448536/d143691d8k.htm) |
+| ON Semiconductor (ON) | 2026-11-02 | 2026-11-03 | Empire-building | Complementary | -1.4% (from $70.11) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1097864/000114036126041580/ef20084671_8k.htm) |
+| Arch Capital Group (ACGL) | 2026-10-30 | 2026-11-02 | Empire-building | Complementary | +7.0% (from $106.36) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/947484/000094748426000140/acgl-20261030.htm) |
+| Valero Energy (VLO) | 2026-10-29 | 2026-11-02 | Empire-building | Scale | -5.0% (from $384.57) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1035002/000162828026068387/vlo-20261029.htm) |
+| DoorDash (DASH) | 2026-10-28 | 2026-10-30 | Empire-building | Complementary | +0.0% (from $169.49) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1792789/000114036126041111/ef20084547_8k.htm) |
+| CoStar Group (CSGP) | 2026-10-27 | 2026-10-28 | Empire-building | Complementary | -3.4% (from $32.01) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1057352/000105735226000078/csgp-20261027.htm) |
+| Applied Materials (AMAT) | 2026-10-26 | 2026-10-27 | Partnership | Complementary | -5.1% (from $387.59) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/6951/000162828026067303/amat-20261026.htm) |
+| EQT Corporation (EQT) | 2026-10-25 | 2026-10-27 | Empire-building | Scale | -3.7% (from $54.85) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/33213/000121390026112242/ea0309601-8k425_eqtcorp.htm) |
+| CBRE Group (CBRE) | 2026-10-20 | 2026-10-21 | Empire-building | Scale | +2.5% (from $134.23) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1138118/000119312526426827/cbre-20261020.htm) |
+| Salesforce (CRM) | 2026-10-20 | 2026-10-21 | Empire-building | Complementary | -16.2% (from $242.43) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1108524/000119312526425881/d516983d8k.htm) |
+| Humana (HUM) | 2026-10-13 | 2026-10-14 | Partnership | Cross-industry Scale | -1.6% (from $420.38) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/49071/000004907126000060/hum-20261013.htm) |
+| Workday (WDAY) | 2026-10-12 | 2026-10-14 | Empire-building | Complementary | +0.1% (from $188.25) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1327811/000132781126000051/wday-20261012.htm) |
+| Steris (STE) | 2026-10-11 | 2026-10-14 | Empire-building | Complementary | +24.3% (from $218.98) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1757898/000119312526420487/d165776d8k.htm) |
+| Viatris (VTRS) | 2026-10-08 | 2026-10-09 | Empire-building | Complementary | +21.5% (from $17.44) | +16.6% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1792044/000114036126039024/ef20083514_8k.htm) |
+| Chevron (CVX) | 2026-10-06 | 2026-10-07 | Focus | Scale | +9.2% (from $207.58) | -2.2% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/93410/000009341026000192/cvx-20261006.htm) |
+| McKesson (MCK) | 2026-10-06 | 2026-10-07 | Empire-building | Scale | +23.4% (from $921.67) | +13.8% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/927653/000092765326000253/mck-20261006.htm) |
+| Regeneron Pharmaceuticals (REGN) | 2026-10-01 | 2026-10-07 | Partnership | Complementary | +32.0% (from $734.81) | +27.5% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/872589/000110465926113895/tm2627077d1_8k.htm) |
+| C.H. Robinson (CHRW) | 2026-10-05 | 2026-10-06 | Empire-building | Scale | +5.7% (from $140.61) | -1.3% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1043277/000119312526413203/d115124d8k.htm) |
+| Hormel Foods (HRL) | 2026-09-29 | 2026-10-01 | Empire-building | Scale | +22.5% (from $19.85) | +11.4% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/48465/000110465926112101/tm2626547d1_8k.htm) |
+| Take-Two Interactive (TTWO) | 2026-09-28 | 2026-10-01 | Partnership | Scale | +9.6% (from $202.35) | +3.9% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/946581/000162828026064001/ttwo-20260928.htm) |
+| Cboe Global Markets (CBOE) | 2026-09-28 | 2026-09-30 | Partnership | Complementary | +47.7% (from $253.26) | +33.6% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1374310/000110465926111989/tm2626203d1_8k.htm) |
+| Vertiv (VRT) | 2026-09-24 | 2026-09-25 | Empire-building | Scale | -17.9% (from $245.30) | -16.2% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1674101/000162828026063311/vrt-20260924.htm) |
+| Akamai Technologies (AKAM) | 2026-09-18 | 2026-09-25 | Partnership | Scale | -6.2% (from $104.52) | -8.3% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1086222/000119312526401048/d288154d8k.htm) |
+| Royal Caribbean Group (RCL) | 2026-09-23 | 2026-09-24 | Partnership | Complementary | +38.4% (from $230.30) | +38.3% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/884887/000110465926109755/tm2625963d1_8k.htm) |
+| TransDigm Group (TDG) | 2026-09-21 | 2026-09-22 | Empire-building | Complementary | +11.9% (from $1,109.65) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1260221/000126022126000062/tdg-20260921.htm) |
+| Generac (GNRC) | 2026-09-16 | 2026-09-17 | Partnership | Scale | +22.2% (from $175.11) | +11.9% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1474735/000143774926030550/gnrc20260915_8k.htm) |
+| Copart (CPRT) | 2026-09-10 | 2026-09-11 | Empire-building | Complementary | +5.9% (from $30.75) | -4.6% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/900075/000119312526388064/d138322d8k.htm) |
+| Analog Devices (ADI) | 2026-09-09 | 2026-09-10 | Empire-building | Complementary | +9.5% (from $365.07) | +8.6% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/6281/000119312526385938/d924057d8k.htm) |
+| GE Aerospace (GE) | 2026-09-08 | 2026-09-09 | Empire-building | Complementary | +2.8% (from $334.91) | -11.5% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/40545/000095014226002501/eh260827362_8k.htm) |
+| Stanley Black & Decker (SWK) | 2026-09-01 | 2026-09-05 | Focus | Scale | +19.9% (from $94.51) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/93556/000119312526383511/d493257d8k.htm) |
+| Nvidia (NVDA) | 2026-09-02 | 2026-09-04 | Empire-building | Complementary | -27.5% (from $224.41) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm) |
+| Vertiv (VRT) | 2026-09-01 | 2026-09-03 | Empire-building | Complementary | -21.7% (from $255.97) | -14.9% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1674101/000119312526379306/d472406d8k.htm) |
 | Keurig Dr Pepper (KDP) | 2026-08-28 | 2026-09-02 | Focus | Scale | +13.9% (from $32.18) | +2.1% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1418135/000141813526000055/kdp-20260828.htm) |
-| Schlumberger (SLB) | 2026-08-31 | 2026-09-01 | Empire-building | Complementary | -14.6% (from $60.10) | -21.2% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/87347/000119312526375358/d106278d8k.htm) |
-| Aon plc (AON) | 2026-08-30 | 2026-09-01 | Empire-building | Scale | +8.2% (from $321.52) | -14.8% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/315293/000119312526375328/d108801d8k.htm) |
-| Oneok (OKE) | 2026-08-28 | 2026-09-01 | Empire-building | Scale | -2.3% (from $94.76) | -1.6% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1039684/000119312526377023/d405989d8k.htm) |
-| WEC Energy Group (WEC) | 2026-08-14 | 2026-08-20 | Empire-building | Scale | +12.2% (from $110.52) | -8.6% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/783325/000078332526000095/wec-20260814.htm) |
-| Nvidia (NVDA) | 2026-08-17 | 2026-08-18 | Partnership | Complementary | -27.4% (from $225.01) | +1.2% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm) |
-| Newmont (NEM) | 2026-08-10 | 2026-08-16 | Partnership | Scale | -5.3% (from $117.26) | +9.0% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1164727/000110465926095968/tm2623048d1_8k.htm) |
-| Teledyne Technologies (TDY) | 2026-08-10 | 2026-08-11 &dagger; | Empire-building | Complementary | -3.5% (from $690.25) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1094285/000109428526000047/tdy-20260810.htm) |
-| Prologis (PLD) | 2026-08-04 | 2026-08-05 &dagger; | Empire-building | Scale | -4.6% (from $139.05) | -2.6% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1045609/000110465926089980/tm2621154d2_8k.htm) |
-| Intercontinental Exchange (ICE) | 2026-07-29 | 2026-08-02 | Empire-building | Complementary | +11.3% (from $154.28) | +0.4% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1571949/000119312526324909/d116245d8k.htm) |
+| Schlumberger (SLB) | 2026-08-31 | 2026-09-01 | Empire-building | Complementary | -13.6% (from $60.10) | -21.2% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/87347/000119312526375358/d106278d8k.htm) |
+| Aon plc (AON) | 2026-08-30 | 2026-09-01 | Empire-building | Scale | +9.6% (from $321.52) | -14.8% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/315293/000119312526375328/d108801d8k.htm) |
+| Oneok (OKE) | 2026-08-28 | 2026-09-01 | Empire-building | Scale | -1.7% (from $94.76) | -1.6% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1039684/000119312526377023/d405989d8k.htm) |
+| WEC Energy Group (WEC) | 2026-08-14 | 2026-08-20 | Empire-building | Scale | +12.8% (from $110.52) | -8.6% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/783325/000078332526000095/wec-20260814.htm) |
+| Nvidia (NVDA) | 2026-08-17 | 2026-08-18 | Partnership | Complementary | -27.5% (from $225.01) | +1.2% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm) |
+| Newmont (NEM) | 2026-08-10 | 2026-08-16 | Partnership | Scale | -7.3% (from $117.26) | +9.0% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1164727/000110465926095968/tm2623048d1_8k.htm) |
+| Teledyne Technologies (TDY) | 2026-08-10 | 2026-08-11 &dagger; | Empire-building | Complementary | -2.5% (from $690.25) |  |  |  | pending | [SEC](https://www.sec.gov/Archives/edgar/data/1094285/000109428526000047/tdy-20260810.htm) |
+| Prologis (PLD) | 2026-08-04 | 2026-08-05 &dagger; | Empire-building | Scale | -4.1% (from $139.05) | -2.6% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1045609/000110465926089980/tm2621154d2_8k.htm) |
+| Intercontinental Exchange (ICE) | 2026-07-29 | 2026-08-02 | Empire-building | Complementary | +12.6% (from $154.28) | +0.4% E |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/1571949/000119312526324909/d116245d8k.htm) |
 
 &dagger; 2 rows scored before this ledger fetched the underlying 8-K, so the rubric was applied to a filing index rather than to the document. Re-judged against the real filing. All were unchanged: the original score held. The original date stands, because the original score stands.
 
@@ -121,12 +122,12 @@ so nobody has to take that on faith.
 
 | Company | Deal date | Scored | Lag (days) | Posture | Structure | Since announced | 30d | 90d | 1yr | Status | Filing |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Eaton (ETN) | 2026-06-10 | 2026-07-28 | 48 | Empire-building | Scale | -10.5% (from $375.46) | +5.8% | -0.7% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/1551182/000095014226001733/eh260792115_8k.htm) |
-| CoStar Group (CSGP) | 2026-05-28 | 2026-07-24 | 57 | Empire-building | Complementary | -4.2% (from $32.30) | -10.0% | -14.1% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/1057352/000119312526246361/d91732d8k.htm) |
-| Tractor Supply (TSCO) | 2026-05-28 | 2026-07-24 | 57 | Empire-building | Convergence | +27.6% (from $31.37) | -2.7% | +2.6% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/916365/000091636526000046/tsco-20260528.htm) |
-| Boston Scientific (BSX) | 2026-05-18 | 2026-07-24 | 67 | Empire-building | Complementary | -20.8% (from $55.92) | -25.3% | -22.9% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/885725/000088572526000042/bsx-20260518.htm) |
-| American Express (AXP) | 2026-05-04 | 2026-07-24 &dagger; | 81 | Focus | Scale | -2.4% (from $319.21) | +3.2% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/4962/000000496226000207/axp-20260504.htm) |
-| Leidos (LDOS) | 2026-04-14 | 2026-07-24 | 101 | Partnership | Cross-industry Complementary | -24.7% (from $156.17) | -21.1% E | -12.3% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/1336920/000119312526155884/d148240d8k.htm) |
+| Eaton (ETN) | 2026-06-10 | 2026-07-28 | 48 | Empire-building | Scale | -10.6% (from $375.46) | +5.8% | -0.7% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/1551182/000095014226001733/eh260792115_8k.htm) |
+| CoStar Group (CSGP) | 2026-05-28 | 2026-07-24 | 57 | Empire-building | Complementary | -6.0% (from $32.30) | -10.0% | -14.1% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/1057352/000119312526246361/d91732d8k.htm) |
+| Tractor Supply (TSCO) | 2026-05-28 | 2026-07-24 | 57 | Empire-building | Convergence | +28.6% (from $31.37) | -2.7% | +2.6% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/916365/000091636526000046/tsco-20260528.htm) |
+| Boston Scientific (BSX) | 2026-05-18 | 2026-07-24 | 67 | Empire-building | Complementary | -20.0% (from $55.92) | -25.3% | -22.9% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/885725/000088572526000042/bsx-20260518.htm) |
+| American Express (AXP) | 2026-05-04 | 2026-07-24 &dagger; | 81 | Focus | Scale | -1.5% (from $319.21) | +3.2% |  |  | 30d in | [SEC](https://www.sec.gov/Archives/edgar/data/4962/000000496226000207/axp-20260504.htm) |
+| Leidos (LDOS) | 2026-04-14 | 2026-07-24 | 101 | Partnership | Cross-industry Complementary | -23.2% (from $156.17) | -21.1% E | -12.3% |  | 90d in | [SEC](https://www.sec.gov/Archives/edgar/data/1336920/000119312526155884/d148240d8k.htm) |
 
 &dagger; 1 row scored before this ledger fetched the underlying 8-K, so the rubric was applied to a filing index rather than to the document. Re-judged against the real filing. It was unchanged: the original score held. The original date stands, because the original score stands.
 
